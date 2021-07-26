@@ -2,6 +2,7 @@
   import { Fullpage, FullpageSection, FullpageSlide } from "svelte-fullpage";
   import { Container, Row, Col } from "sveltestrap";
   import { Tabs, Tab, TabList, TabPanel } from "svelte-tabs";
+  import Content from "./Content.svelte";
 
   import * as code from "./code.js";
   import Counter from "./examples/Counter.svelte";
@@ -35,6 +36,8 @@
 
   //Also has to be 0 or specific id of slide
   let activeSlide = 0;
+
+  let long = false;
 </script>
 
 <svelte:head>
@@ -53,6 +56,9 @@
               Leon Kowarschick (Mtrk. Nachname), Nils Mangold (202477), Philipp
               Walter (Mtrk.)
             </p>
+
+            <label for="enable_long">Fließtext</label>
+            <input id="enable_long" type=checkbox bind:checked={long}/>
             <div id="parallelogram" />
           </div>
         </Col>
@@ -67,43 +73,56 @@
             <h1>
               Was ist <span class="svelte-color">Svelte</span> ?
             </h1>
-
-            <p>
-              Svelte ist ein Komponenten-Framework - wie React oder Vue - aber
-              mit einem wichtigen Unterschied. Traditionelle Frameworks erlauben
-              es Ihnen, deklarativen zustandsgesteuerten Code zu schreiben, aber
-              es gibt einen Nachteil: Der Browser muss zusätzliche Arbeit
-              leisten, um diese deklarativen Strukturen in DOM-Operationen
-              umzuwandeln, wobei Techniken wie diese Ihr Frame-Budget auffressen
-              und den Garbage Collector belasten.
-            </p>
-            <p>
-              Stattdessen läuft Svelte zur Build-Zeit und konvertiert Ihre
-              Komponenten in hocheffizienten imperativen Code, der das DOM
-              chirurgisch aktualisiert. Das Ergebnis ist, dass Sie in der Lage
-              sind, anspruchsvolle Anwendungen mit hervorragenden
-              Leistungsmerkmalen zu schreiben.
-            </p>
-            <p>
-              In der ersten Version von Svelte ging es darum, dass ein
-              zweckmäßiger Compiler felsenfesten Code erzeugen kann, der ein
-              großartiges Benutzererlebnis bietet. Die zweite war ein kleines
-              Upgrade, das die Dinge ein wenig aufgeräumt hat.
-            </p>
-            <p>
-              Version 3 ist eine signifikante Überarbeitung. In den letzten fünf
-              oder sechs Monaten haben wir uns darauf konzentriert, ein
-              hervorragendes Entwicklererlebnis zu bieten. Es ist jetzt möglich,
-              Komponenten zu schreiben, mit denen man anderswo nicht
-              zurechtkommt. Probieren Sie das brandneue aus und sehen Sie, was
-              wir meinen - wenn Sie mit anderen Frameworks vertraut sind, werden
-              Sie angenehm überrascht sein.
-            </p>
-            <p>
-              Um das möglich zu machen, mussten wir zunächst das Konzept
-              überdenken, das den modernen UI-Frameworks zugrunde liegt:
-              Reaktivität.
-            </p>
+            <Content {long}>
+              <div slot="long">
+                <p>
+                  Svelte ist ein Komponenten-Framework - wie React oder Vue -
+                  aber mit einem wichtigen Unterschied. Traditionelle Frameworks
+                  erlauben es Ihnen, deklarativen zustandsgesteuerten Code zu
+                  schreiben, aber es gibt einen Nachteil: Der Browser muss
+                  zusätzliche Arbeit leisten, um diese deklarativen Strukturen
+                  in DOM-Operationen umzuwandeln, wobei Techniken wie diese Ihr
+                  Frame-Budget auffressen und den Garbage Collector belasten.
+                </p>
+                <p>
+                  Stattdessen läuft Svelte zur Build-Zeit und konvertiert Ihre
+                  Komponenten in hocheffizienten imperativen Code, der das DOM
+                  chirurgisch aktualisiert. Das Ergebnis ist, dass Sie in der
+                  Lage sind, anspruchsvolle Anwendungen mit hervorragenden
+                  Leistungsmerkmalen zu schreiben.
+                </p>
+                <p>
+                  In der ersten Version von Svelte ging es darum, dass ein
+                  zweckmäßiger Compiler felsenfesten Code erzeugen kann, der ein
+                  großartiges Benutzererlebnis bietet. Die zweite war ein
+                  kleines Upgrade, das die Dinge ein wenig aufgeräumt hat.
+                </p>
+                <p>
+                  Version 3 ist eine signifikante Überarbeitung. In den letzten
+                  fünf oder sechs Monaten haben wir uns darauf konzentriert, ein
+                  hervorragendes Entwicklererlebnis zu bieten. Es ist jetzt
+                  möglich, Komponenten zu schreiben, mit denen man anderswo
+                  nicht zurechtkommt. Probieren Sie das brandneue aus und sehen
+                  Sie, was wir meinen - wenn Sie mit anderen Frameworks vertraut
+                  sind, werden Sie angenehm überrascht sein.
+                </p>
+                <p>
+                  Um das möglich zu machen, mussten wir zunächst das Konzept
+                  überdenken, das den modernen UI-Frameworks zugrunde liegt:
+                  Reaktivität.
+                </p>
+              </div>
+              <div slot="short">
+                <ul>
+                  <li>Komponenten-Framework</li>
+                  <li>
+                    Compiler für bessere Performance und kleinere
+                    Build-Artefakte
+                  </li>
+                  <li>Reaktives UI-Konzept</li>
+                </ul>
+              </div>
+            </Content>
           </div>
         </Col>
       </Row>
