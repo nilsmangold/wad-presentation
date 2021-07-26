@@ -11161,7 +11161,7 @@ var app = (function () {
     const file = "src/App.svelte";
 
     // (51:8) <Col>
-    function create_default_slot_78(ctx) {
+    function create_default_slot_97(ctx) {
     	let div1;
     	let h1;
     	let t1;
@@ -11187,7 +11187,7 @@ var app = (function () {
     			p0.textContent = "Cybernetically enhanced web apps";
     			t3 = space();
     			p1 = element("p");
-    			p1.textContent = "Leon Kowarschick (Mtrk. Nachname), Nils Mangold (202477), Philipp\n              Walter (Mtrk.)";
+    			p1.textContent = "Leon Kowarschick (Mtrk. Nachname), Nils Mangold (202477), Philipp\n              Walter (203149)";
     			t5 = space();
     			label = element("label");
     			label.textContent = "Fließtext";
@@ -11195,20 +11195,20 @@ var app = (function () {
     			input = element("input");
     			t8 = space();
     			div0 = element("div");
-    			attr_dev(h1, "class", "title svelte-1paqfdp");
+    			attr_dev(h1, "class", "title svelte-143wrg5");
     			add_location(h1, file, 52, 12, 1656);
-    			attr_dev(p0, "class", "subheader svelte-1paqfdp");
+    			attr_dev(p0, "class", "subheader svelte-143wrg5");
     			add_location(p0, file, 53, 12, 1698);
     			add_location(p1, file, 54, 12, 1768);
     			attr_dev(label, "for", "enable_long");
-    			add_location(label, file, 59, 12, 1911);
+    			add_location(label, file, 59, 12, 1912);
     			attr_dev(input, "id", "enable_long");
     			attr_dev(input, "type", "checkbox");
-    			add_location(input, file, 60, 12, 1966);
+    			add_location(input, file, 60, 12, 1967);
     			attr_dev(div0, "id", "parallelogram");
-    			attr_dev(div0, "class", "svelte-1paqfdp");
-    			add_location(div0, file, 61, 12, 2038);
-    			attr_dev(div1, "class", "header-container svelte-1paqfdp");
+    			attr_dev(div0, "class", "svelte-143wrg5");
+    			add_location(div0, file, 61, 12, 2042);
+    			attr_dev(div1, "class", "header-container svelte-143wrg5");
     			add_location(div1, file, 51, 10, 1613);
     		},
     		m: function mount(target, anchor) {
@@ -11245,7 +11245,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_78.name,
+    		id: create_default_slot_97.name,
     		type: "slot",
     		source: "(51:8) <Col>",
     		ctx
@@ -11255,13 +11255,13 @@ var app = (function () {
     }
 
     // (50:6) <Row>
-    function create_default_slot_77(ctx) {
+    function create_default_slot_96(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_78] },
+    				$$slots: { default: [create_default_slot_97] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11300,7 +11300,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_77.name,
+    		id: create_default_slot_96.name,
     		type: "slot",
     		source: "(50:6) <Row>",
     		ctx
@@ -11310,13 +11310,13 @@ var app = (function () {
     }
 
     // (49:4) <Container class="text-center">
-    function create_default_slot_76(ctx) {
+    function create_default_slot_95(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_77] },
+    				$$slots: { default: [create_default_slot_96] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11355,7 +11355,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_76.name,
+    		id: create_default_slot_95.name,
     		type: "slot",
     		source: "(49:4) <Container class=\\\"text-center\\\">",
     		ctx
@@ -11365,14 +11365,14 @@ var app = (function () {
     }
 
     // (48:2) <FullpageSection center>
-    function create_default_slot_75(ctx) {
+    function create_default_slot_94(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
     				class: "text-center",
-    				$$slots: { default: [create_default_slot_76] },
+    				$$slots: { default: [create_default_slot_95] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11411,7 +11411,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_75.name,
+    		id: create_default_slot_94.name,
     		type: "slot",
     		source: "(48:2) <FullpageSection center>",
     		ctx
@@ -11421,7 +11421,7 @@ var app = (function () {
     }
 
     // (77:14) 
-    function create_long_slot(ctx) {
+    function create_long_slot_5(ctx) {
     	let div;
     	let p0;
     	let t1;
@@ -11450,13 +11450,13 @@ var app = (function () {
     			t7 = space();
     			p4 = element("p");
     			p4.textContent = "Um das möglich zu machen, mussten wir zunächst das Konzept\n                  überdenken, das den modernen UI-Frameworks zugrunde liegt:\n                  Reaktivität.";
-    			add_location(p0, file, 77, 16, 2451);
-    			add_location(p1, file, 86, 16, 3041);
-    			add_location(p2, file, 93, 16, 3444);
-    			add_location(p3, file, 99, 16, 3790);
-    			add_location(p4, file, 108, 16, 4366);
+    			add_location(p0, file, 77, 16, 2455);
+    			add_location(p1, file, 86, 16, 3045);
+    			add_location(p2, file, 93, 16, 3448);
+    			add_location(p3, file, 99, 16, 3794);
+    			add_location(p4, file, 108, 16, 4370);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 76, 14, 2417);
+    			add_location(div, file, 76, 14, 2421);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -11477,7 +11477,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_long_slot.name,
+    		id: create_long_slot_5.name,
     		type: "slot",
     		source: "(77:14) ",
     		ctx
@@ -11487,7 +11487,7 @@ var app = (function () {
     }
 
     // (115:14) 
-    function create_short_slot(ctx) {
+    function create_short_slot_5(ctx) {
     	let div;
     	let ul;
     	let li0;
@@ -11508,12 +11508,12 @@ var app = (function () {
     			t3 = space();
     			li2 = element("li");
     			li2.textContent = "Reaktives UI-Konzept";
-    			add_location(li0, file, 116, 18, 4669);
-    			add_location(li1, file, 117, 18, 4718);
-    			add_location(li2, file, 121, 18, 4867);
-    			add_location(ul, file, 115, 16, 4646);
+    			add_location(li0, file, 116, 18, 4673);
+    			add_location(li1, file, 117, 18, 4722);
+    			add_location(li2, file, 121, 18, 4871);
+    			add_location(ul, file, 115, 16, 4650);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 114, 14, 4611);
+    			add_location(div, file, 114, 14, 4615);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -11531,7 +11531,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_short_slot.name,
+    		id: create_short_slot_5.name,
     		type: "slot",
     		source: "(115:14) ",
     		ctx
@@ -11541,7 +11541,7 @@ var app = (function () {
     }
 
     // (71:8) <Col>
-    function create_default_slot_74(ctx) {
+    function create_default_slot_93(ctx) {
     	let div;
     	let h1;
     	let t0;
@@ -11555,8 +11555,8 @@ var app = (function () {
     			props: {
     				long: /*long*/ ctx[1],
     				$$slots: {
-    					short: [create_short_slot],
-    					long: [create_long_slot]
+    					short: [create_short_slot_5],
+    					long: [create_long_slot_5]
     				},
     				$$scope: { ctx }
     			},
@@ -11573,12 +11573,12 @@ var app = (function () {
     			t2 = text(" ?");
     			t3 = space();
     			create_component(content.$$.fragment);
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 73, 22, 2313);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 72, 12, 2286);
-    			attr_dev(div, "class", "block-middle svelte-1paqfdp");
-    			add_location(div, file, 71, 10, 2247);
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 73, 22, 2317);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 72, 12, 2290);
+    			attr_dev(div, "class", "block-middle svelte-143wrg5");
+    			add_location(div, file, 71, 10, 2251);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -11617,7 +11617,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_74.name,
+    		id: create_default_slot_93.name,
     		type: "slot",
     		source: "(71:8) <Col>",
     		ctx
@@ -11627,13 +11627,13 @@ var app = (function () {
     }
 
     // (70:6) <Row>
-    function create_default_slot_73(ctx) {
+    function create_default_slot_92(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_74] },
+    				$$slots: { default: [create_default_slot_93] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11672,7 +11672,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_73.name,
+    		id: create_default_slot_92.name,
     		type: "slot",
     		source: "(70:6) <Row>",
     		ctx
@@ -11682,13 +11682,13 @@ var app = (function () {
     }
 
     // (69:4) <Container class="text-center">
-    function create_default_slot_72(ctx) {
+    function create_default_slot_91(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_73] },
+    				$$slots: { default: [create_default_slot_92] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11727,7 +11727,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_72.name,
+    		id: create_default_slot_91.name,
     		type: "slot",
     		source: "(69:4) <Container class=\\\"text-center\\\">",
     		ctx
@@ -11737,14 +11737,14 @@ var app = (function () {
     }
 
     // (68:2) <FullpageSection center>
-    function create_default_slot_71(ctx) {
+    function create_default_slot_90(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
     				class: "text-center",
-    				$$slots: { default: [create_default_slot_72] },
+    				$$slots: { default: [create_default_slot_91] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11783,7 +11783,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_71.name,
+    		id: create_default_slot_90.name,
     		type: "slot",
     		source: "(68:2) <FullpageSection center>",
     		ctx
@@ -11793,7 +11793,7 @@ var app = (function () {
     }
 
     // (134:8) <Col>
-    function create_default_slot_70(ctx) {
+    function create_default_slot_89(ctx) {
     	let h1;
     	let t1;
     	let div;
@@ -11804,11 +11804,11 @@ var app = (function () {
     			h1.textContent = "VORTEILE";
     			t1 = space();
     			div = element("div");
-    			attr_dev(h1, "class", "title-section svelte-1paqfdp");
-    			add_location(h1, file, 134, 10, 5145);
+    			attr_dev(h1, "class", "title-section svelte-143wrg5");
+    			add_location(h1, file, 134, 10, 5149);
     			attr_dev(div, "id", "parallelogram");
-    			attr_dev(div, "class", "svelte-1paqfdp");
-    			add_location(div, file, 135, 10, 5195);
+    			attr_dev(div, "class", "svelte-143wrg5");
+    			add_location(div, file, 135, 10, 5199);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -11824,7 +11824,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_70.name,
+    		id: create_default_slot_89.name,
     		type: "slot",
     		source: "(134:8) <Col>",
     		ctx
@@ -11834,13 +11834,13 @@ var app = (function () {
     }
 
     // (133:6) <Row>
-    function create_default_slot_69(ctx) {
+    function create_default_slot_88(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_70] },
+    				$$slots: { default: [create_default_slot_89] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11879,7 +11879,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_69.name,
+    		id: create_default_slot_88.name,
     		type: "slot",
     		source: "(133:6) <Row>",
     		ctx
@@ -11889,13 +11889,13 @@ var app = (function () {
     }
 
     // (132:4) <Container class="text-center">
-    function create_default_slot_68(ctx) {
+    function create_default_slot_87(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_69] },
+    				$$slots: { default: [create_default_slot_88] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11934,7 +11934,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_68.name,
+    		id: create_default_slot_87.name,
     		type: "slot",
     		source: "(132:4) <Container class=\\\"text-center\\\">",
     		ctx
@@ -11944,14 +11944,14 @@ var app = (function () {
     }
 
     // (131:2) <FullpageSection center>
-    function create_default_slot_67(ctx) {
+    function create_default_slot_86(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
     				class: "text-center",
-    				$$slots: { default: [create_default_slot_68] },
+    				$$slots: { default: [create_default_slot_87] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -11990,7 +11990,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_67.name,
+    		id: create_default_slot_86.name,
     		type: "slot",
     		source: "(131:2) <FullpageSection center>",
     		ctx
@@ -12000,7 +12000,7 @@ var app = (function () {
     }
 
     // (144:8) <Col>
-    function create_default_slot_66(ctx) {
+    function create_default_slot_85(ctx) {
     	let div;
     	let h1;
     	let t0;
@@ -12018,12 +12018,12 @@ var app = (function () {
     			t2 = space();
     			p = element("p");
     			p.textContent = "Ein Compiler zu sein und das VirtualDOM loszuwerden ist der\n              wichtigste Vorteil von Svelte, der viele der anderen Vorteile\n              ermöglicht, die wir weiter unten sehen werden. Das Konzept erfreut\n              sich so großer Beliebtheit, dass Angular und Ember in ihren\n              jüngsten Versionen auf Compiler umgestellt haben.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 146, 27, 5437);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 145, 12, 5405);
-    			add_location(p, file, 149, 12, 5517);
-    			add_location(div, file, 144, 10, 5387);
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 146, 27, 5441);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 145, 12, 5409);
+    			add_location(p, file, 149, 12, 5521);
+    			add_location(div, file, 144, 10, 5391);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -12040,7 +12040,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_66.name,
+    		id: create_default_slot_85.name,
     		type: "slot",
     		source: "(144:8) <Col>",
     		ctx
@@ -12050,7 +12050,7 @@ var app = (function () {
     }
 
     // (159:8) <Col>
-    function create_default_slot_65(ctx) {
+    function create_default_slot_84(ctx) {
     	let div;
     	let h1;
     	let t0;
@@ -12068,12 +12068,12 @@ var app = (function () {
     			t2 = space();
     			p = element("p");
     			p.textContent = "Svelte erzeugt hochoptimiertes Vanilla JS mit einem sehr geringen\n              Overhead zur Laufzeit. Das bedeutet kleine Bundle-Größen, einen\n              geringen Speicherbedarf und eine schnell ladende und schnell\n              laufende Anwendung. Schauen Sie sich die Performance-Benchmarks\n              hier an, um den Unterschied zu sehen. All dies ist \"out of the\n              box\", ohne dass Sie irgendwelche Einstellungen vornehmen müssen,\n              und es gibt viele Möglichkeiten, die Leistung noch weiter zu\n              verbessern.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 161, 32, 6018);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 160, 12, 5981);
-    			add_location(p, file, 164, 12, 6094);
-    			add_location(div, file, 159, 10, 5963);
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 161, 32, 6022);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 160, 12, 5985);
+    			add_location(p, file, 164, 12, 6098);
+    			add_location(div, file, 159, 10, 5967);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -12090,7 +12090,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_65.name,
+    		id: create_default_slot_84.name,
     		type: "slot",
     		source: "(159:8) <Col>",
     		ctx
@@ -12100,7 +12100,7 @@ var app = (function () {
     }
 
     // (143:6) <Row>
-    function create_default_slot_64(ctx) {
+    function create_default_slot_83(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -12108,7 +12108,7 @@ var app = (function () {
 
     	col0 = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_66] },
+    				$$slots: { default: [create_default_slot_85] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12116,7 +12116,7 @@ var app = (function () {
 
     	col1 = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_65] },
+    				$$slots: { default: [create_default_slot_84] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12170,7 +12170,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_64.name,
+    		id: create_default_slot_83.name,
     		type: "slot",
     		source: "(143:6) <Row>",
     		ctx
@@ -12180,6 +12180,1095 @@ var app = (function () {
     }
 
     // (142:4) <Container class="text-center">
+    function create_default_slot_82(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_83] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_82.name,
+    		type: "slot",
+    		source: "(142:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (141:2) <FullpageSection center>
+    function create_default_slot_81(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_82] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_81.name,
+    		type: "slot",
+    		source: "(141:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (183:8) <Col>
+    function create_default_slot_80(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Weniger ");
+    			span = element("span");
+    			span.textContent = "Boilerplate";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Mit Svelte gibt es keine Notwendigkeit für das Hinzufügen von Glue\n              Code wie Hooks oder komplexes State Management und so weiter. Die\n              Boilerplate, die für Komponenten benötigt wird, ist sehr minimal\n              und kommt fast an Vanilla HTML/JS heran. Svelte unterstützt auch\n              optionale Zwei-Wege-Bindungen, die es einfacher machen, Formulare\n              zu erstellen.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 185, 22, 6914);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 184, 12, 6887);
+    			add_location(p, file, 188, 12, 6991);
+    			add_location(div, file, 183, 10, 6869);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_80.name,
+    		type: "slot",
+    		source: "(183:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (199:8) <Col>
+    function create_default_slot_79(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Wirklich ");
+    			span = element("span");
+    			span.textContent = "reaktiv";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Svelte ist standardmäßig reaktiv. Das DOM wird automatisch bei\n              Zustandsänderungen in jeder Top-Level-Variablen einer Komponente\n              aktualisiert. Sie müssen dafür nicht einmal speziellen Code\n              hinzufügen. Nur direkte Top-Level-Zuweisungen funktionieren auf\n              diese Weise und Referenzmutationen wie array.push funktionieren\n              nicht. Das bedeutet, dass Mutationen meiner Meinung nach\n              expliziter und einfacher zu verstehen sind.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 201, 23, 7541);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 200, 12, 7513);
+    			add_location(p, file, 203, 12, 7613);
+    			add_location(div, file, 199, 10, 7495);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_79.name,
+    		type: "slot",
+    		source: "(199:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (182:6) <Row>
+    function create_default_slot_78(ctx) {
+    	let col0;
+    	let t;
+    	let col1;
+    	let current;
+
+    	col0 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_80] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	col1 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_79] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col0.$$.fragment);
+    			t = space();
+    			create_component(col1.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col0, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(col1, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col0_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col0_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col0.$set(col0_changes);
+    			const col1_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col1.$set(col1_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col0.$$.fragment, local);
+    			transition_in(col1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col0.$$.fragment, local);
+    			transition_out(col1.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col0, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(col1, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_78.name,
+    		type: "slot",
+    		source: "(182:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (181:4) <Container class="text-center">
+    function create_default_slot_77(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_78] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_77.name,
+    		type: "slot",
+    		source: "(181:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (180:2) <FullpageSection center>
+    function create_default_slot_76(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_77] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_76.name,
+    		type: "slot",
+    		source: "(180:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (221:8) <Col>
+    function create_default_slot_75(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Mehrere ");
+    			span = element("span");
+    			span.textContent = "Ausgabeziele";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Da es sich um einen Compiler handelt, ist es einfach, die\n              Ausgabeziele zu ändern, ohne den Code Ihrer Komponente ändern zu\n              müssen. Zum Beispiel unterstützt Svelte das serverseitige\n              Rendering von Haus aus, indem es einen Compiler-Modus dafür\n              bereitstellt (dom vs. ssr). Es gibt sogar eine\n              NativeScript-Integration für Svelte, die von dieser Flexibilität\n              Gebrauch macht, um Ziele jenseits von dom und ssr zu erzeugen. Es\n              gibt auch das Sapper-Framework, bald SvelteKit, vom Svelte-Team,\n              das ähnlich wie Next.js ist, aber für die Philosophie von Svelte\n              optimiert ist. Sapper unterstützt SSR, Progressive Web Apps,\n              Code-Splitting, und so weiter.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 223, 22, 8376);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 222, 12, 8349);
+    			add_location(p, file, 225, 12, 8453);
+    			add_location(div, file, 221, 10, 8331);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_75.name,
+    		type: "slot",
+    		source: "(221:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (241:8) <Col>
+    function create_default_slot_74(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Komponenten-");
+    			span = element("span");
+    			span.textContent = "Muster";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Svelte folgt einem Component-First-Pattern, was es ideal für die\n              Erstellung neuer Webanwendungen oder für das Hinzufügen von\n              Webkomponenten zu bestehenden Anwendungen macht. Stile sind\n              standardmäßig auf Komponenten skaliert, was Svelte ideal für\n              Web-Komponenten macht.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 243, 26, 9374);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 242, 12, 9343);
+    			add_location(p, file, 245, 12, 9445);
+    			add_location(div, file, 241, 10, 9325);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_74.name,
+    		type: "slot",
+    		source: "(241:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (220:6) <Row>
+    function create_default_slot_73(ctx) {
+    	let col0;
+    	let t;
+    	let col1;
+    	let current;
+
+    	col0 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_75] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	col1 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_74] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col0.$$.fragment);
+    			t = space();
+    			create_component(col1.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col0, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(col1, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col0_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col0_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col0.$set(col0_changes);
+    			const col1_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col1.$set(col1_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col0.$$.fragment, local);
+    			transition_in(col1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col0.$$.fragment, local);
+    			transition_out(col1.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col0, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(col1, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_73.name,
+    		type: "slot",
+    		source: "(220:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (219:4) <Container class="text-center">
+    function create_default_slot_72(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_73] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_72.name,
+    		type: "slot",
+    		source: "(219:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (218:2) <FullpageSection center>
+    function create_default_slot_71(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_72] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_71.name,
+    		type: "slot",
+    		source: "(218:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (261:8) <Col>
+    function create_default_slot_70(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Eingebaute Animationen und ");
+    			span = element("span");
+    			span.textContent = "Effekte";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Svelte bietet eingebaute Animationen und Effekte, die es einfacher\n              machen, glatte Benutzeroberflächen und interaktive\n              Visualisierungen zu erstellen. Nun, das Framework wurde\n              ursprünglich für die Erstellung interaktiver Grafiken für The\n              Guardian entwickelt. Dieser Ansatz bietet eine viel schönere\n              Entwicklererfahrung als etwas wie React und ist viel einfacher zu\n              verwenden.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 263, 41, 10051);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 262, 12, 10005);
+    			add_location(p, file, 267, 12, 10155);
+    			add_location(div, file, 261, 10, 9987);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_70.name,
+    		type: "slot",
+    		source: "(261:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (279:8) <Col>
+    function create_default_slot_69(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Eingebauter reaktiver ");
+    			span = element("span");
+    			span.textContent = "Speicher";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Svelte bietet sowohl veränderliche als auch unveränderliche\n              reaktive Speicher, die es einfacher machen, komplexere\n              Zustandsverwaltung in Ihrer Anwendung durchzuführen. Die Stores\n              unterstützen manuelle und automatische Subskriptionen und\n              bidirektionale Bindungen, was sie sehr flexibel macht. Die\n              Implementierung ermöglicht auch den Wechsel zu einer anderen\n              Zustandsverwaltungslösung wie z. B. RxJS.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 281, 36, 10763);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 280, 12, 10722);
+    			add_location(p, file, 283, 12, 10836);
+    			add_location(div, file, 279, 10, 10704);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_69.name,
+    		type: "slot",
+    		source: "(279:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (260:6) <Row>
+    function create_default_slot_68(ctx) {
+    	let col0;
+    	let t;
+    	let col1;
+    	let current;
+
+    	col0 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_70] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	col1 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_69] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col0.$$.fragment);
+    			t = space();
+    			create_component(col1.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col0, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(col1, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col0_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col0_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col0.$set(col0_changes);
+    			const col1_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col1.$set(col1_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col0.$$.fragment, local);
+    			transition_in(col1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col0.$$.fragment, local);
+    			transition_out(col1.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col0, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(col1, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_68.name,
+    		type: "slot",
+    		source: "(260:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (259:4) <Container class="text-center">
+    function create_default_slot_67(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_68] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_67.name,
+    		type: "slot",
+    		source: "(259:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (258:2) <FullpageSection center>
+    function create_default_slot_66(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_67] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_66.name,
+    		type: "slot",
+    		source: "(258:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (301:8) <Col>
+    function create_default_slot_65(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Niedrige ");
+    			span = element("span");
+    			span.textContent = "Lernkurve";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Im Gegensatz zu React oder Angular ist die Lernkurve für Svelte\n              recht niedrig. Es gibt keine spezielle Syntax wie JSX zu lernen\n              oder komplexe APIs wie bei Angular, die man sich merken muss.\n              Alles ist in standardkonformem JS/TS, CSS und HTML geschrieben,\n              mit etwas zusätzlichem Syntaxzucker für Direktiven und\n              Template-Logik. Die Komponenten-API ist einfach und überschaubar.\n              Die Dokumentation ist ebenfalls sehr gut und leicht\n              nachvollziehbar. Ich habe zum Beispiel nur ein paar Tage\n              gebraucht, um mich mit Svelte vertraut zu machen, selbst für\n              fortgeschrittene Konzepte wie Lebenszyklen, Komposition und so\n              weiter. Im Gegensatz dazu hat es Monate gedauert, bis ich mich in\n              React wirklich zurechtgefunden habe und ich kenne immer noch nicht\n              einmal die Hälfte der Angular-APIs, nachdem ich es fast ein Jahr\n              lang benutzt habe. Natürlich hilft die Kenntnis von React oder\n              Angular dabei, Svelte leichter zu erlernen, da es eine Menge\n              ähnlicher Konzepte gibt.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 303, 23, 11582);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 302, 12, 11554);
+    			add_location(p, file, 305, 12, 11656);
+    			add_location(div, file, 301, 10, 11536);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_65.name,
+    		type: "slot",
+    		source: "(301:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (300:6) <Row>
+    function create_default_slot_64(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_65] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_64.name,
+    		type: "slot",
+    		source: "(300:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (299:4) <Container class="text-center">
     function create_default_slot_63(ctx) {
     	let row;
     	let current;
@@ -12227,14 +13316,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_63.name,
     		type: "slot",
-    		source: "(142:4) <Container class=\\\"text-center\\\">",
+    		source: "(299:4) <Container class=\\\"text-center\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (141:2) <FullpageSection center>
+    // (298:2) <FullpageSection center>
     function create_default_slot_62(ctx) {
     	let container;
     	let current;
@@ -12283,48 +13372,39 @@ var app = (function () {
     		block,
     		id: create_default_slot_62.name,
     		type: "slot",
-    		source: "(141:2) <FullpageSection center>",
+    		source: "(298:2) <FullpageSection center>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (183:8) <Col>
+    // (332:8) <Col>
     function create_default_slot_61(ctx) {
-    	let div;
     	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
+    	let t1;
+    	let div;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
     			h1 = element("h1");
-    			t0 = text("Weniger ");
-    			span = element("span");
-    			span.textContent = "Boilerplate";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Mit Svelte gibt es keine Notwendigkeit für das Hinzufügen von Glue\n              Code wie Hooks oder komplexes State Management und so weiter. Die\n              Boilerplate, die für Komponenten benötigt wird, ist sehr minimal\n              und kommt fast an Vanilla HTML/JS heran. Svelte unterstützt auch\n              optionale Zwei-Wege-Bindungen, die es einfacher machen, Formulare\n              zu erstellen.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 185, 22, 6910);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 184, 12, 6883);
-    			add_location(p, file, 188, 12, 6987);
-    			add_location(div, file, 183, 10, 6865);
+    			h1.textContent = "NACHTEILE";
+    			t1 = space();
+    			div = element("div");
+    			attr_dev(h1, "class", "title-section svelte-143wrg5");
+    			add_location(h1, file, 332, 10, 13038);
+    			attr_dev(div, "id", "parallelogram");
+    			attr_dev(div, "class", "svelte-143wrg5");
+    			add_location(div, file, 333, 10, 13089);
     		},
     		m: function mount(target, anchor) {
+    			insert_dev(target, h1, anchor);
+    			insert_dev(target, t1, anchor);
     			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
     		},
     		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h1);
+    			if (detaching) detach_dev(t1);
     			if (detaching) detach_dev(div);
     		}
     	};
@@ -12333,71 +13413,19 @@ var app = (function () {
     		block,
     		id: create_default_slot_61.name,
     		type: "slot",
-    		source: "(183:8) <Col>",
+    		source: "(332:8) <Col>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (199:8) <Col>
+    // (331:6) <Row>
     function create_default_slot_60(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Wirklich ");
-    			span = element("span");
-    			span.textContent = "reaktiv";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Svelte ist standardmäßig reaktiv. Das DOM wird automatisch bei\n              Zustandsänderungen in jeder Top-Level-Variablen einer Komponente\n              aktualisiert. Sie müssen dafür nicht einmal speziellen Code\n              hinzufügen. Nur direkte Top-Level-Zuweisungen funktionieren auf\n              diese Weise und Referenzmutationen wie array.push funktionieren\n              nicht. Das bedeutet, dass Mutationen meiner Meinung nach\n              expliziter und einfacher zu verstehen sind.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 201, 23, 7537);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 200, 12, 7509);
-    			add_location(p, file, 203, 12, 7609);
-    			add_location(div, file, 199, 10, 7491);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_60.name,
-    		type: "slot",
-    		source: "(199:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (182:6) <Row>
-    function create_default_slot_59(ctx) {
-    	let col0;
-    	let t;
-    	let col1;
+    	let col;
     	let current;
 
-    	col0 = new Col({
+    	col = new Col({
     			props: {
     				$$slots: { default: [create_default_slot_61] },
     				$$scope: { ctx }
@@ -12405,79 +13433,56 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	col1 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_60] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
     	const block = {
     		c: function create() {
-    			create_component(col0.$$.fragment);
-    			t = space();
-    			create_component(col1.$$.fragment);
+    			create_component(col.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(col0, target, anchor);
-    			insert_dev(target, t, anchor);
-    			mount_component(col1, target, anchor);
+    			mount_component(col, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			const col0_changes = {};
+    			const col_changes = {};
 
     			if (dirty & /*$$scope*/ 128) {
-    				col0_changes.$$scope = { dirty, ctx };
+    				col_changes.$$scope = { dirty, ctx };
     			}
 
-    			col0.$set(col0_changes);
-    			const col1_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col1_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col1.$set(col1_changes);
+    			col.$set(col_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(col0.$$.fragment, local);
-    			transition_in(col1.$$.fragment, local);
+    			transition_in(col.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(col0.$$.fragment, local);
-    			transition_out(col1.$$.fragment, local);
+    			transition_out(col.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(col0, detaching);
-    			if (detaching) detach_dev(t);
-    			destroy_component(col1, detaching);
+    			destroy_component(col, detaching);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_59.name,
+    		id: create_default_slot_60.name,
     		type: "slot",
-    		source: "(182:6) <Row>",
+    		source: "(331:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (181:4) <Container class="text-center">
-    function create_default_slot_58(ctx) {
+    // (330:4) <Container class="text-center">
+    function create_default_slot_59(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_59] },
+    				$$slots: { default: [create_default_slot_60] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12516,24 +13521,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_58.name,
+    		id: create_default_slot_59.name,
     		type: "slot",
-    		source: "(181:4) <Container class=\\\"text-center\\\">",
+    		source: "(330:4) <Container class=\\\"text-center\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (180:2) <FullpageSection center>
-    function create_default_slot_57(ctx) {
+    // (329:2) <FullpageSection center>
+    function create_default_slot_58(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
     				class: "text-center",
-    				$$slots: { default: [create_default_slot_58] },
+    				$$slots: { default: [create_default_slot_59] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12572,16 +13577,66 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_57.name,
+    		id: create_default_slot_58.name,
     		type: "slot",
-    		source: "(180:2) <FullpageSection center>",
+    		source: "(329:2) <FullpageSection center>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (221:8) <Col>
+    // (342:8) <Col>
+    function create_default_slot_57(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Junges ");
+    			span = element("span");
+    			span.textContent = "Framework";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Svelte ist sehr jung und das bedeutet, dass es noch nicht so\n              kampferprobt ist wie React oder Angular und Sie vielleicht\n              manchmal gegen einige Mauern laufen. Das bedeutet, dass es\n              wahrscheinlich nicht für sehr komplexe oder unternehmenskritische\n              Anwendungen geeignet ist, von denen erwartet wird, dass sie\n              skalieren. Dies könnte kein langfristiges Problem sein, da das\n              Framework in seiner Popularität explodiert und die Einführung von\n              Sapper bei den Skalierungsproblemen geholfen hat. Allerdings hätte\n              die Verwirrung um Sapper vs. SvelteKit meiner Meinung nach\n              vermieden werden können.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 344, 21, 13325);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 343, 12, 13299);
+    			add_location(p, file, 346, 12, 13399);
+    			add_location(div, file, 342, 10, 13281);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_57.name,
+    		type: "slot",
+    		source: "(342:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (361:8) <Col>
     function create_default_slot_56(ctx) {
     	let div;
     	let h1;
@@ -12594,18 +13649,18 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			h1 = element("h1");
-    			t0 = text("Mehrere ");
+    			t0 = text("Kleinere Community und ");
     			span = element("span");
-    			span.textContent = "Ausgabeziele";
+    			span.textContent = "kleineres Ökosystem";
     			t2 = space();
     			p = element("p");
-    			p.textContent = "Da es sich um einen Compiler handelt, ist es einfach, die\n              Ausgabeziele zu ändern, ohne den Code Ihrer Komponente ändern zu\n              müssen. Zum Beispiel unterstützt Svelte das serverseitige\n              Rendering von Haus aus, indem es einen Compiler-Modus dafür\n              bereitstellt (dom vs. ssr). Es gibt sogar eine\n              NativeScript-Integration für Svelte, die von dieser Flexibilität\n              Gebrauch macht, um Ziele jenseits von dom und ssr zu erzeugen. Es\n              gibt auch das Sapper-Framework, bald SvelteKit, vom Svelte-Team,\n              das ähnlich wie Next.js ist, aber für die Philosophie von Svelte\n              optimiert ist. Sapper unterstützt SSR, Progressive Web Apps,\n              Code-Splitting, und so weiter.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 223, 22, 8372);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 222, 12, 8345);
-    			add_location(p, file, 225, 12, 8449);
-    			add_location(div, file, 221, 10, 8327);
+    			p.textContent = "Ein junges Framework zu sein bedeutet, dass es eine kleinere\n              Community und Benutzerbasis sowie ein kleineres Ökosystem hat.\n              Daher finden Sie vielleicht nicht so viele Tools oder Bibliotheken\n              wie in React oder so viel Hilfe auf Stack Overflow, wenn Sie bei\n              einem komplexen Problem nicht weiterkommen.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 363, 37, 14261);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 362, 12, 14219);
+    			add_location(p, file, 367, 12, 14377);
+    			add_location(div, file, 361, 10, 14201);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -12624,65 +13679,15 @@ var app = (function () {
     		block,
     		id: create_default_slot_56.name,
     		type: "slot",
-    		source: "(221:8) <Col>",
+    		source: "(361:8) <Col>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (241:8) <Col>
+    // (341:6) <Row>
     function create_default_slot_55(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Komponenten-");
-    			span = element("span");
-    			span.textContent = "Muster";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Svelte folgt einem Component-First-Pattern, was es ideal für die\n              Erstellung neuer Webanwendungen oder für das Hinzufügen von\n              Webkomponenten zu bestehenden Anwendungen macht. Stile sind\n              standardmäßig auf Komponenten skaliert, was Svelte ideal für\n              Web-Komponenten macht.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 243, 26, 9370);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 242, 12, 9339);
-    			add_location(p, file, 245, 12, 9441);
-    			add_location(div, file, 241, 10, 9321);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_55.name,
-    		type: "slot",
-    		source: "(241:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (220:6) <Row>
-    function create_default_slot_54(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -12690,7 +13695,7 @@ var app = (function () {
 
     	col0 = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_56] },
+    				$$slots: { default: [create_default_slot_57] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12698,7 +13703,7 @@ var app = (function () {
 
     	col1 = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_55] },
+    				$$slots: { default: [create_default_slot_56] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12752,23 +13757,23 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_54.name,
+    		id: create_default_slot_55.name,
     		type: "slot",
-    		source: "(220:6) <Row>",
+    		source: "(341:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (219:4) <Container class="text-center">
-    function create_default_slot_53(ctx) {
+    // (340:4) <Container class="text-center">
+    function create_default_slot_54(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_54] },
+    				$$slots: { default: [create_default_slot_55] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12807,24 +13812,24 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_53.name,
+    		id: create_default_slot_54.name,
     		type: "slot",
-    		source: "(219:4) <Container class=\\\"text-center\\\">",
+    		source: "(340:4) <Container class=\\\"text-center\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (218:2) <FullpageSection center>
-    function create_default_slot_52(ctx) {
+    // (339:2) <FullpageSection center>
+    function create_default_slot_53(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
     				class: "text-center",
-    				$$slots: { default: [create_default_slot_53] },
+    				$$slots: { default: [create_default_slot_54] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12863,16 +13868,66 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_52.name,
+    		id: create_default_slot_53.name,
     		type: "slot",
-    		source: "(218:2) <FullpageSection center>",
+    		source: "(339:2) <FullpageSection center>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (261:8) <Col>
+    // (383:8) <Col>
+    function create_default_slot_52(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Compilation ");
+    			span = element("span");
+    			span.textContent = "heavy";
+    			t2 = space();
+    			p = element("p");
+    			p.textContent = "Wenn Sie wie ich schon eine Weile im Bereich der\n              Frontend-Entwicklung tätig sind, können Sie zurückblicken und\n              sehen, dass sich die UX meilenweit verbessert hat, aber die\n              Toolchain, um das zu produzieren, ist sehr komplex geworden. Bei\n              JHipster versuchen wir zum Beispiel, das klassenbeste\n              Production-Grade-Setup für eine Full-Stack-Web-App mit\n              React/Vue/Angular-Frontend und Java/Kotlin/.NET/NodeJS-Backend\n              anzubieten. Wenn Sie eine neue App erstellen und kompilieren,\n              werden Sie feststellen, dass das Frontend 10x mehr Zeit zum\n              Kompilieren benötigt als das Backend. Das ist heutzutage das neue\n              Normal in jeder Full-Stack-Web-Applikation und auch Svelte hat das\n              gleiche Problem. Es ist Compiler-lastig und je komplexer Ihre App\n              wird, desto komplexer und zeitaufwändiger wird der Build. Das\n              bedeutet auch, dass man nicht einfach eine JS-Datei in eine\n              Webseite einfügen kann und erwarten kann, dass es eine Svelte-App\n              wird, wie man es mit Vue machen kann.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 385, 26, 14999);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 384, 12, 14968);
+    			add_location(p, file, 387, 12, 15069);
+    			add_location(div, file, 383, 10, 14950);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_52.name,
+    		type: "slot",
+    		source: "(383:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (408:8) <Col>
     function create_default_slot_51(ctx) {
     	let div;
     	let h1;
@@ -12885,18 +13940,18 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			h1 = element("h1");
-    			t0 = text("Eingebaute Animationen und ");
+    			t0 = text("Mac");
     			span = element("span");
-    			span.textContent = "Effekte";
+    			span.textContent = "ken";
     			t2 = space();
     			p = element("p");
-    			p.textContent = "Svelte bietet eingebaute Animationen und Effekte, die es einfacher\n              machen, glatte Benutzeroberflächen und interaktive\n              Visualisierungen zu erstellen. Nun, das Framework wurde\n              ursprünglich für die Erstellung interaktiver Grafiken für The\n              Guardian entwickelt. Dieser Ansatz bietet eine viel schönere\n              Entwicklererfahrung als etwas wie React und ist viel einfacher zu\n              verwenden.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 263, 41, 10047);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 262, 12, 10001);
-    			add_location(p, file, 267, 12, 10151);
-    			add_location(div, file, 261, 10, 9983);
+    			p.textContent = "Svelte ist konform mit den Webstandards, es führt nichts Neues wie\n              JSX ein. Aber es ändert einige der Standard-Semantiken, um auf\n              eine andere Art und Weise zu arbeiten und das könnte für neue\n              Benutzer verwirrend sein. Zum Beispiel verwendet es das\n              Schlüsselwort export anders und es gibt Macken wie die Verwendung\n              von on:click statt onClick und so weiter. Aber diese sind in jedem\n              Framework fast unvermeidbar. Es verwendet auch ein JS-Label ($:),\n              damit abgeleitete Anweisungen/Deklarationen funktionieren. Das\n              könnte befremdlich wirken, da einige JS-Entwickler wahrscheinlich\n              nicht einmal wissen, dass Labels in JS existieren, da wir sie\n              selten verwenden.";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 410, 17, 16365);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 409, 12, 16343);
+    			add_location(p, file, 412, 12, 16433);
+    			add_location(div, file, 408, 10, 16325);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -12915,65 +13970,15 @@ var app = (function () {
     		block,
     		id: create_default_slot_51.name,
     		type: "slot",
-    		source: "(261:8) <Col>",
+    		source: "(408:8) <Col>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (279:8) <Col>
+    // (382:6) <Row>
     function create_default_slot_50(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Eingebauter reaktiver ");
-    			span = element("span");
-    			span.textContent = "Speicher";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Svelte bietet sowohl veränderliche als auch unveränderliche\n              reaktive Speicher, die es einfacher machen, komplexere\n              Zustandsverwaltung in Ihrer Anwendung durchzuführen. Die Stores\n              unterstützen manuelle und automatische Subskriptionen und\n              bidirektionale Bindungen, was sie sehr flexibel macht. Die\n              Implementierung ermöglicht auch den Wechsel zu einer anderen\n              Zustandsverwaltungslösung wie z. B. RxJS.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 281, 36, 10759);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 280, 12, 10718);
-    			add_location(p, file, 283, 12, 10832);
-    			add_location(div, file, 279, 10, 10700);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_50.name,
-    		type: "slot",
-    		source: "(279:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (260:6) <Row>
-    function create_default_slot_49(ctx) {
     	let col0;
     	let t;
     	let col1;
@@ -12981,7 +13986,7 @@ var app = (function () {
 
     	col0 = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_51] },
+    				$$slots: { default: [create_default_slot_52] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -12989,7 +13994,7 @@ var app = (function () {
 
     	col1 = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_50] },
+    				$$slots: { default: [create_default_slot_51] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -13043,22 +14048,78 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_49.name,
+    		id: create_default_slot_50.name,
     		type: "slot",
-    		source: "(260:6) <Row>",
+    		source: "(382:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (259:4) <Container class="text-center">
-    function create_default_slot_48(ctx) {
+    // (381:4) <Container class="text-center">
+    function create_default_slot_49(ctx) {
     	let row;
     	let current;
 
     	row = new Row({
     			props: {
+    				$$slots: { default: [create_default_slot_50] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_49.name,
+    		type: "slot",
+    		source: "(381:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (380:2) <FullpageSection center>
+    function create_default_slot_48(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
     				$$slots: { default: [create_default_slot_49] },
     				$$scope: { ctx }
     			},
@@ -13067,32 +14128,32 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			create_component(row.$$.fragment);
+    			create_component(container.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(row, target, anchor);
+    			mount_component(container, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			const row_changes = {};
+    			const container_changes = {};
 
     			if (dirty & /*$$scope*/ 128) {
-    				row_changes.$$scope = { dirty, ctx };
+    				container_changes.$$scope = { dirty, ctx };
     			}
 
-    			row.$set(row_changes);
+    			container.$set(container_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(row.$$.fragment, local);
+    			transition_in(container.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(row.$$.fragment, local);
+    			transition_out(container.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(row, detaching);
+    			destroy_component(container, detaching);
     		}
     	};
 
@@ -13100,287 +14161,15 @@ var app = (function () {
     		block,
     		id: create_default_slot_48.name,
     		type: "slot",
-    		source: "(259:4) <Container class=\\\"text-center\\\">",
+    		source: "(380:2) <FullpageSection center>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (258:2) <FullpageSection center>
+    // (434:8) <Col>
     function create_default_slot_47(ctx) {
-    	let container;
-    	let current;
-
-    	container = new Container({
-    			props: {
-    				class: "text-center",
-    				$$slots: { default: [create_default_slot_48] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(container.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(container, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const container_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				container_changes.$$scope = { dirty, ctx };
-    			}
-
-    			container.$set(container_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(container.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(container.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(container, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_47.name,
-    		type: "slot",
-    		source: "(258:2) <FullpageSection center>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (301:8) <Col>
-    function create_default_slot_46(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Niedrige ");
-    			span = element("span");
-    			span.textContent = "Lernkurve";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Im Gegensatz zu React oder Angular ist die Lernkurve für Svelte\n              recht niedrig. Es gibt keine spezielle Syntax wie JSX zu lernen\n              oder komplexe APIs wie bei Angular, die man sich merken muss.\n              Alles ist in standardkonformem JS/TS, CSS und HTML geschrieben,\n              mit etwas zusätzlichem Syntaxzucker für Direktiven und\n              Template-Logik. Die Komponenten-API ist einfach und überschaubar.\n              Die Dokumentation ist ebenfalls sehr gut und leicht\n              nachvollziehbar. Ich habe zum Beispiel nur ein paar Tage\n              gebraucht, um mich mit Svelte vertraut zu machen, selbst für\n              fortgeschrittene Konzepte wie Lebenszyklen, Komposition und so\n              weiter. Im Gegensatz dazu hat es Monate gedauert, bis ich mich in\n              React wirklich zurechtgefunden habe und ich kenne immer noch nicht\n              einmal die Hälfte der Angular-APIs, nachdem ich es fast ein Jahr\n              lang benutzt habe. Natürlich hilft die Kenntnis von React oder\n              Angular dabei, Svelte leichter zu erlernen, da es eine Menge\n              ähnlicher Konzepte gibt.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 303, 23, 11578);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 302, 12, 11550);
-    			add_location(p, file, 305, 12, 11652);
-    			add_location(div, file, 301, 10, 11532);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_46.name,
-    		type: "slot",
-    		source: "(301:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (300:6) <Row>
-    function create_default_slot_45(ctx) {
-    	let col;
-    	let current;
-
-    	col = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_46] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(col.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(col, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const col_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col.$set(col_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(col.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(col.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(col, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_45.name,
-    		type: "slot",
-    		source: "(300:6) <Row>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (299:4) <Container class="text-center">
-    function create_default_slot_44(ctx) {
-    	let row;
-    	let current;
-
-    	row = new Row({
-    			props: {
-    				$$slots: { default: [create_default_slot_45] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(row.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(row, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const row_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				row_changes.$$scope = { dirty, ctx };
-    			}
-
-    			row.$set(row_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(row.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(row.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(row, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_44.name,
-    		type: "slot",
-    		source: "(299:4) <Container class=\\\"text-center\\\">",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (298:2) <FullpageSection center>
-    function create_default_slot_43(ctx) {
-    	let container;
-    	let current;
-
-    	container = new Container({
-    			props: {
-    				class: "text-center",
-    				$$slots: { default: [create_default_slot_44] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(container.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(container, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const container_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				container_changes.$$scope = { dirty, ctx };
-    			}
-
-    			container.$set(container_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(container.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(container.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(container, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_43.name,
-    		type: "slot",
-    		source: "(298:2) <FullpageSection center>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (332:8) <Col>
-    function create_default_slot_42(ctx) {
     	let h1;
     	let t1;
     	let div;
@@ -13388,14 +14177,14 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			h1 = element("h1");
-    			h1.textContent = "NACHTEILE";
+    			h1.textContent = "Sapper";
     			t1 = space();
     			div = element("div");
-    			attr_dev(h1, "class", "title-section svelte-1paqfdp");
-    			add_location(h1, file, 332, 10, 13034);
+    			attr_dev(h1, "class", "title-section svelte-143wrg5");
+    			add_location(h1, file, 434, 10, 17446);
     			attr_dev(div, "id", "parallelogram");
-    			attr_dev(div, "class", "svelte-1paqfdp");
-    			add_location(div, file, 333, 10, 13085);
+    			attr_dev(div, "class", "svelte-143wrg5");
+    			add_location(div, file, 435, 10, 17494);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -13411,785 +14200,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_42.name,
-    		type: "slot",
-    		source: "(332:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (331:6) <Row>
-    function create_default_slot_41(ctx) {
-    	let col;
-    	let current;
-
-    	col = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_42] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(col.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(col, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const col_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col.$set(col_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(col.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(col.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(col, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_41.name,
-    		type: "slot",
-    		source: "(331:6) <Row>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (330:4) <Container class="text-center">
-    function create_default_slot_40(ctx) {
-    	let row;
-    	let current;
-
-    	row = new Row({
-    			props: {
-    				$$slots: { default: [create_default_slot_41] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(row.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(row, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const row_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				row_changes.$$scope = { dirty, ctx };
-    			}
-
-    			row.$set(row_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(row.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(row.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(row, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_40.name,
-    		type: "slot",
-    		source: "(330:4) <Container class=\\\"text-center\\\">",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (329:2) <FullpageSection center>
-    function create_default_slot_39(ctx) {
-    	let container;
-    	let current;
-
-    	container = new Container({
-    			props: {
-    				class: "text-center",
-    				$$slots: { default: [create_default_slot_40] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(container.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(container, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const container_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				container_changes.$$scope = { dirty, ctx };
-    			}
-
-    			container.$set(container_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(container.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(container.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(container, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_39.name,
-    		type: "slot",
-    		source: "(329:2) <FullpageSection center>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (342:8) <Col>
-    function create_default_slot_38(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Junges ");
-    			span = element("span");
-    			span.textContent = "Framework";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Svelte ist sehr jung und das bedeutet, dass es noch nicht so\n              kampferprobt ist wie React oder Angular und Sie vielleicht\n              manchmal gegen einige Mauern laufen. Das bedeutet, dass es\n              wahrscheinlich nicht für sehr komplexe oder unternehmenskritische\n              Anwendungen geeignet ist, von denen erwartet wird, dass sie\n              skalieren. Dies könnte kein langfristiges Problem sein, da das\n              Framework in seiner Popularität explodiert und die Einführung von\n              Sapper bei den Skalierungsproblemen geholfen hat. Allerdings hätte\n              die Verwirrung um Sapper vs. SvelteKit meiner Meinung nach\n              vermieden werden können.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 344, 21, 13321);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 343, 12, 13295);
-    			add_location(p, file, 346, 12, 13395);
-    			add_location(div, file, 342, 10, 13277);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_38.name,
-    		type: "slot",
-    		source: "(342:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (361:8) <Col>
-    function create_default_slot_37(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Kleinere Community und ");
-    			span = element("span");
-    			span.textContent = "kleineres Ökosystem";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Ein junges Framework zu sein bedeutet, dass es eine kleinere\n              Community und Benutzerbasis sowie ein kleineres Ökosystem hat.\n              Daher finden Sie vielleicht nicht so viele Tools oder Bibliotheken\n              wie in React oder so viel Hilfe auf Stack Overflow, wenn Sie bei\n              einem komplexen Problem nicht weiterkommen.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 363, 37, 14257);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 362, 12, 14215);
-    			add_location(p, file, 367, 12, 14373);
-    			add_location(div, file, 361, 10, 14197);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_37.name,
-    		type: "slot",
-    		source: "(361:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (341:6) <Row>
-    function create_default_slot_36(ctx) {
-    	let col0;
-    	let t;
-    	let col1;
-    	let current;
-
-    	col0 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_38] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	col1 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_37] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(col0.$$.fragment);
-    			t = space();
-    			create_component(col1.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(col0, target, anchor);
-    			insert_dev(target, t, anchor);
-    			mount_component(col1, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const col0_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col0_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col0.$set(col0_changes);
-    			const col1_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col1_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col1.$set(col1_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(col0.$$.fragment, local);
-    			transition_in(col1.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(col0.$$.fragment, local);
-    			transition_out(col1.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(col0, detaching);
-    			if (detaching) detach_dev(t);
-    			destroy_component(col1, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_36.name,
-    		type: "slot",
-    		source: "(341:6) <Row>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (340:4) <Container class="text-center">
-    function create_default_slot_35(ctx) {
-    	let row;
-    	let current;
-
-    	row = new Row({
-    			props: {
-    				$$slots: { default: [create_default_slot_36] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(row.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(row, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const row_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				row_changes.$$scope = { dirty, ctx };
-    			}
-
-    			row.$set(row_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(row.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(row.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(row, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_35.name,
-    		type: "slot",
-    		source: "(340:4) <Container class=\\\"text-center\\\">",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (339:2) <FullpageSection center>
-    function create_default_slot_34(ctx) {
-    	let container;
-    	let current;
-
-    	container = new Container({
-    			props: {
-    				class: "text-center",
-    				$$slots: { default: [create_default_slot_35] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(container.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(container, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const container_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				container_changes.$$scope = { dirty, ctx };
-    			}
-
-    			container.$set(container_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(container.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(container.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(container, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_34.name,
-    		type: "slot",
-    		source: "(339:2) <FullpageSection center>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (383:8) <Col>
-    function create_default_slot_33(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Compilation ");
-    			span = element("span");
-    			span.textContent = "heavy";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Wenn Sie wie ich schon eine Weile im Bereich der\n              Frontend-Entwicklung tätig sind, können Sie zurückblicken und\n              sehen, dass sich die UX meilenweit verbessert hat, aber die\n              Toolchain, um das zu produzieren, ist sehr komplex geworden. Bei\n              JHipster versuchen wir zum Beispiel, das klassenbeste\n              Production-Grade-Setup für eine Full-Stack-Web-App mit\n              React/Vue/Angular-Frontend und Java/Kotlin/.NET/NodeJS-Backend\n              anzubieten. Wenn Sie eine neue App erstellen und kompilieren,\n              werden Sie feststellen, dass das Frontend 10x mehr Zeit zum\n              Kompilieren benötigt als das Backend. Das ist heutzutage das neue\n              Normal in jeder Full-Stack-Web-Applikation und auch Svelte hat das\n              gleiche Problem. Es ist Compiler-lastig und je komplexer Ihre App\n              wird, desto komplexer und zeitaufwändiger wird der Build. Das\n              bedeutet auch, dass man nicht einfach eine JS-Datei in eine\n              Webseite einfügen kann und erwarten kann, dass es eine Svelte-App\n              wird, wie man es mit Vue machen kann.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 385, 26, 14995);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 384, 12, 14964);
-    			add_location(p, file, 387, 12, 15065);
-    			add_location(div, file, 383, 10, 14946);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_33.name,
-    		type: "slot",
-    		source: "(383:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (408:8) <Col>
-    function create_default_slot_32(ctx) {
-    	let div;
-    	let h1;
-    	let t0;
-    	let span;
-    	let t2;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			t0 = text("Mac");
-    			span = element("span");
-    			span.textContent = "ken";
-    			t2 = space();
-    			p = element("p");
-    			p.textContent = "Svelte ist konform mit den Webstandards, es führt nichts Neues wie\n              JSX ein. Aber es ändert einige der Standard-Semantiken, um auf\n              eine andere Art und Weise zu arbeiten und das könnte für neue\n              Benutzer verwirrend sein. Zum Beispiel verwendet es das\n              Schlüsselwort export anders und es gibt Macken wie die Verwendung\n              von on:click statt onClick und so weiter. Aber diese sind in jedem\n              Framework fast unvermeidbar. Es verwendet auch ein JS-Label ($:),\n              damit abgeleitete Anweisungen/Deklarationen funktionieren. Das\n              könnte befremdlich wirken, da einige JS-Entwickler wahrscheinlich\n              nicht einmal wissen, dass Labels in JS existieren, da wir sie\n              selten verwenden.";
-    			attr_dev(span, "class", "svelte-color svelte-1paqfdp");
-    			add_location(span, file, 410, 17, 16361);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 409, 12, 16339);
-    			add_location(p, file, 412, 12, 16429);
-    			add_location(div, file, 408, 10, 16321);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(h1, t0);
-    			append_dev(h1, span);
-    			append_dev(div, t2);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_32.name,
-    		type: "slot",
-    		source: "(408:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (382:6) <Row>
-    function create_default_slot_31(ctx) {
-    	let col0;
-    	let t;
-    	let col1;
-    	let current;
-
-    	col0 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_33] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	col1 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_32] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(col0.$$.fragment);
-    			t = space();
-    			create_component(col1.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(col0, target, anchor);
-    			insert_dev(target, t, anchor);
-    			mount_component(col1, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const col0_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col0_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col0.$set(col0_changes);
-    			const col1_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col1_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col1.$set(col1_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(col0.$$.fragment, local);
-    			transition_in(col1.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(col0.$$.fragment, local);
-    			transition_out(col1.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(col0, detaching);
-    			if (detaching) detach_dev(t);
-    			destroy_component(col1, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_31.name,
-    		type: "slot",
-    		source: "(382:6) <Row>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (381:4) <Container class="text-center">
-    function create_default_slot_30(ctx) {
-    	let row;
-    	let current;
-
-    	row = new Row({
-    			props: {
-    				$$slots: { default: [create_default_slot_31] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(row.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(row, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const row_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				row_changes.$$scope = { dirty, ctx };
-    			}
-
-    			row.$set(row_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(row.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(row.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(row, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_30.name,
-    		type: "slot",
-    		source: "(381:4) <Container class=\\\"text-center\\\">",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (380:2) <FullpageSection center>
-    function create_default_slot_29(ctx) {
-    	let container;
-    	let current;
-
-    	container = new Container({
-    			props: {
-    				class: "text-center",
-    				$$slots: { default: [create_default_slot_30] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(container.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(container, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const container_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				container_changes.$$scope = { dirty, ctx };
-    			}
-
-    			container.$set(container_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(container.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(container.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(container, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_29.name,
-    		type: "slot",
-    		source: "(380:2) <FullpageSection center>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (434:8) <Col>
-    function create_default_slot_28(ctx) {
-    	let h1;
-
-    	const block = {
-    		c: function create() {
-    			h1 = element("h1");
-    			h1.textContent = "Sapper";
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 434, 10, 17442);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, h1, anchor);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(h1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_28.name,
+    		id: create_default_slot_47.name,
     		type: "slot",
     		source: "(434:8) <Col>",
     		ctx
@@ -14199,13 +14210,13 @@ var app = (function () {
     }
 
     // (433:6) <Row>
-    function create_default_slot_27(ctx) {
+    function create_default_slot_46(ctx) {
     	let col;
     	let current;
 
     	col = new Col({
     			props: {
-    				$$slots: { default: [create_default_slot_28] },
+    				$$slots: { default: [create_default_slot_47] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14244,7 +14255,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_27.name,
+    		id: create_default_slot_46.name,
     		type: "slot",
     		source: "(433:6) <Row>",
     		ctx
@@ -14253,188 +14264,14 @@ var app = (function () {
     	return block;
     }
 
-    // (439:8) <Col>
-    function create_default_slot_26(ctx) {
-    	let div;
-    	let h1;
-    	let t1;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			h1.textContent = "Warum das Bestehende ändern?";
-    			t1 = space();
-    			p = element("p");
-    			p.textContent = "Vor allem für Einsteiger ist der Unterschied von zwei empfohlenen\n              Wegen eine App zu starten sehr verwirrend. Auf der einen Seite gab\n              es die Sapper App und auf der anderen Seite die Svelte App. Mit\n              den Neuerungen, soll ein einheitlicher Weg empfohlen werden,\n              sodass es zu einer deutlich besseren Übersichtlichkeit beim\n              Einstieg, Onboarding als auch bei der Wartung und Instandhaltung\n              von Code und dem ganzen Projekt kommt. Zudem hat sich die Art und\n              Weise Webentwicklung zu betreiben drastisch geändert, womit es an\n              der Zeit ist, einige fundamentale Annahmen zu überdenken.";
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 440, 12, 17540);
-    			add_location(p, file, 441, 12, 17590);
-    			add_location(div, file, 439, 10, 17522);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(div, t1);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_26.name,
-    		type: "slot",
-    		source: "(439:8) <Col>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (455:8) <Col           >
-    function create_default_slot_25(ctx) {
-    	let div;
-    	let h1;
-    	let t1;
-    	let p;
-
-    	const block = {
-    		c: function create() {
-    			div = element("div");
-    			h1 = element("h1");
-    			h1.textContent = "Was hat/wird sich verändern?";
-    			t1 = space();
-    			p = element("p");
-    			p.textContent = "Um bei den eben genannten fundamentalen Annahmen zu bleiben, eine\n              davon ist es, dass man einen module bunderl wie beispielsweise\n              webpack oder Rollup brauchst um app zu bauen. Diese Werkzeuge\n              tracken die Abhängigkeiten einer Applikation und analysieren und\n              transformieren Code (machen Svelte Komponenten zu JS Modulen). Vor\n              einigen Jahren brauchte man die Bundler auf jeden Fall noch, da\n              die Browser noch nicht nativ im Stande waren, “import” Keywords zu\n              unterstützen. Aktuell sehen wir einen zunehmenden Anstieg von\n              “unbundled development workflow” welcher deutlich einfacher ist,\n              als das Bündeln von Apps. Ein Development Server kann ”on-demand”\n              Module bereitstellen (umgewandelt in JavaScript, wenn nötig). Das\n              bedeutet, dass der Start im Wesentlichen sofort erfolgt, egal wie\n              groß Ihre App wird. Einer der Vorreiter in diesem Bereich ist\n              Snowpack. Snowpack ist erstaunlich schnell und bietet eine\n              hervorragende Entwicklungserfahrung (Hot-Modul-Reload,\n              Fehlerüberlagerungen usw.), und für SvelteKit wurde eng mit dem\n              Snowpack-Team an Funktionen wie SSR zusammengearbeitet. Besonders\n              aufschlussreich ist das Hot-Module-Reloading, wenn man es gewohnt\n              ist, Sapper mit Rollup zu verwenden (das aufgrund seiner\n              Architektur, die die effizienteste Ausgabe priorisiert, noch nie\n              eine erstklassige HMR-Unterstützung hatte). Um App in Produktion\n              zu bringen werden nach wie vor Bundler verwendet. SvelteKit\n              verwendet Rollup, um Apps so schnell und schlank wie möglich zu\n              machen (was beispielsweise das Extrahieren von Stilen in statische\n              .css-Dateien umfasst). Die andere grundlegende Annahme ist, dass\n              eine vom Server gerenderte App einen Server benötigt. Sapper hat\n              effektiv zwei Modi – Sapper Build, der eine eigenständige App\n              erstellt, die auf einem Node-Server ausgeführt werden muss, und\n              Sapper-Export, der die App als Sammlung statischer Dateien\n              ausgibt, die für das Hosten auf Diensten wie GitHub Pages geeignet\n              sind. Es ist weiterhin möglich, sowohl Node-Apps als auch\n              vollständig vorgerenderte (auch exportierte) Sites zu erstellen\n              SvelteKit umfasst das serverlose Paradigma vollständig und wird\n              mit Unterstützung für alle großen serverlosen Anbieter gestartet,\n              mit einer 'Adapter'-API für alle Plattformen, die offiziell nicht\n              bedient werden. Darüber hinaus wird man in der Lage sein,\n              partielles Pre-Rendering durchzuführen, was bedeutet, dass\n              statische Seiten zur Erstellungszeit generiert werden können,\n              während dynamische Seiten bei Bedarf gerendert werden.";
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 456, 12, 18384);
-    			add_location(p, file, 457, 12, 18434);
-    			add_location(div, file, 455, 11, 18366);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h1);
-    			append_dev(div, t1);
-    			append_dev(div, p);
-    		},
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_25.name,
-    		type: "slot",
-    		source: "(455:8) <Col           >",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (438:6) <Row>
-    function create_default_slot_24(ctx) {
-    	let col0;
-    	let t;
-    	let col1;
-    	let current;
-
-    	col0 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_26] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	col1 = new Col({
-    			props: {
-    				$$slots: { default: [create_default_slot_25] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(col0.$$.fragment);
-    			t = space();
-    			create_component(col1.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(col0, target, anchor);
-    			insert_dev(target, t, anchor);
-    			mount_component(col1, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const col0_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col0_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col0.$set(col0_changes);
-    			const col1_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				col1_changes.$$scope = { dirty, ctx };
-    			}
-
-    			col1.$set(col1_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(col0.$$.fragment, local);
-    			transition_in(col1.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(col0.$$.fragment, local);
-    			transition_out(col1.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(col0, detaching);
-    			if (detaching) detach_dev(t);
-    			destroy_component(col1, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_24.name,
-    		type: "slot",
-    		source: "(438:6) <Row>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
     // (432:4) <Container class="text-center">
-    function create_default_slot_23(ctx) {
-    	let row0;
-    	let t;
-    	let row1;
+    function create_default_slot_45(ctx) {
+    	let row;
     	let current;
 
-    	row0 = new Row({
+    	row = new Row({
     			props: {
-    				$$slots: { default: [create_default_slot_27] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	row1 = new Row({
-    			props: {
-    				$$slots: { default: [create_default_slot_24] },
+    				$$slots: { default: [create_default_slot_46] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14442,53 +14279,38 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			create_component(row0.$$.fragment);
-    			t = space();
-    			create_component(row1.$$.fragment);
+    			create_component(row.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(row0, target, anchor);
-    			insert_dev(target, t, anchor);
-    			mount_component(row1, target, anchor);
+    			mount_component(row, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			const row0_changes = {};
+    			const row_changes = {};
 
     			if (dirty & /*$$scope*/ 128) {
-    				row0_changes.$$scope = { dirty, ctx };
+    				row_changes.$$scope = { dirty, ctx };
     			}
 
-    			row0.$set(row0_changes);
-    			const row1_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				row1_changes.$$scope = { dirty, ctx };
-    			}
-
-    			row1.$set(row1_changes);
+    			row.$set(row_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(row0.$$.fragment, local);
-    			transition_in(row1.$$.fragment, local);
+    			transition_in(row.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(row0.$$.fragment, local);
-    			transition_out(row1.$$.fragment, local);
+    			transition_out(row.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(row0, detaching);
-    			if (detaching) detach_dev(t);
-    			destroy_component(row1, detaching);
+    			destroy_component(row, detaching);
     		}
     	};
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_23.name,
+    		id: create_default_slot_45.name,
     		type: "slot",
     		source: "(432:4) <Container class=\\\"text-center\\\">",
     		ctx
@@ -14498,14 +14320,14 @@ var app = (function () {
     }
 
     // (431:2) <FullpageSection center>
-    function create_default_slot_22(ctx) {
+    function create_default_slot_44(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
     				class: "text-center",
-    				$$slots: { default: [create_default_slot_23] },
+    				$$slots: { default: [create_default_slot_45] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14544,7 +14366,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_22.name,
+    		id: create_default_slot_44.name,
     		type: "slot",
     		source: "(431:2) <FullpageSection center>",
     		ctx
@@ -14553,8 +14375,1698 @@ var app = (function () {
     	return block;
     }
 
-    // (512:16) <Tab>
-    function create_default_slot_21(ctx) {
+    // (447:12) 
+    function create_long_slot_4(ctx) {
+    	let div;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			p = element("p");
+    			p.textContent = "Sapper ist ein app framework oder auch metaframework aufbauend\n                auf Svelte. Die Aufgabe von Sapper ist es, das Bauen von Svelte\n                Apps so einfach wie möglich zu gestalten in der Entwicklung von\n                modernen best practice Applikationen. Diese best practice\n                Applikationen enthalten beispielsweise server side rendering\n                (SSR) und code-splitting. Sapper nutzt zudem eine\n                “filesystem-based routing” wie von Next.js bekannt gemacht. Es\n                gibt zwei grundlegenden Konzepte: jede Seite einer App ist eine\n                Svelte Komponentet man erstellt Seiten in dem mal Dateien zu\n                src/routes hinzufügt. Diese werden vom server gerendert sodass\n                der initiale Besuch des Users so schnell wie möglich ist. HTML\n                im Browser wird eine SPA Single Page Application html templates\n                können geprerendert werden auf node server → optimierung von SEO\n                Search Engine Optimization svelte ohne sapper: anfrage zu\n                mysite.com/about → server about server → empty html page with\n                svelte js bundle und about component rendered in browser mit\n                sapper: mysite.com/about → server der about component\n                pr-rendered on server und dann prerendered html und compiled js\n                bundle an browser schickt nur initiale Anfrage nutzt Server Side\n                rendering, sonst render im browser direkt. Alle weiteren Quelles\n                und Anfragen werden vom frontend java script bundle gehandelt\n                und dynamisch anzeigen von Komponenten.";
+    			add_location(p, file, 447, 14, 17816);
+    			attr_dev(div, "slot", "long");
+    			add_location(div, file, 446, 12, 17784);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_long_slot_4.name,
+    		type: "slot",
+    		source: "(447:12) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (473:12) 
+    function create_short_slot_4(ctx) {
+    	let div;
+    	let ul;
+    	let li0;
+    	let t1;
+    	let li1;
+    	let t3;
+    	let li2;
+    	let t5;
+    	let li3;
+    	let t7;
+    	let li4;
+    	let t9;
+    	let li5;
+    	let t11;
+    	let li6;
+    	let t13;
+    	let li7;
+    	let t15;
+    	let li8;
+    	let t17;
+    	let li9;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			ul = element("ul");
+    			li0 = element("li");
+    			li0.textContent = "Auf Svelte aufbauendes Metaframework für \"best practice\"\n                  Applikationen";
+    			t1 = space();
+    			li1 = element("li");
+    			li1.textContent = "Server Side Rendering (SSR)";
+    			t3 = space();
+    			li2 = element("li");
+    			li2.textContent = "Code Splitting";
+    			t5 = space();
+    			li3 = element("li");
+    			li3.textContent = "Ähnlich wie bei Next.js Filesystem-based routing";
+    			t7 = space();
+    			li4 = element("li");
+    			li4.textContent = "Zwei grundlegende Konzepte";
+    			t9 = space();
+    			li5 = element("li");
+    			li5.textContent = "jede Seite einer App ist eine Svelte Komponentet";
+    			t11 = space();
+    			li6 = element("li");
+    			li6.textContent = "man erstellt Seiten in dem mal Dateien zu src/routes\n                  hinzufügt. Diese werden vom server gerendert sodass der\n                  initiale Besuch des Users so schnell wie möglich ist.";
+    			t13 = space();
+    			li7 = element("li");
+    			li7.textContent = "HTML wird im Browser zu Single Page Applikation (SPA)";
+    			t15 = space();
+    			li8 = element("li");
+    			li8.textContent = "durch prerender von html templates, Optimierung von Search\n                  Engine Optimization (SEO)";
+    			t17 = space();
+    			li9 = element("li");
+    			li9.textContent = "Nur initiale Anfrage nutzt Server Side rendering, sonst im\n                  Browser direkt gerendert";
+    			add_location(li0, file, 474, 16, 19610);
+    			add_location(li1, file, 478, 16, 19760);
+    			add_location(li2, file, 479, 16, 19813);
+    			add_location(li3, file, 480, 16, 19853);
+    			add_location(li4, file, 481, 16, 19927);
+    			add_location(li5, file, 482, 16, 19979);
+    			add_location(li6, file, 483, 16, 20053);
+    			add_location(li7, file, 488, 16, 20313);
+    			add_location(li8, file, 489, 16, 20392);
+    			add_location(li9, file, 493, 16, 20556);
+    			add_location(ul, file, 473, 14, 19589);
+    			attr_dev(div, "slot", "short");
+    			add_location(div, file, 472, 12, 19556);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, ul);
+    			append_dev(ul, li0);
+    			append_dev(ul, t1);
+    			append_dev(ul, li1);
+    			append_dev(ul, t3);
+    			append_dev(ul, li2);
+    			append_dev(ul, t5);
+    			append_dev(ul, li3);
+    			append_dev(ul, t7);
+    			append_dev(ul, li4);
+    			append_dev(ul, t9);
+    			append_dev(ul, li5);
+    			append_dev(ul, t11);
+    			append_dev(ul, li6);
+    			append_dev(ul, t13);
+    			append_dev(ul, li7);
+    			append_dev(ul, t15);
+    			append_dev(ul, li8);
+    			append_dev(ul, t17);
+    			append_dev(ul, li9);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_short_slot_4.name,
+    		type: "slot",
+    		source: "(473:12) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (444:8) <Col>
+    function create_default_slot_43(ctx) {
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let content;
+    	let current;
+
+    	content = new Content({
+    			props: {
+    				long: /*long*/ ctx[1],
+    				$$slots: {
+    					short: [create_short_slot_4],
+    					long: [create_long_slot_4]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			h1 = element("h1");
+    			t0 = text("Was ist ");
+    			span = element("span");
+    			span.textContent = "Sapper?";
+    			t2 = space();
+    			create_component(content.$$.fragment);
+    			attr_dev(span, "class", "sapper-color svelte-143wrg5");
+    			add_location(span, file, 444, 22, 17698);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 444, 10, 17686);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h1, anchor);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			insert_dev(target, t2, anchor);
+    			mount_component(content, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const content_changes = {};
+    			if (dirty & /*long*/ 2) content_changes.long = /*long*/ ctx[1];
+
+    			if (dirty & /*$$scope*/ 128) {
+    				content_changes.$$scope = { dirty, ctx };
+    			}
+
+    			content.$set(content_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(content.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(content.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h1);
+    			if (detaching) detach_dev(t2);
+    			destroy_component(content, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_43.name,
+    		type: "slot",
+    		source: "(444:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (443:6) <Row>
+    function create_default_slot_42(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_43] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_42.name,
+    		type: "slot",
+    		source: "(443:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (442:4) <Container class="text-center">
+    function create_default_slot_41(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_42] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_41.name,
+    		type: "slot",
+    		source: "(442:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (441:2) <FullpageSection center>
+    function create_default_slot_40(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_41] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_40.name,
+    		type: "slot",
+    		source: "(441:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (512:14) 
+    function create_long_slot_3(ctx) {
+    	let div;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			p = element("p");
+    			p.textContent = "Der Name Sapper stammt vom Militär. Zu deutsch Sappeur vom\n                  französischen sapeur Steinhauer abgeleitet. Ein Sappeur war\n                  ein Belagerungspionier oder Truppenhandwerker. Tätigkeiten\n                  waren beispielsweise Brückenbau, Straßenbau/Reparaturen alles\n                  unter Kriegsbedingungen. Sapper, was kurz für Svelte App maker\n                  steht ist ein mutiger und pflichtbewusster Verbündeter wenn es\n                  um die Herausforderungen der Webentwicklung geht. Für\n                  Webentwickler sind beispielsweise schwache Geräte, schlechte\n                  Netzwerkverbindungen und Komplexität in der Frontend\n                  Entwicklung Herausforderungen.";
+    			add_location(p, file, 512, 16, 21080);
+    			attr_dev(div, "slot", "long");
+    			add_location(div, file, 511, 14, 21046);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_long_slot_3.name,
+    		type: "slot",
+    		source: "(512:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (526:14) 
+    function create_short_slot_3(ctx) {
+    	let div;
+    	let ul;
+    	let li0;
+    	let t1;
+    	let li1;
+    	let t3;
+    	let li2;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			ul = element("ul");
+    			li0 = element("li");
+    			li0.textContent = "Name stammt vom Militär engl. Sapper deutsch Sappeur";
+    			t1 = space();
+    			li1 = element("li");
+    			li1.textContent = "Soldaten im Kriegsgebiet für Brücken und\n                    Straßenbau/Brückenbau";
+    			t3 = space();
+    			li2 = element("li");
+    			li2.textContent = "Sapper kurz für Svelte App maker";
+    			add_location(li0, file, 527, 18, 21943);
+    			add_location(li1, file, 528, 18, 22023);
+    			add_location(li2, file, 532, 18, 22173);
+    			add_location(ul, file, 526, 16, 21920);
+    			attr_dev(div, "slot", "short");
+    			add_location(div, file, 525, 14, 21885);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, ul);
+    			append_dev(ul, li0);
+    			append_dev(ul, t1);
+    			append_dev(ul, li1);
+    			append_dev(ul, t3);
+    			append_dev(ul, li2);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_short_slot_3.name,
+    		type: "slot",
+    		source: "(526:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (508:8) <Col>
+    function create_default_slot_39(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let content;
+    	let current;
+
+    	content = new Content({
+    			props: {
+    				long: /*long*/ ctx[1],
+    				$$slots: {
+    					short: [create_short_slot_3],
+    					long: [create_long_slot_3]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Warum ");
+    			span = element("span");
+    			span.textContent = "Sapper?";
+    			t2 = space();
+    			create_component(content.$$.fragment);
+    			attr_dev(span, "class", "sapper-color svelte-143wrg5");
+    			add_location(span, file, 509, 22, 20956);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 509, 12, 20946);
+    			add_location(div, file, 508, 10, 20928);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			mount_component(content, div, null);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const content_changes = {};
+    			if (dirty & /*long*/ 2) content_changes.long = /*long*/ ctx[1];
+
+    			if (dirty & /*$$scope*/ 128) {
+    				content_changes.$$scope = { dirty, ctx };
+    			}
+
+    			content.$set(content_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(content.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(content.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    			destroy_component(content);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_39.name,
+    		type: "slot",
+    		source: "(508:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (545:14) 
+    function create_long_slot_2(ctx) {
+    	let div;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			p = element("p");
+    			p.textContent = "wie Next.js für React ist Sapper für Svelte Unterschiede\n                  zwischen Sapper und Next.js: - Sapper wird betrieben von\n                  Svelte statt React und ist somit schneller und die Apps sind\n                  kleiner - Seiten und Routen im src/routes Verzeichnis machen\n                  es sehr einfach eine JSON API hizuzufügen - Quelles sind nur\n                  ein a-tag Element im Gegensatz zu einer frameworkspezifischen\n                  Quelle-tag Komponente";
+    			add_location(p, file, 545, 16, 22521);
+    			attr_dev(div, "slot", "long");
+    			add_location(div, file, 544, 14, 22487);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_long_slot_2.name,
+    		type: "slot",
+    		source: "(545:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (556:14) 
+    function create_short_slot_2(ctx) {
+    	let div;
+    	let ul;
+    	let li0;
+    	let t1;
+    	let li1;
+    	let t3;
+    	let li2;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			ul = element("ul");
+    			li0 = element("li");
+    			li0.textContent = "Sapper wird betrieben von Svelte statt React und ist somit\n                    schneller und die Apps sind kleiner";
+    			t1 = space();
+    			li1 = element("li");
+    			li1.textContent = "Seiten und Routen im src/routes Verzeichnis machen es sehr\n                    einfach eine JSON API hizuzufügen";
+    			t3 = space();
+    			li2 = element("li");
+    			li2.textContent = "Quelles sind nur ein a-tag Element im Gegensatz zu einer\n                    frameworkspezifischen Quelle-tag Komponente";
+    			add_location(li0, file, 557, 18, 23146);
+    			add_location(li1, file, 561, 18, 23328);
+    			add_location(li2, file, 565, 18, 23508);
+    			add_location(ul, file, 556, 16, 23123);
+    			attr_dev(div, "slot", "short");
+    			add_location(div, file, 555, 14, 23088);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, ul);
+    			append_dev(ul, li0);
+    			append_dev(ul, t1);
+    			append_dev(ul, li1);
+    			append_dev(ul, t3);
+    			append_dev(ul, li2);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_short_slot_2.name,
+    		type: "slot",
+    		source: "(556:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (539:8) <Col>
+    function create_default_slot_38(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let content;
+    	let current;
+
+    	content = new Content({
+    			props: {
+    				long: /*long*/ ctx[1],
+    				$$slots: {
+    					short: [create_short_slot_2],
+    					long: [create_long_slot_2]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Vergleich ");
+    			span = element("span");
+    			span.textContent = "Next.js";
+    			t2 = space();
+    			create_component(content.$$.fragment);
+    			attr_dev(span, "class", "sapper-color svelte-143wrg5");
+    			add_location(span, file, 541, 24, 22384);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 540, 12, 22355);
+    			add_location(div, file, 539, 10, 22337);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			mount_component(content, div, null);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const content_changes = {};
+    			if (dirty & /*long*/ 2) content_changes.long = /*long*/ ctx[1];
+
+    			if (dirty & /*$$scope*/ 128) {
+    				content_changes.$$scope = { dirty, ctx };
+    			}
+
+    			content.$set(content_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(content.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(content.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    			destroy_component(content);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_38.name,
+    		type: "slot",
+    		source: "(539:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (507:6) <Row>
+    function create_default_slot_37(ctx) {
+    	let col0;
+    	let t;
+    	let col1;
+    	let current;
+
+    	col0 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_39] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	col1 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_38] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col0.$$.fragment);
+    			t = space();
+    			create_component(col1.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col0, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(col1, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col0_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				col0_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col0.$set(col0_changes);
+    			const col1_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				col1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col1.$set(col1_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col0.$$.fragment, local);
+    			transition_in(col1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col0.$$.fragment, local);
+    			transition_out(col1.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col0, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(col1, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_37.name,
+    		type: "slot",
+    		source: "(507:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (506:4) <Container class="text-center">
+    function create_default_slot_36(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_37] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_36.name,
+    		type: "slot",
+    		source: "(506:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (505:2) <FullpageSection center>
+    function create_default_slot_35(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_36] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_35.name,
+    		type: "slot",
+    		source: "(505:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (581:8) <Col>
+    function create_default_slot_34(ctx) {
+    	let h1;
+    	let t1;
+    	let div;
+
+    	const block = {
+    		c: function create() {
+    			h1 = element("h1");
+    			h1.textContent = "Zukunftsausblick";
+    			t1 = space();
+    			div = element("div");
+    			attr_dev(h1, "class", "title-section svelte-143wrg5");
+    			add_location(h1, file, 581, 10, 23926);
+    			attr_dev(div, "id", "parallelogram");
+    			attr_dev(div, "class", "svelte-143wrg5");
+    			add_location(div, file, 582, 10, 23984);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h1, anchor);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, div, anchor);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h1);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_34.name,
+    		type: "slot",
+    		source: "(581:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (580:6) <Row>
+    function create_default_slot_33(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_34] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_33.name,
+    		type: "slot",
+    		source: "(580:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (579:4) <Container class="text-center">
+    function create_default_slot_32(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_33] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_32.name,
+    		type: "slot",
+    		source: "(579:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (578:2) <FullpageSection center>
+    function create_default_slot_31(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_32] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_31.name,
+    		type: "slot",
+    		source: "(578:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (595:14) 
+    function create_long_slot_1(ctx) {
+    	let div;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			p = element("p");
+    			p.textContent = "Vor allem für Einsteiger ist der Unterschied von zwei\n                  empfohlenen Wegen eine App zu starten sehr verwirrend. Auf der\n                  einen Seite gab es die Sapper App und auf der anderen Seite\n                  die Svelte App. Mit den Neuerungen, soll ein einheitlicher Weg\n                  empfohlen werden, sodass es zu einer deutlich besseren\n                  Übersichtlichkeit beim Einstieg, Onboarding als auch bei der\n                  Wartung und Instandhaltung von Code und dem ganzen Projekt\n                  kommt. Zudem hat sich die Art und Weise Webentwicklung zu\n                  betreiben drastisch geändert, womit es an der Zeit ist, einige\n                  fundamentale Annahmen zu überdenken.";
+    			add_location(p, file, 595, 16, 24331);
+    			attr_dev(div, "slot", "long");
+    			add_location(div, file, 594, 14, 24297);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_long_slot_1.name,
+    		type: "slot",
+    		source: "(595:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (609:14) 
+    function create_short_slot_1(ctx) {
+    	let div;
+    	let ul;
+    	let li0;
+    	let t1;
+    	let li1;
+    	let t3;
+    	let li2;
+    	let t5;
+    	let li3;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			ul = element("ul");
+    			li0 = element("li");
+    			li0.textContent = "Leichterer Einstieg in Svelte";
+    			t1 = space();
+    			li1 = element("li");
+    			li1.textContent = "einheitlich eine Empfehlung wie Beginner einsteigen";
+    			t3 = space();
+    			li2 = element("li");
+    			li2.textContent = "Übersichtlichkeit und Wartbarkeit im Code verbessern";
+    			t5 = space();
+    			li3 = element("li");
+    			li3.textContent = "Aufgrund der Art und Weise wie Webentwicklung sich geändert\n                    hat, fundamentale Annahmen überdenken";
+    			add_location(li0, file, 610, 18, 25202);
+    			add_location(li1, file, 611, 18, 25259);
+    			add_location(li2, file, 612, 18, 25338);
+    			add_location(li3, file, 613, 18, 25418);
+    			add_location(ul, file, 609, 16, 25179);
+    			attr_dev(div, "slot", "short");
+    			add_location(div, file, 608, 14, 25144);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, ul);
+    			append_dev(ul, li0);
+    			append_dev(ul, t1);
+    			append_dev(ul, li1);
+    			append_dev(ul, t3);
+    			append_dev(ul, li2);
+    			append_dev(ul, t5);
+    			append_dev(ul, li3);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_short_slot_1.name,
+    		type: "slot",
+    		source: "(609:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (591:8) <Col>
+    function create_default_slot_30(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let content;
+    	let current;
+
+    	content = new Content({
+    			props: {
+    				long: /*long*/ ctx[1],
+    				$$slots: {
+    					short: [create_short_slot_1],
+    					long: [create_long_slot_1]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Warum ");
+    			span = element("span");
+    			span.textContent = "SvelteKit?";
+    			t2 = space();
+    			create_component(content.$$.fragment);
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 592, 22, 24204);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 592, 12, 24194);
+    			add_location(div, file, 591, 10, 24176);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			mount_component(content, div, null);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const content_changes = {};
+    			if (dirty & /*long*/ 2) content_changes.long = /*long*/ ctx[1];
+
+    			if (dirty & /*$$scope*/ 128) {
+    				content_changes.$$scope = { dirty, ctx };
+    			}
+
+    			content.$set(content_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(content.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(content.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    			destroy_component(content);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_30.name,
+    		type: "slot",
+    		source: "(591:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (627:14) 
+    function create_long_slot(ctx) {
+    	let div;
+    	let p;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			p = element("p");
+    			p.textContent = "Um bei den eben genannten fundamentalen Annahmen zu bleiben,\n                  eine davon ist es, dass man einen \"module bunderl\" wie\n                  beispielsweise webpack oder Rollup brauchst um app zu bauen.\n                  Diese Werkzeuge tracken die Abhängigkeiten einer Applikation\n                  und analysieren und transformieren Code (machen Svelte\n                  Komponenten zu JS Modulen). Vor einigen Jahren brauchte man\n                  die Bundler auf jeden Fall noch, da die Browser noch nicht\n                  nativ im Stande waren, “import” Keywords zu unterstützen.\n                  Aktuell sehen wir einen zunehmenden Anstieg von “unbundled\n                  development workflow” welcher deutlich einfacher ist, als das\n                  Bündeln von Apps. Ein Development Server kann ”on-demand”\n                  Module bereitstellen (umgewandelt in JavaScript, wenn nötig).\n                  Das bedeutet, dass der Start im Wesentlichen sofort erfolgt,\n                  egal wie groß Ihre App wird. Einer der Vorreiter in diesem\n                  Bereich ist Snowpack. Snowpack ist erstaunlich schnell und\n                  bietet eine hervorragende Entwicklungserfahrung\n                  (Hot-Modul-Reload, Fehlerüberlagerungen usw.), und für\n                  SvelteKit wurde eng mit dem Snowpack-Team an Funktionen wie\n                  SSR zusammengearbeitet. Besonders aufschlussreich ist das\n                  Hot-Module-Reloading, wenn man es gewohnt ist, Sapper mit\n                  Rollup zu verwenden (das aufgrund seiner Architektur, die die\n                  effizienteste Ausgabe priorisiert, noch nie eine erstklassige\n                  HMR-Unterstützung hatte). Um App in Produktion zu bringen\n                  werden nach wie vor Bundler verwendet. SvelteKit verwendet\n                  Rollup, um Apps so schnell und schlank wie möglich zu machen\n                  (was beispielsweise das Extrahieren von Stilen in statische\n                  .css-Dateien umfasst). Die andere grundlegende Annahme ist,\n                  dass eine vom Server gerenderte App einen Server benötigt.\n                  Sapper hat effektiv zwei Modi – Sapper Build, der eine\n                  eigenständige App erstellt, die auf einem Node-Server\n                  ausgeführt werden muss, und Sapper-Export, der die App als\n                  Sammlung statischer Dateien ausgibt, die für das Hosten auf\n                  Diensten wie GitHub Pages geeignet sind. Es ist weiterhin\n                  möglich, sowohl Node-Apps als auch vollständig vorgerenderte\n                  (auch exportierte) Sites zu erstellen SvelteKit umfasst das\n                  serverlose Paradigma vollständig und wird mit Unterstützung\n                  für alle großen serverlosen Anbieter gestartet, mit einer\n                  'Adapter'-API für alle Plattformen, die offiziell nicht\n                  bedient werden. Darüber hinaus wird man in der Lage sein,\n                  partielles Pre-Rendering durchzuführen, was bedeutet, dass\n                  statische Seiten zur Erstellungszeit generiert werden können,\n                  während dynamische Seiten bei Bedarf gerendert werden.";
+    			add_location(p, file, 627, 16, 25869);
+    			attr_dev(div, "slot", "long");
+    			add_location(div, file, 626, 14, 25835);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, p);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_long_slot.name,
+    		type: "slot",
+    		source: "(627:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (673:14) 
+    function create_short_slot(ctx) {
+    	let div;
+    	let ul;
+    	let li0;
+    	let t1;
+    	let li1;
+    	let t3;
+    	let li2;
+    	let t5;
+    	let li3;
+    	let t7;
+    	let li4;
+    	let t9;
+    	let li5;
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			ul = element("ul");
+    			li0 = element("li");
+    			li0.textContent = "Für Development kein Bundler mehr";
+    			t1 = space();
+    			li1 = element("li");
+    			li1.textContent = "Snowpack für deutliche Zeitersparnis bei Entwicklung";
+    			t3 = space();
+    			li2 = element("li");
+    			li2.textContent = "Hot-Module Reload und Fehlerüberlagerung";
+    			t5 = space();
+    			li3 = element("li");
+    			li3.textContent = "In Produktion Rollup als Bundler";
+    			t7 = space();
+    			li4 = element("li");
+    			li4.textContent = "vollständige Unterstützung serverloses Paradigma";
+    			t9 = space();
+    			li5 = element("li");
+    			li5.textContent = "Für großen Anbieter Plattformen -> Adapter API";
+    			add_location(li0, file, 674, 18, 29208);
+    			add_location(li1, file, 675, 18, 29269);
+    			add_location(li2, file, 676, 18, 29349);
+    			add_location(li3, file, 677, 18, 29417);
+    			add_location(li4, file, 678, 18, 29477);
+    			add_location(li5, file, 679, 18, 29553);
+    			add_location(ul, file, 673, 16, 29185);
+    			attr_dev(div, "slot", "short");
+    			add_location(div, file, 672, 14, 29150);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, ul);
+    			append_dev(ul, li0);
+    			append_dev(ul, t1);
+    			append_dev(ul, li1);
+    			append_dev(ul, t3);
+    			append_dev(ul, li2);
+    			append_dev(ul, t5);
+    			append_dev(ul, li3);
+    			append_dev(ul, t7);
+    			append_dev(ul, li4);
+    			append_dev(ul, t9);
+    			append_dev(ul, li5);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_short_slot.name,
+    		type: "slot",
+    		source: "(673:14) ",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (623:8) <Col>
+    function create_default_slot_29(ctx) {
+    	let div;
+    	let h1;
+    	let t0;
+    	let span;
+    	let t2;
+    	let content;
+    	let current;
+
+    	content = new Content({
+    			props: {
+    				long: /*long*/ ctx[1],
+    				$$slots: {
+    					short: [create_short_slot],
+    					long: [create_long_slot]
+    				},
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			h1 = element("h1");
+    			t0 = text("Änderungen in ");
+    			span = element("span");
+    			span.textContent = "SvelteKit";
+    			t2 = space();
+    			create_component(content.$$.fragment);
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 624, 30, 25743);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 624, 12, 25725);
+    			add_location(div, file, 623, 10, 25707);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			append_dev(div, h1);
+    			append_dev(h1, t0);
+    			append_dev(h1, span);
+    			append_dev(div, t2);
+    			mount_component(content, div, null);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const content_changes = {};
+    			if (dirty & /*long*/ 2) content_changes.long = /*long*/ ctx[1];
+
+    			if (dirty & /*$$scope*/ 128) {
+    				content_changes.$$scope = { dirty, ctx };
+    			}
+
+    			content.$set(content_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(content.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(content.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
+    			destroy_component(content);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_29.name,
+    		type: "slot",
+    		source: "(623:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (590:6) <Row>
+    function create_default_slot_28(ctx) {
+    	let col0;
+    	let t;
+    	let col1;
+    	let current;
+
+    	col0 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_30] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	col1 = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_29] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col0.$$.fragment);
+    			t = space();
+    			create_component(col1.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col0, target, anchor);
+    			insert_dev(target, t, anchor);
+    			mount_component(col1, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col0_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				col0_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col0.$set(col0_changes);
+    			const col1_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				col1_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col1.$set(col1_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col0.$$.fragment, local);
+    			transition_in(col1.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col0.$$.fragment, local);
+    			transition_out(col1.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col0, detaching);
+    			if (detaching) detach_dev(t);
+    			destroy_component(col1, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_28.name,
+    		type: "slot",
+    		source: "(590:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (589:4) <Container class="text-center">
+    function create_default_slot_27(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_28] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_27.name,
+    		type: "slot",
+    		source: "(589:4) <Container class=\\\"text-center\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (588:2) <FullpageSection center>
+    function create_default_slot_26(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-center",
+    				$$slots: { default: [create_default_slot_27] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_26.name,
+    		type: "slot",
+    		source: "(588:2) <FullpageSection center>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (697:16) <Tab>
+    function create_default_slot_25(ctx) {
     	let t;
 
     	const block = {
@@ -14571,17 +16083,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_21.name,
+    		id: create_default_slot_25.name,
     		type: "slot",
-    		source: "(512:16) <Tab>",
+    		source: "(697:16) <Tab>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (513:16) <Tab>
-    function create_default_slot_20(ctx) {
+    // (698:16) <Tab>
+    function create_default_slot_24(ctx) {
     	let t;
 
     	const block = {
@@ -14598,17 +16110,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_20.name,
+    		id: create_default_slot_24.name,
     		type: "slot",
-    		source: "(513:16) <Tab>",
+    		source: "(698:16) <Tab>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (514:16) <Tab>
-    function create_default_slot_19(ctx) {
+    // (699:16) <Tab>
+    function create_default_slot_23(ctx) {
     	let t;
 
     	const block = {
@@ -14625,17 +16137,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_19.name,
+    		id: create_default_slot_23.name,
     		type: "slot",
-    		source: "(514:16) <Tab>",
+    		source: "(699:16) <Tab>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (515:16) <Tab>
-    function create_default_slot_18(ctx) {
+    // (700:16) <Tab>
+    function create_default_slot_22(ctx) {
     	let t;
 
     	const block = {
@@ -14652,17 +16164,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_18.name,
+    		id: create_default_slot_22.name,
     		type: "slot",
-    		source: "(515:16) <Tab>",
+    		source: "(700:16) <Tab>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (516:16) <Tab>
-    function create_default_slot_17(ctx) {
+    // (701:16) <Tab>
+    function create_default_slot_21(ctx) {
     	let t;
 
     	const block = {
@@ -14679,17 +16191,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_17.name,
+    		id: create_default_slot_21.name,
     		type: "slot",
-    		source: "(516:16) <Tab>",
+    		source: "(701:16) <Tab>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (511:14) <TabList>
-    function create_default_slot_16(ctx) {
+    // (696:14) <TabList>
+    function create_default_slot_20(ctx) {
     	let tab0;
     	let t0;
     	let tab1;
@@ -14703,7 +16215,7 @@ var app = (function () {
 
     	tab0 = new Tab({
     			props: {
-    				$$slots: { default: [create_default_slot_21] },
+    				$$slots: { default: [create_default_slot_25] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14711,7 +16223,7 @@ var app = (function () {
 
     	tab1 = new Tab({
     			props: {
-    				$$slots: { default: [create_default_slot_20] },
+    				$$slots: { default: [create_default_slot_24] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14719,7 +16231,7 @@ var app = (function () {
 
     	tab2 = new Tab({
     			props: {
-    				$$slots: { default: [create_default_slot_19] },
+    				$$slots: { default: [create_default_slot_23] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14727,7 +16239,7 @@ var app = (function () {
 
     	tab3 = new Tab({
     			props: {
-    				$$slots: { default: [create_default_slot_18] },
+    				$$slots: { default: [create_default_slot_22] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14735,7 +16247,7 @@ var app = (function () {
 
     	tab4 = new Tab({
     			props: {
-    				$$slots: { default: [create_default_slot_17] },
+    				$$slots: { default: [create_default_slot_21] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -14834,17 +16346,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_16.name,
+    		id: create_default_slot_20.name,
     		type: "slot",
-    		source: "(511:14) <TabList>",
+    		source: "(696:14) <TabList>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (519:16) <Example code={code.counterCode}>
-    function create_default_slot_15(ctx) {
+    // (704:16) <Example code={code.counterCode}>
+    function create_default_slot_19(ctx) {
     	let counter;
     	let current;
     	counter = new Counter({ $$inline: true });
@@ -14873,23 +16385,213 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_15.name,
+    		id: create_default_slot_19.name,
     		type: "slot",
-    		source: "(519:16) <Example code={code.counterCode}>",
+    		source: "(704:16) <Example code={code.counterCode}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (518:14) <TabPanel>
-    function create_default_slot_14(ctx) {
+    // (703:14) <TabPanel>
+    function create_default_slot_18(ctx) {
     	let example;
     	let current;
 
     	example = new Example({
     			props: {
     				code: counterCode,
+    				$$slots: { default: [create_default_slot_19] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(example.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(example, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const example_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				example_changes.$$scope = { dirty, ctx };
+    			}
+
+    			example.$set(example_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(example.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(example.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(example, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_18.name,
+    		type: "slot",
+    		source: "(703:14) <TabPanel>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (709:16) <Example code={code.templatesCode}>
+    function create_default_slot_17(ctx) {
+    	let templates;
+    	let current;
+    	templates = new Templates({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(templates.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(templates, target, anchor);
+    			current = true;
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(templates.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(templates.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(templates, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_17.name,
+    		type: "slot",
+    		source: "(709:16) <Example code={code.templatesCode}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (708:14) <TabPanel>
+    function create_default_slot_16(ctx) {
+    	let example;
+    	let current;
+
+    	example = new Example({
+    			props: {
+    				code: templatesCode,
+    				$$slots: { default: [create_default_slot_17] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(example.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(example, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const example_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				example_changes.$$scope = { dirty, ctx };
+    			}
+
+    			example.$set(example_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(example.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(example.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(example, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_16.name,
+    		type: "slot",
+    		source: "(708:14) <TabPanel>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (714:16) <Example code={code.twowaybinding}>
+    function create_default_slot_15(ctx) {
+    	let twowaybinding;
+    	let current;
+    	twowaybinding = new TwoWayBinding({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			create_component(twowaybinding.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(twowaybinding, target, anchor);
+    			current = true;
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(twowaybinding.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(twowaybinding.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(twowaybinding, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_15.name,
+    		type: "slot",
+    		source: "(714:16) <Example code={code.twowaybinding}>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (713:14) <TabPanel>
+    function create_default_slot_14(ctx) {
+    	let example;
+    	let current;
+
+    	example = new Example({
+    			props: {
+    				code: twowaybinding,
     				$$slots: { default: [create_default_slot_15] },
     				$$scope: { ctx }
     			},
@@ -14931,38 +16633,38 @@ var app = (function () {
     		block,
     		id: create_default_slot_14.name,
     		type: "slot",
-    		source: "(518:14) <TabPanel>",
+    		source: "(713:14) <TabPanel>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (524:16) <Example code={code.templatesCode}>
+    // (719:16) <Example code={code.motion}>
     function create_default_slot_13(ctx) {
-    	let templates;
+    	let motion;
     	let current;
-    	templates = new Templates({ $$inline: true });
+    	motion = new Motion({ $$inline: true });
 
     	const block = {
     		c: function create() {
-    			create_component(templates.$$.fragment);
+    			create_component(motion.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(templates, target, anchor);
+    			mount_component(motion, target, anchor);
     			current = true;
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(templates.$$.fragment, local);
+    			transition_in(motion.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(templates.$$.fragment, local);
+    			transition_out(motion.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(templates, detaching);
+    			destroy_component(motion, detaching);
     		}
     	};
 
@@ -14970,21 +16672,21 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(524:16) <Example code={code.templatesCode}>",
+    		source: "(719:16) <Example code={code.motion}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (523:14) <TabPanel>
+    // (718:14) <TabPanel>
     function create_default_slot_12(ctx) {
     	let example;
     	let current;
 
     	example = new Example({
     			props: {
-    				code: templatesCode,
+    				code: motion,
     				$$slots: { default: [create_default_slot_13] },
     				$$scope: { ctx }
     			},
@@ -15026,38 +16728,38 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(523:14) <TabPanel>",
+    		source: "(718:14) <TabPanel>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (529:16) <Example code={code.twowaybinding}>
+    // (724:16) <Example code={code.components}>
     function create_default_slot_11(ctx) {
-    	let twowaybinding;
+    	let componentsouter;
     	let current;
-    	twowaybinding = new TwoWayBinding({ $$inline: true });
+    	componentsouter = new ComponentsOuter({ $$inline: true });
 
     	const block = {
     		c: function create() {
-    			create_component(twowaybinding.$$.fragment);
+    			create_component(componentsouter.$$.fragment);
     		},
     		m: function mount(target, anchor) {
-    			mount_component(twowaybinding, target, anchor);
+    			mount_component(componentsouter, target, anchor);
     			current = true;
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(twowaybinding.$$.fragment, local);
+    			transition_in(componentsouter.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(twowaybinding.$$.fragment, local);
+    			transition_out(componentsouter.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			destroy_component(twowaybinding, detaching);
+    			destroy_component(componentsouter, detaching);
     		}
     	};
 
@@ -15065,21 +16767,21 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(529:16) <Example code={code.twowaybinding}>",
+    		source: "(724:16) <Example code={code.components}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (528:14) <TabPanel>
+    // (723:14) <TabPanel>
     function create_default_slot_10(ctx) {
     	let example;
     	let current;
 
     	example = new Example({
     			props: {
-    				code: twowaybinding,
+    				code: components,
     				$$slots: { default: [create_default_slot_11] },
     				$$scope: { ctx }
     			},
@@ -15121,205 +16823,15 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(528:14) <TabPanel>",
+    		source: "(723:14) <TabPanel>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (534:16) <Example code={code.motion}>
+    // (695:12) <Tabs>
     function create_default_slot_9(ctx) {
-    	let motion;
-    	let current;
-    	motion = new Motion({ $$inline: true });
-
-    	const block = {
-    		c: function create() {
-    			create_component(motion.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(motion, target, anchor);
-    			current = true;
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(motion.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(motion.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(motion, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_9.name,
-    		type: "slot",
-    		source: "(534:16) <Example code={code.motion}>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (533:14) <TabPanel>
-    function create_default_slot_8(ctx) {
-    	let example;
-    	let current;
-
-    	example = new Example({
-    			props: {
-    				code: motion,
-    				$$slots: { default: [create_default_slot_9] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(example.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(example, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const example_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				example_changes.$$scope = { dirty, ctx };
-    			}
-
-    			example.$set(example_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(example.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(example.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(example, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_8.name,
-    		type: "slot",
-    		source: "(533:14) <TabPanel>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (539:16) <Example code={code.components}>
-    function create_default_slot_7(ctx) {
-    	let componentsouter;
-    	let current;
-    	componentsouter = new ComponentsOuter({ $$inline: true });
-
-    	const block = {
-    		c: function create() {
-    			create_component(componentsouter.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(componentsouter, target, anchor);
-    			current = true;
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(componentsouter.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(componentsouter.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(componentsouter, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_7.name,
-    		type: "slot",
-    		source: "(539:16) <Example code={code.components}>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (538:14) <TabPanel>
-    function create_default_slot_6(ctx) {
-    	let example;
-    	let current;
-
-    	example = new Example({
-    			props: {
-    				code: components,
-    				$$slots: { default: [create_default_slot_7] },
-    				$$scope: { ctx }
-    			},
-    			$$inline: true
-    		});
-
-    	const block = {
-    		c: function create() {
-    			create_component(example.$$.fragment);
-    		},
-    		m: function mount(target, anchor) {
-    			mount_component(example, target, anchor);
-    			current = true;
-    		},
-    		p: function update(ctx, dirty) {
-    			const example_changes = {};
-
-    			if (dirty & /*$$scope*/ 128) {
-    				example_changes.$$scope = { dirty, ctx };
-    			}
-
-    			example.$set(example_changes);
-    		},
-    		i: function intro(local) {
-    			if (current) return;
-    			transition_in(example.$$.fragment, local);
-    			current = true;
-    		},
-    		o: function outro(local) {
-    			transition_out(example.$$.fragment, local);
-    			current = false;
-    		},
-    		d: function destroy(detaching) {
-    			destroy_component(example, detaching);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_default_slot_6.name,
-    		type: "slot",
-    		source: "(538:14) <TabPanel>",
-    		ctx
-    	});
-
-    	return block;
-    }
-
-    // (510:12) <Tabs>
-    function create_default_slot_5(ctx) {
     	let tablist;
     	let t0;
     	let tabpanel0;
@@ -15335,7 +16847,7 @@ var app = (function () {
 
     	tablist = new TabList({
     			props: {
-    				$$slots: { default: [create_default_slot_16] },
+    				$$slots: { default: [create_default_slot_20] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15343,7 +16855,7 @@ var app = (function () {
 
     	tabpanel0 = new TabPanel({
     			props: {
-    				$$slots: { default: [create_default_slot_14] },
+    				$$slots: { default: [create_default_slot_18] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15351,7 +16863,7 @@ var app = (function () {
 
     	tabpanel1 = new TabPanel({
     			props: {
-    				$$slots: { default: [create_default_slot_12] },
+    				$$slots: { default: [create_default_slot_16] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15359,7 +16871,7 @@ var app = (function () {
 
     	tabpanel2 = new TabPanel({
     			props: {
-    				$$slots: { default: [create_default_slot_10] },
+    				$$slots: { default: [create_default_slot_14] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15367,7 +16879,7 @@ var app = (function () {
 
     	tabpanel3 = new TabPanel({
     			props: {
-    				$$slots: { default: [create_default_slot_8] },
+    				$$slots: { default: [create_default_slot_12] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15375,7 +16887,7 @@ var app = (function () {
 
     	tabpanel4 = new TabPanel({
     			props: {
-    				$$slots: { default: [create_default_slot_6] },
+    				$$slots: { default: [create_default_slot_10] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15489,17 +17001,17 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_5.name,
+    		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(510:12) <Tabs>",
+    		source: "(695:12) <Tabs>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (507:8) <Col>
-    function create_default_slot_4(ctx) {
+    // (692:8) <Col>
+    function create_default_slot_8(ctx) {
     	let h1;
     	let t1;
     	let p;
@@ -15508,7 +17020,7 @@ var app = (function () {
 
     	tabs = new Tabs({
     			props: {
-    				$$slots: { default: [create_default_slot_5] },
+    				$$slots: { default: [create_default_slot_9] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15521,9 +17033,9 @@ var app = (function () {
     			t1 = space();
     			p = element("p");
     			create_component(tabs.$$.fragment);
-    			attr_dev(h1, "class", "svelte-1paqfdp");
-    			add_location(h1, file, 507, 10, 21642);
-    			add_location(p, file, 508, 10, 21666);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 692, 10, 29853);
+    			add_location(p, file, 693, 10, 29877);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -15560,16 +17072,301 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_default_slot_4.name,
+    		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(507:8) <Col>",
+    		source: "(692:8) <Col>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (506:6) <Row>
+    // (691:6) <Row>
+    function create_default_slot_7(ctx) {
+    	let col;
+    	let current;
+
+    	col = new Col({
+    			props: {
+    				$$slots: { default: [create_default_slot_8] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(col.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(col, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const col_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				col_changes.$$scope = { dirty, ctx };
+    			}
+
+    			col.$set(col_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(col.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(col.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(col, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_7.name,
+    		type: "slot",
+    		source: "(691:6) <Row>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (690:4) <Container class="text-left">
+    function create_default_slot_6(ctx) {
+    	let row;
+    	let current;
+
+    	row = new Row({
+    			props: {
+    				$$slots: { default: [create_default_slot_7] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(row.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(row, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const row_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				row_changes.$$scope = { dirty, ctx };
+    			}
+
+    			row.$set(row_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(row.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(row.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(row, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_6.name,
+    		type: "slot",
+    		source: "(690:4) <Container class=\\\"text-left\\\">",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (689:2) <FullpageSection left>
+    function create_default_slot_5(ctx) {
+    	let container;
+    	let current;
+
+    	container = new Container({
+    			props: {
+    				class: "text-left",
+    				$$slots: { default: [create_default_slot_6] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(container.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(container, target, anchor);
+    			current = true;
+    		},
+    		p: function update(ctx, dirty) {
+    			const container_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				container_changes.$$scope = { dirty, ctx };
+    			}
+
+    			container.$set(container_changes);
+    		},
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(container.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(container.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(container, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_5.name,
+    		type: "slot",
+    		source: "(689:2) <FullpageSection left>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (737:8) <Col>
+    function create_default_slot_4(ctx) {
+    	let h1;
+    	let span;
+    	let t1;
+    	let ul;
+    	let li0;
+    	let a0;
+    	let t3;
+    	let li1;
+    	let a1;
+    	let t5;
+    	let li2;
+    	let a2;
+    	let t7;
+    	let li3;
+    	let a3;
+    	let t9;
+    	let li4;
+    	let a4;
+    	let t11;
+    	let li5;
+    	let a5;
+
+    	const block = {
+    		c: function create() {
+    			h1 = element("h1");
+    			span = element("span");
+    			span.textContent = "Quellen";
+    			t1 = space();
+    			ul = element("ul");
+    			li0 = element("li");
+    			a0 = element("a");
+    			a0.textContent = "Svelte Doc";
+    			t3 = space();
+    			li1 = element("li");
+    			a1 = element("a");
+    			a1.textContent = "Wikipedia Svelte";
+    			t5 = space();
+    			li2 = element("li");
+    			a2 = element("a");
+    			a2.textContent = "Sapper";
+    			t7 = space();
+    			li3 = element("li");
+    			a3 = element("a");
+    			a3.textContent = "Sapper";
+    			t9 = space();
+    			li4 = element("li");
+    			a4 = element("a");
+    			a4.textContent = "Wikipedia Sappeur";
+    			t11 = space();
+    			li5 = element("li");
+    			a5 = element("a");
+    			a5.textContent = "SvelteKit";
+    			attr_dev(span, "class", "svelte-color svelte-143wrg5");
+    			add_location(span, file, 737, 14, 31144);
+    			attr_dev(h1, "class", "svelte-143wrg5");
+    			add_location(h1, file, 737, 10, 31140);
+    			attr_dev(a0, "href", "https://kit.svelte.dev/docs");
+    			add_location(a0, file, 740, 14, 31237);
+    			add_location(li0, file, 739, 12, 31218);
+    			attr_dev(a1, "href", "https://de.wikipedia.org/wiki/Svelte_(Framework)");
+    			add_location(a1, file, 743, 14, 31339);
+    			add_location(li1, file, 742, 12, 31320);
+    			attr_dev(a2, "href", "https://sapper.svelte.dev/docs/");
+    			add_location(a2, file, 748, 14, 31500);
+    			add_location(li2, file, 747, 12, 31481);
+    			attr_dev(a3, "href", "https://sapper.svelte.dev/docs.json");
+    			add_location(a3, file, 751, 14, 31602);
+    			add_location(li3, file, 750, 12, 31583);
+    			attr_dev(a4, "href", "https://de.wikipedia.org/wiki/Sappeur");
+    			add_location(a4, file, 754, 14, 31708);
+    			add_location(li4, file, 753, 12, 31689);
+    			attr_dev(a5, "href", "https://svelte.dev/blog/whats-the-deal-with-sveltekit");
+    			add_location(a5, file, 759, 14, 31859);
+    			add_location(li5, file, 758, 12, 31840);
+    			add_location(ul, file, 738, 10, 31201);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, h1, anchor);
+    			append_dev(h1, span);
+    			insert_dev(target, t1, anchor);
+    			insert_dev(target, ul, anchor);
+    			append_dev(ul, li0);
+    			append_dev(li0, a0);
+    			append_dev(ul, t3);
+    			append_dev(ul, li1);
+    			append_dev(li1, a1);
+    			append_dev(ul, t5);
+    			append_dev(ul, li2);
+    			append_dev(li2, a2);
+    			append_dev(ul, t7);
+    			append_dev(ul, li3);
+    			append_dev(li3, a3);
+    			append_dev(ul, t9);
+    			append_dev(ul, li4);
+    			append_dev(li4, a4);
+    			append_dev(ul, t11);
+    			append_dev(ul, li5);
+    			append_dev(li5, a5);
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(h1);
+    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(ul);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_default_slot_4.name,
+    		type: "slot",
+    		source: "(737:8) <Col>",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (736:6) <Row>
     function create_default_slot_3(ctx) {
     	let col;
     	let current;
@@ -15617,14 +17414,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(506:6) <Row>",
+    		source: "(736:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (505:4) <Container class="text-left">
+    // (735:4) <Container class="text-center">
     function create_default_slot_2(ctx) {
     	let row;
     	let current;
@@ -15672,21 +17469,21 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(505:4) <Container class=\\\"text-left\\\">",
+    		source: "(735:4) <Container class=\\\"text-center\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (504:2) <FullpageSection left>
+    // (734:2) <FullpageSection center>
     function create_default_slot_1(ctx) {
     	let container;
     	let current;
 
     	container = new Container({
     			props: {
-    				class: "text-left",
+    				class: "text-center",
     				$$slots: { default: [create_default_slot_2] },
     				$$scope: { ctx }
     			},
@@ -15728,7 +17525,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(504:2) <FullpageSection left>",
+    		source: "(734:2) <FullpageSection center>",
     		ctx
     	});
 
@@ -15762,12 +17559,22 @@ var app = (function () {
     	let fullpagesection11;
     	let t11;
     	let fullpagesection12;
+    	let t12;
+    	let fullpagesection13;
+    	let t13;
+    	let fullpagesection14;
+    	let t14;
+    	let fullpagesection15;
+    	let t15;
+    	let fullpagesection16;
+    	let t16;
+    	let fullpagesection17;
     	let current;
 
     	fullpagesection0 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_75] },
+    				$$slots: { default: [create_default_slot_94] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15776,7 +17583,7 @@ var app = (function () {
     	fullpagesection1 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_71] },
+    				$$slots: { default: [create_default_slot_90] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15785,7 +17592,7 @@ var app = (function () {
     	fullpagesection2 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_67] },
+    				$$slots: { default: [create_default_slot_86] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15794,7 +17601,7 @@ var app = (function () {
     	fullpagesection3 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_62] },
+    				$$slots: { default: [create_default_slot_81] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15803,7 +17610,7 @@ var app = (function () {
     	fullpagesection4 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_57] },
+    				$$slots: { default: [create_default_slot_76] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15812,7 +17619,7 @@ var app = (function () {
     	fullpagesection5 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_52] },
+    				$$slots: { default: [create_default_slot_71] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15821,7 +17628,7 @@ var app = (function () {
     	fullpagesection6 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_47] },
+    				$$slots: { default: [create_default_slot_66] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15830,7 +17637,7 @@ var app = (function () {
     	fullpagesection7 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_43] },
+    				$$slots: { default: [create_default_slot_62] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15839,7 +17646,7 @@ var app = (function () {
     	fullpagesection8 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_39] },
+    				$$slots: { default: [create_default_slot_58] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15848,7 +17655,7 @@ var app = (function () {
     	fullpagesection9 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_34] },
+    				$$slots: { default: [create_default_slot_53] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15857,7 +17664,7 @@ var app = (function () {
     	fullpagesection10 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_29] },
+    				$$slots: { default: [create_default_slot_48] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15866,7 +17673,7 @@ var app = (function () {
     	fullpagesection11 = new FullpageSection({
     			props: {
     				center: true,
-    				$$slots: { default: [create_default_slot_22] },
+    				$$slots: { default: [create_default_slot_44] },
     				$$scope: { ctx }
     			},
     			$$inline: true
@@ -15874,7 +17681,52 @@ var app = (function () {
 
     	fullpagesection12 = new FullpageSection({
     			props: {
+    				center: true,
+    				$$slots: { default: [create_default_slot_40] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	fullpagesection13 = new FullpageSection({
+    			props: {
+    				center: true,
+    				$$slots: { default: [create_default_slot_35] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	fullpagesection14 = new FullpageSection({
+    			props: {
+    				center: true,
+    				$$slots: { default: [create_default_slot_31] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	fullpagesection15 = new FullpageSection({
+    			props: {
+    				center: true,
+    				$$slots: { default: [create_default_slot_26] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	fullpagesection16 = new FullpageSection({
+    			props: {
     				left: true,
+    				$$slots: { default: [create_default_slot_5] },
+    				$$scope: { ctx }
+    			},
+    			$$inline: true
+    		});
+
+    	fullpagesection17 = new FullpageSection({
+    			props: {
+    				center: true,
     				$$slots: { default: [create_default_slot_1] },
     				$$scope: { ctx }
     			},
@@ -15908,6 +17760,16 @@ var app = (function () {
     			create_component(fullpagesection11.$$.fragment);
     			t11 = space();
     			create_component(fullpagesection12.$$.fragment);
+    			t12 = space();
+    			create_component(fullpagesection13.$$.fragment);
+    			t13 = space();
+    			create_component(fullpagesection14.$$.fragment);
+    			t14 = space();
+    			create_component(fullpagesection15.$$.fragment);
+    			t15 = space();
+    			create_component(fullpagesection16.$$.fragment);
+    			t16 = space();
+    			create_component(fullpagesection17.$$.fragment);
     		},
     		m: function mount(target, anchor) {
     			mount_component(fullpagesection0, target, anchor);
@@ -15935,6 +17797,16 @@ var app = (function () {
     			mount_component(fullpagesection11, target, anchor);
     			insert_dev(target, t11, anchor);
     			mount_component(fullpagesection12, target, anchor);
+    			insert_dev(target, t12, anchor);
+    			mount_component(fullpagesection13, target, anchor);
+    			insert_dev(target, t13, anchor);
+    			mount_component(fullpagesection14, target, anchor);
+    			insert_dev(target, t14, anchor);
+    			mount_component(fullpagesection15, target, anchor);
+    			insert_dev(target, t15, anchor);
+    			mount_component(fullpagesection16, target, anchor);
+    			insert_dev(target, t16, anchor);
+    			mount_component(fullpagesection17, target, anchor);
     			current = true;
     		},
     		p: function update(ctx, dirty) {
@@ -16024,11 +17896,46 @@ var app = (function () {
     			fullpagesection11.$set(fullpagesection11_changes);
     			const fullpagesection12_changes = {};
 
-    			if (dirty & /*$$scope*/ 128) {
+    			if (dirty & /*$$scope, long*/ 130) {
     				fullpagesection12_changes.$$scope = { dirty, ctx };
     			}
 
     			fullpagesection12.$set(fullpagesection12_changes);
+    			const fullpagesection13_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				fullpagesection13_changes.$$scope = { dirty, ctx };
+    			}
+
+    			fullpagesection13.$set(fullpagesection13_changes);
+    			const fullpagesection14_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				fullpagesection14_changes.$$scope = { dirty, ctx };
+    			}
+
+    			fullpagesection14.$set(fullpagesection14_changes);
+    			const fullpagesection15_changes = {};
+
+    			if (dirty & /*$$scope, long*/ 130) {
+    				fullpagesection15_changes.$$scope = { dirty, ctx };
+    			}
+
+    			fullpagesection15.$set(fullpagesection15_changes);
+    			const fullpagesection16_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				fullpagesection16_changes.$$scope = { dirty, ctx };
+    			}
+
+    			fullpagesection16.$set(fullpagesection16_changes);
+    			const fullpagesection17_changes = {};
+
+    			if (dirty & /*$$scope*/ 128) {
+    				fullpagesection17_changes.$$scope = { dirty, ctx };
+    			}
+
+    			fullpagesection17.$set(fullpagesection17_changes);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -16045,6 +17952,11 @@ var app = (function () {
     			transition_in(fullpagesection10.$$.fragment, local);
     			transition_in(fullpagesection11.$$.fragment, local);
     			transition_in(fullpagesection12.$$.fragment, local);
+    			transition_in(fullpagesection13.$$.fragment, local);
+    			transition_in(fullpagesection14.$$.fragment, local);
+    			transition_in(fullpagesection15.$$.fragment, local);
+    			transition_in(fullpagesection16.$$.fragment, local);
+    			transition_in(fullpagesection17.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
@@ -16061,6 +17973,11 @@ var app = (function () {
     			transition_out(fullpagesection10.$$.fragment, local);
     			transition_out(fullpagesection11.$$.fragment, local);
     			transition_out(fullpagesection12.$$.fragment, local);
+    			transition_out(fullpagesection13.$$.fragment, local);
+    			transition_out(fullpagesection14.$$.fragment, local);
+    			transition_out(fullpagesection15.$$.fragment, local);
+    			transition_out(fullpagesection16.$$.fragment, local);
+    			transition_out(fullpagesection17.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -16089,6 +18006,16 @@ var app = (function () {
     			destroy_component(fullpagesection11, detaching);
     			if (detaching) detach_dev(t11);
     			destroy_component(fullpagesection12, detaching);
+    			if (detaching) detach_dev(t12);
+    			destroy_component(fullpagesection13, detaching);
+    			if (detaching) detach_dev(t13);
+    			destroy_component(fullpagesection14, detaching);
+    			if (detaching) detach_dev(t14);
+    			destroy_component(fullpagesection15, detaching);
+    			if (detaching) detach_dev(t15);
+    			destroy_component(fullpagesection16, detaching);
+    			if (detaching) detach_dev(t16);
+    			destroy_component(fullpagesection17, detaching);
     		}
     	};
 

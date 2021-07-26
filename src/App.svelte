@@ -54,11 +54,11 @@
             <p class="subheader">Cybernetically enhanced web apps</p>
             <p>
               Leon Kowarschick (Mtrk. Nachname), Nils Mangold (202477), Philipp
-              Walter (Mtrk.)
+              Walter (203149)
             </p>
 
             <label for="enable_long">Fließtext</label>
-            <input id="enable_long" type=checkbox bind:checked={long}/>
+            <input id="enable_long" type="checkbox" bind:checked={long} />
             <div id="parallelogram" />
           </div>
         </Col>
@@ -432,70 +432,255 @@
     <Container class="text-center">
       <Row>
         <Col>
-          <h1>Sapper</h1>
+          <h1 class="title-section">Sapper</h1>
+          <div id="parallelogram" />
         </Col>
       </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
+        <Col>
+          <h1>Was ist <span class="sapper-color">Sapper?</span></h1>
+          <Content {long}>
+            <div slot="long">
+              <p>
+                Sapper ist ein app framework oder auch metaframework aufbauend
+                auf Svelte. Die Aufgabe von Sapper ist es, das Bauen von Svelte
+                Apps so einfach wie möglich zu gestalten in der Entwicklung von
+                modernen best practice Applikationen. Diese best practice
+                Applikationen enthalten beispielsweise server side rendering
+                (SSR) und code-splitting. Sapper nutzt zudem eine
+                “filesystem-based routing” wie von Next.js bekannt gemacht. Es
+                gibt zwei grundlegenden Konzepte: jede Seite einer App ist eine
+                Svelte Komponentet man erstellt Seiten in dem mal Dateien zu
+                src/routes hinzufügt. Diese werden vom server gerendert sodass
+                der initiale Besuch des Users so schnell wie möglich ist. HTML
+                im Browser wird eine SPA Single Page Application html templates
+                können geprerendert werden auf node server → optimierung von SEO
+                Search Engine Optimization svelte ohne sapper: anfrage zu
+                mysite.com/about → server about server → empty html page with
+                svelte js bundle und about component rendered in browser mit
+                sapper: mysite.com/about → server der about component
+                pr-rendered on server und dann prerendered html und compiled js
+                bundle an browser schickt nur initiale Anfrage nutzt Server Side
+                rendering, sonst render im browser direkt. Alle weiteren Quelles
+                und Anfragen werden vom frontend java script bundle gehandelt
+                und dynamisch anzeigen von Komponenten.
+              </p>
+            </div>
+            <div slot="short">
+              <ul>
+                <li>
+                  Auf Svelte aufbauendes Metaframework für "best practice"
+                  Applikationen
+                </li>
+                <li>Server Side Rendering (SSR)</li>
+                <li>Code Splitting</li>
+                <li>Ähnlich wie bei Next.js Filesystem-based routing</li>
+                <li>Zwei grundlegende Konzepte</li>
+                <li>jede Seite einer App ist eine Svelte Komponentet</li>
+                <li>
+                  man erstellt Seiten in dem mal Dateien zu src/routes
+                  hinzufügt. Diese werden vom server gerendert sodass der
+                  initiale Besuch des Users so schnell wie möglich ist.
+                </li>
+                <li>HTML wird im Browser zu Single Page Applikation (SPA)</li>
+                <li>
+                  durch prerender von html templates, Optimierung von Search
+                  Engine Optimization (SEO)
+                </li>
+                <li>
+                  Nur initiale Anfrage nutzt Server Side rendering, sonst im
+                  Browser direkt gerendert
+                </li>
+              </ul>
+            </div>
+          </Content>
+        </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
       <Row>
         <Col>
           <div>
-            <h1>Warum das Bestehende ändern?</h1>
-            <p>
-              Vor allem für Einsteiger ist der Unterschied von zwei empfohlenen
-              Wegen eine App zu starten sehr verwirrend. Auf der einen Seite gab
-              es die Sapper App und auf der anderen Seite die Svelte App. Mit
-              den Neuerungen, soll ein einheitlicher Weg empfohlen werden,
-              sodass es zu einer deutlich besseren Übersichtlichkeit beim
-              Einstieg, Onboarding als auch bei der Wartung und Instandhaltung
-              von Code und dem ganzen Projekt kommt. Zudem hat sich die Art und
-              Weise Webentwicklung zu betreiben drastisch geändert, womit es an
-              der Zeit ist, einige fundamentale Annahmen zu überdenken.
-            </p>
+            <h1>Warum <span class="sapper-color">Sapper?</span></h1>
+            <Content {long}>
+              <div slot="long">
+                <p>
+                  Der Name Sapper stammt vom Militär. Zu deutsch Sappeur vom
+                  französischen sapeur Steinhauer abgeleitet. Ein Sappeur war
+                  ein Belagerungspionier oder Truppenhandwerker. Tätigkeiten
+                  waren beispielsweise Brückenbau, Straßenbau/Reparaturen alles
+                  unter Kriegsbedingungen. Sapper, was kurz für Svelte App maker
+                  steht ist ein mutiger und pflichtbewusster Verbündeter wenn es
+                  um die Herausforderungen der Webentwicklung geht. Für
+                  Webentwickler sind beispielsweise schwache Geräte, schlechte
+                  Netzwerkverbindungen und Komplexität in der Frontend
+                  Entwicklung Herausforderungen.
+                </p>
+              </div>
+              <div slot="short">
+                <ul>
+                  <li>Name stammt vom Militär engl. Sapper deutsch Sappeur</li>
+                  <li>
+                    Soldaten im Kriegsgebiet für Brücken und
+                    Straßenbau/Brückenbau
+                  </li>
+                  <li>Sapper kurz für Svelte App maker</li>
+                </ul>
+              </div>
+            </Content>
           </div>
         </Col>
-        <Col
-          ><div>
-            <h1>Was hat/wird sich verändern?</h1>
-            <p>
-              Um bei den eben genannten fundamentalen Annahmen zu bleiben, eine
-              davon ist es, dass man einen module bunderl wie beispielsweise
-              webpack oder Rollup brauchst um app zu bauen. Diese Werkzeuge
-              tracken die Abhängigkeiten einer Applikation und analysieren und
-              transformieren Code (machen Svelte Komponenten zu JS Modulen). Vor
-              einigen Jahren brauchte man die Bundler auf jeden Fall noch, da
-              die Browser noch nicht nativ im Stande waren, “import” Keywords zu
-              unterstützen. Aktuell sehen wir einen zunehmenden Anstieg von
-              “unbundled development workflow” welcher deutlich einfacher ist,
-              als das Bündeln von Apps. Ein Development Server kann ”on-demand”
-              Module bereitstellen (umgewandelt in JavaScript, wenn nötig). Das
-              bedeutet, dass der Start im Wesentlichen sofort erfolgt, egal wie
-              groß Ihre App wird. Einer der Vorreiter in diesem Bereich ist
-              Snowpack. Snowpack ist erstaunlich schnell und bietet eine
-              hervorragende Entwicklungserfahrung (Hot-Modul-Reload,
-              Fehlerüberlagerungen usw.), und für SvelteKit wurde eng mit dem
-              Snowpack-Team an Funktionen wie SSR zusammengearbeitet. Besonders
-              aufschlussreich ist das Hot-Module-Reloading, wenn man es gewohnt
-              ist, Sapper mit Rollup zu verwenden (das aufgrund seiner
-              Architektur, die die effizienteste Ausgabe priorisiert, noch nie
-              eine erstklassige HMR-Unterstützung hatte). Um App in Produktion
-              zu bringen werden nach wie vor Bundler verwendet. SvelteKit
-              verwendet Rollup, um Apps so schnell und schlank wie möglich zu
-              machen (was beispielsweise das Extrahieren von Stilen in statische
-              .css-Dateien umfasst). Die andere grundlegende Annahme ist, dass
-              eine vom Server gerenderte App einen Server benötigt. Sapper hat
-              effektiv zwei Modi – Sapper Build, der eine eigenständige App
-              erstellt, die auf einem Node-Server ausgeführt werden muss, und
-              Sapper-Export, der die App als Sammlung statischer Dateien
-              ausgibt, die für das Hosten auf Diensten wie GitHub Pages geeignet
-              sind. Es ist weiterhin möglich, sowohl Node-Apps als auch
-              vollständig vorgerenderte (auch exportierte) Sites zu erstellen
-              SvelteKit umfasst das serverlose Paradigma vollständig und wird
-              mit Unterstützung für alle großen serverlosen Anbieter gestartet,
-              mit einer 'Adapter'-API für alle Plattformen, die offiziell nicht
-              bedient werden. Darüber hinaus wird man in der Lage sein,
-              partielles Pre-Rendering durchzuführen, was bedeutet, dass
-              statische Seiten zur Erstellungszeit generiert werden können,
-              während dynamische Seiten bei Bedarf gerendert werden.
-            </p>
+        <Col>
+          <div>
+            <h1>
+              Vergleich <span class="sapper-color">Next.js</span>
+            </h1>
+            <Content {long}>
+              <div slot="long">
+                <p>
+                  wie Next.js für React ist Sapper für Svelte Unterschiede
+                  zwischen Sapper und Next.js: - Sapper wird betrieben von
+                  Svelte statt React und ist somit schneller und die Apps sind
+                  kleiner - Seiten und Routen im src/routes Verzeichnis machen
+                  es sehr einfach eine JSON API hizuzufügen - Quelles sind nur
+                  ein a-tag Element im Gegensatz zu einer frameworkspezifischen
+                  Quelle-tag Komponente
+                </p>
+              </div>
+              <div slot="short">
+                <ul>
+                  <li>
+                    Sapper wird betrieben von Svelte statt React und ist somit
+                    schneller und die Apps sind kleiner
+                  </li>
+                  <li>
+                    Seiten und Routen im src/routes Verzeichnis machen es sehr
+                    einfach eine JSON API hizuzufügen
+                  </li>
+                  <li>
+                    Quelles sind nur ein a-tag Element im Gegensatz zu einer
+                    frameworkspezifischen Quelle-tag Komponente
+                  </li>
+                </ul>
+              </div>
+            </Content>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
+        <Col>
+          <h1 class="title-section">Zukunftsausblick</h1>
+          <div id="parallelogram" />
+        </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
+        <Col>
+          <div>
+            <h1>Warum <span class="svelte-color">SvelteKit?</span></h1>
+            <Content {long}>
+              <div slot="long">
+                <p>
+                  Vor allem für Einsteiger ist der Unterschied von zwei
+                  empfohlenen Wegen eine App zu starten sehr verwirrend. Auf der
+                  einen Seite gab es die Sapper App und auf der anderen Seite
+                  die Svelte App. Mit den Neuerungen, soll ein einheitlicher Weg
+                  empfohlen werden, sodass es zu einer deutlich besseren
+                  Übersichtlichkeit beim Einstieg, Onboarding als auch bei der
+                  Wartung und Instandhaltung von Code und dem ganzen Projekt
+                  kommt. Zudem hat sich die Art und Weise Webentwicklung zu
+                  betreiben drastisch geändert, womit es an der Zeit ist, einige
+                  fundamentale Annahmen zu überdenken.
+                </p>
+              </div>
+              <div slot="short">
+                <ul>
+                  <li>Leichterer Einstieg in Svelte</li>
+                  <li>einheitlich eine Empfehlung wie Beginner einsteigen</li>
+                  <li>Übersichtlichkeit und Wartbarkeit im Code verbessern</li>
+                  <li>
+                    Aufgrund der Art und Weise wie Webentwicklung sich geändert
+                    hat, fundamentale Annahmen überdenken
+                  </li>
+                </ul>
+              </div>
+            </Content>
+          </div>
+        </Col>
+        <Col>
+          <div>
+            <h1>Änderungen in <span class="svelte-color">SvelteKit</span></h1>
+            <Content {long}>
+              <div slot="long">
+                <p>
+                  Um bei den eben genannten fundamentalen Annahmen zu bleiben,
+                  eine davon ist es, dass man einen "module bunderl" wie
+                  beispielsweise webpack oder Rollup brauchst um app zu bauen.
+                  Diese Werkzeuge tracken die Abhängigkeiten einer Applikation
+                  und analysieren und transformieren Code (machen Svelte
+                  Komponenten zu JS Modulen). Vor einigen Jahren brauchte man
+                  die Bundler auf jeden Fall noch, da die Browser noch nicht
+                  nativ im Stande waren, “import” Keywords zu unterstützen.
+                  Aktuell sehen wir einen zunehmenden Anstieg von “unbundled
+                  development workflow” welcher deutlich einfacher ist, als das
+                  Bündeln von Apps. Ein Development Server kann ”on-demand”
+                  Module bereitstellen (umgewandelt in JavaScript, wenn nötig).
+                  Das bedeutet, dass der Start im Wesentlichen sofort erfolgt,
+                  egal wie groß Ihre App wird. Einer der Vorreiter in diesem
+                  Bereich ist Snowpack. Snowpack ist erstaunlich schnell und
+                  bietet eine hervorragende Entwicklungserfahrung
+                  (Hot-Modul-Reload, Fehlerüberlagerungen usw.), und für
+                  SvelteKit wurde eng mit dem Snowpack-Team an Funktionen wie
+                  SSR zusammengearbeitet. Besonders aufschlussreich ist das
+                  Hot-Module-Reloading, wenn man es gewohnt ist, Sapper mit
+                  Rollup zu verwenden (das aufgrund seiner Architektur, die die
+                  effizienteste Ausgabe priorisiert, noch nie eine erstklassige
+                  HMR-Unterstützung hatte). Um App in Produktion zu bringen
+                  werden nach wie vor Bundler verwendet. SvelteKit verwendet
+                  Rollup, um Apps so schnell und schlank wie möglich zu machen
+                  (was beispielsweise das Extrahieren von Stilen in statische
+                  .css-Dateien umfasst). Die andere grundlegende Annahme ist,
+                  dass eine vom Server gerenderte App einen Server benötigt.
+                  Sapper hat effektiv zwei Modi – Sapper Build, der eine
+                  eigenständige App erstellt, die auf einem Node-Server
+                  ausgeführt werden muss, und Sapper-Export, der die App als
+                  Sammlung statischer Dateien ausgibt, die für das Hosten auf
+                  Diensten wie GitHub Pages geeignet sind. Es ist weiterhin
+                  möglich, sowohl Node-Apps als auch vollständig vorgerenderte
+                  (auch exportierte) Sites zu erstellen SvelteKit umfasst das
+                  serverlose Paradigma vollständig und wird mit Unterstützung
+                  für alle großen serverlosen Anbieter gestartet, mit einer
+                  'Adapter'-API für alle Plattformen, die offiziell nicht
+                  bedient werden. Darüber hinaus wird man in der Lage sein,
+                  partielles Pre-Rendering durchzuführen, was bedeutet, dass
+                  statische Seiten zur Erstellungszeit generiert werden können,
+                  während dynamische Seiten bei Bedarf gerendert werden.
+                </p>
+              </div>
+              <div slot="short">
+                <ul>
+                  <li>Für Development kein Bundler mehr</li>
+                  <li>Snowpack für deutliche Zeitersparnis bei Entwicklung</li>
+                  <li>Hot-Module Reload und Fehlerüberlagerung</li>
+                  <li>In Produktion Rollup als Bundler</li>
+                  <li>vollständige Unterstützung serverloses Paradigma</li>
+                  <li>Für großen Anbieter Plattformen -> Adapter API</li>
+                </ul>
+              </div>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -546,11 +731,49 @@
       </Row>
     </Container>
   </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
+        <Col>
+          <h1><span class="svelte-color">Quellen</span></h1>
+          <ul>
+            <li>
+              <a href="https://kit.svelte.dev/docs">Svelte Doc</a>
+            </li>
+            <li>
+              <a href="https://de.wikipedia.org/wiki/Svelte_(Framework)"
+                >Wikipedia Svelte</a
+              >
+            </li>
+            <li>
+              <a href="https://sapper.svelte.dev/docs/">Sapper</a>
+            </li>
+            <li>
+              <a href="https://sapper.svelte.dev/docs.json">Sapper</a>
+            </li>
+            <li>
+              <a href="https://de.wikipedia.org/wiki/Sappeur"
+                >Wikipedia Sappeur</a
+              >
+            </li>
+            <li>
+              <a href="https://svelte.dev/blog/whats-the-deal-with-sveltekit"
+                >SvelteKit</a
+              >
+            </li>
+          </ul>
+        </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
 </Fullpage>
 
 <style>
   .svelte-color {
     color: #ff3e00;
+  }
+  .sapper-color {
+    color: #008d88;
   }
   .header-container {
     text-align: center;
