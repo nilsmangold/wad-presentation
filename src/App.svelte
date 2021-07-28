@@ -44,6 +44,13 @@
   <title>Präsentation</title>
 </svelte:head>
 
+
+<label class="switch" id="enable_long" >
+  <input type="checkbox" bind:checked={long} >
+  <span class="slider round"></span>
+</label>
+
+
 <Fullpage bind:activeSection arrows drag transitionDuration="10">
   <FullpageSection center>
     <Container class="text-center">
@@ -57,8 +64,6 @@
               Walter (203149)
             </p>
 
-            <label for="enable_long">Fließtext</label>
-            <input id="enable_long" type="checkbox" bind:checked={long} />
             <div id="parallelogram" />
           </div>
         </Col>
@@ -76,51 +81,18 @@
             <Content {long}>
               <div slot="long">
                 <p>
-                  Svelte ist ein Komponenten-Framework - wie React oder Vue -
-                  aber mit einem wichtigen Unterschied. Traditionelle Frameworks
-                  erlauben es Ihnen, deklarativen zustandsgesteuerten Code zu
-                  schreiben, aber es gibt einen Nachteil: Der Browser muss
-                  zusätzliche Arbeit leisten, um diese deklarativen Strukturen
-                  in DOM-Operationen umzuwandeln, wobei Techniken wie diese Ihr
-                  Frame-Budget auffressen und den Garbage Collector belasten.
+                  Svelte ist ein Komponenten-Framework - wie React oder Vue - aber mit einem wichtigen Unterschied. Traditionelle Frameworks erlauben es Ihnen, deklarativen zustandsgesteuerten Code zu schreiben, aber es gibt einen Nachteil: Der Browser muss zusätzliche Arbeit leisten, um diese deklarativen Strukturen in DOM-Operationen umzuwandeln, wobei Techniken wie diese Ihr Frame-Budget auffressen und den Garbage Collector belasten.               
                 </p>
                 <p>
-                  Stattdessen läuft Svelte zur Build-Zeit und konvertiert Ihre
-                  Komponenten in hocheffizienten imperativen Code, der das DOM
-                  chirurgisch aktualisiert. Das Ergebnis ist, dass Sie in der
-                  Lage sind, anspruchsvolle Anwendungen mit hervorragenden
-                  Leistungsmerkmalen zu schreiben.
-                </p>
-                <p>
-                  In der ersten Version von Svelte ging es darum, dass ein
-                  zweckmäßiger Compiler felsenfesten Code erzeugen kann, der ein
-                  großartiges Benutzererlebnis bietet. Die zweite war ein
-                  kleines Upgrade, das die Dinge ein wenig aufgeräumt hat.
-                </p>
-                <p>
-                  Version 3 ist eine signifikante Überarbeitung. In den letzten
-                  fünf oder sechs Monaten haben wir uns darauf konzentriert, ein
-                  hervorragendes Entwicklererlebnis zu bieten. Es ist jetzt
-                  möglich, Komponenten zu schreiben, mit denen man anderswo
-                  nicht zurechtkommt. Probieren Sie das brandneue aus und sehen
-                  Sie, was wir meinen - wenn Sie mit anderen Frameworks vertraut
-                  sind, werden Sie angenehm überrascht sein.
-                </p>
-                <p>
-                  Um das möglich zu machen, mussten wir zunächst das Konzept
-                  überdenken, das den modernen UI-Frameworks zugrunde liegt:
-                  Reaktivität.
+                  Stattdessen läuft Svelte zur Build-Zeit und konvertiert Ihre Komponenten in hocheffizienten imperativen Code, der das DOM chirurgisch aktualisiert. Das Ergebnis ist, dass Sie in der Lage sind, anspruchsvolle Anwendungen mit hervorragenden Leistungsmerkmalen zu schreiben.
                 </p>
               </div>
               <div slot="short">
-                <ul>
-                  <li>Komponenten-Framework</li>
-                  <li>
-                    Compiler für bessere Performance und kleinere
-                    Build-Artefakte
-                  </li>
-                  <li>Reaktives UI-Konzept</li>
-                </ul>
+                <p>
+                  Komponenten-Framework 
+                  <br/> Es ist ein Compiler, der Ihre deklarativen Komponenten in effizientes JavaScript umwandelt, das das DOM aktualisiert.
+                  <br/> Reaktives UI-Konzept
+                </p>
               </div>
             </Content>
           </div>
@@ -143,26 +115,30 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">1</div>
             <h1>
               Compiler vs. <span class="svelte-color">Virtuelles DOM</span>
             </h1>
-
-            <p>
-              Ein Compiler zu sein und das VirtualDOM loszuwerden ist der
-              wichtigste Vorteil von Svelte, der viele der anderen Vorteile
-              ermöglicht, die wir weiter unten sehen werden. Das Konzept erfreut
-              sich so großer Beliebtheit, dass Angular und Ember in ihren
-              jüngsten Versionen auf Compiler umgestellt haben.
-            </p>
+            <Content {long}>
+              <p slot="long">
+                Ein Compiler zu sein und das VirtualDOM loszuwerden ist der
+                wichtigste Vorteil von Svelte, der viele der anderen Vorteile
+                ermöglicht, die wir weiter unten sehen werden. Das Konzept erfreut
+                sich so großer Beliebtheit, dass Angular und Ember in ihren
+                jüngsten Versionen auf Compiler umgestellt haben.
+              </p>
+            </Content>
           </div>
         </Col>
         <Col>
           <div>
+            <div class="number-title">2</div>
             <h1>
               Leichtgewichtig & <span class="svelte-color">Performant</span>
             </h1>
 
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte erzeugt hochoptimiertes Vanilla JS mit einem sehr geringen
               Overhead zur Laufzeit. Das bedeutet kleine Bundle-Größen, einen
               geringen Speicherbedarf und eine schnell ladende und schnell
@@ -172,6 +148,7 @@
               und es gibt viele Möglichkeiten, die Leistung noch weiter zu
               verbessern.
             </p>
+          </Content>
           </div>
         </Col>
       </Row>
@@ -182,26 +159,30 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">3</div>
             <h1>
               Weniger <span class="svelte-color">Boilerplate</span>
             </h1>
-
-            <p>
+            <Content {long}>
+              <p slot="long">
               Mit Svelte gibt es keine Notwendigkeit für das Hinzufügen von Glue
               Code wie Hooks oder komplexes State Management und so weiter. Die
               Boilerplate, die für Komponenten benötigt wird, ist sehr minimal
               und kommt fast an Vanilla HTML/JS heran. Svelte unterstützt auch
               optionale Zwei-Wege-Bindungen, die es einfacher machen, Formulare
               zu erstellen.
-            </p>
+              </p>
+            </Content>
           </div>
         </Col>
         <Col>
           <div>
+            <div class="number-title">4</div>
             <h1>
               Wirklich <span class="svelte-color">reaktiv</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte ist standardmäßig reaktiv. Das DOM wird automatisch bei
               Zustandsänderungen in jeder Top-Level-Variablen einer Komponente
               aktualisiert. Sie müssen dafür nicht einmal speziellen Code
@@ -210,6 +191,7 @@
               nicht. Das bedeutet, dass Mutationen meiner Meinung nach
               expliziter und einfacher zu verstehen sind.
             </p>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -220,10 +202,12 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">5</div>
             <h1>
               Mehrere <span class="svelte-color">Ausgabeziele</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Da es sich um einen Compiler handelt, ist es einfach, die
               Ausgabeziele zu ändern, ohne den Code Ihrer Komponente ändern zu
               müssen. Zum Beispiel unterstützt Svelte das serverseitige
@@ -236,20 +220,24 @@
               optimiert ist. Sapper unterstützt SSR, Progressive Web Apps,
               Code-Splitting, und so weiter.
             </p>
+            </Content>
           </div>
         </Col>
         <Col>
           <div>
+            <div class="number-title">6</div>
             <h1>
               Komponenten-<span class="svelte-color">Muster</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte folgt einem Component-First-Pattern, was es ideal für die
               Erstellung neuer Webanwendungen oder für das Hinzufügen von
               Webkomponenten zu bestehenden Anwendungen macht. Stile sind
               standardmäßig auf Komponenten skaliert, was Svelte ideal für
               Web-Komponenten macht.
             </p>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -260,12 +248,14 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">7</div>
             <h1>
               Eingebaute Animationen und <span class="svelte-color"
                 >Effekte</span
               >
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte bietet eingebaute Animationen und Effekte, die es einfacher
               machen, glatte Benutzeroberflächen und interaktive
               Visualisierungen zu erstellen. Nun, das Framework wurde
@@ -274,14 +264,17 @@
               Entwicklererfahrung als etwas wie React und ist viel einfacher zu
               verwenden.
             </p>
+            </Content>
           </div>
         </Col>
         <Col>
           <div>
+            <div class="number-title">8</div>
             <h1>
               Eingebauter reaktiver <span class="svelte-color">Speicher</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte bietet sowohl veränderliche als auch unveränderliche
               reaktive Speicher, die es einfacher machen, komplexere
               Zustandsverwaltung in Ihrer Anwendung durchzuführen. Die Stores
@@ -290,6 +283,7 @@
               Implementierung ermöglicht auch den Wechsel zu einer anderen
               Zustandsverwaltungslösung wie z. B. RxJS.
             </p>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -300,10 +294,12 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">9</div>
             <h1>
               Niedrige <span class="svelte-color">Lernkurve</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Im Gegensatz zu React oder Angular ist die Lernkurve für Svelte
               recht niedrig. Es gibt keine spezielle Syntax wie JSX zu lernen
               oder komplexe APIs wie bei Angular, die man sich merken muss.
@@ -321,6 +317,7 @@
               Angular dabei, Svelte leichter zu erlernen, da es eine Menge
               ähnlicher Konzepte gibt.
             </p>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -341,10 +338,12 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">1</div>
             <h1>
               Junges <span class="svelte-color">Framework</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte ist sehr jung und das bedeutet, dass es noch nicht so
               kampferprobt ist wie React oder Angular und Sie vielleicht
               manchmal gegen einige Mauern laufen. Das bedeutet, dass es
@@ -356,22 +355,26 @@
               die Verwirrung um Sapper vs. SvelteKit meiner Meinung nach
               vermieden werden können.
             </p>
+            </Content>
           </div>
         </Col>
         <Col>
           <div>
+            <div class="number-title">2</div>
             <h1>
               Kleinere Community und <span class="svelte-color"
                 >kleineres Ökosystem</span
               >
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Ein junges Framework zu sein bedeutet, dass es eine kleinere
               Community und Benutzerbasis sowie ein kleineres Ökosystem hat.
               Daher finden Sie vielleicht nicht so viele Tools oder Bibliotheken
               wie in React oder so viel Hilfe auf Stack Overflow, wenn Sie bei
               einem komplexen Problem nicht weiterkommen.
             </p>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -382,10 +385,12 @@
       <Row>
         <Col>
           <div>
+            <div class="number-title">3</div>
             <h1>
               Compilation <span class="svelte-color">heavy</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Wenn Sie wie ich schon eine Weile im Bereich der
               Frontend-Entwicklung tätig sind, können Sie zurückblicken und
               sehen, dass sich die UX meilenweit verbessert hat, aber die
@@ -403,14 +408,17 @@
               Webseite einfügen kann und erwarten kann, dass es eine Svelte-App
               wird, wie man es mit Vue machen kann.
             </p>
+            </Content>
           </div>
         </Col>
         <Col>
           <div>
+            <div class="number-title">4</div>
             <h1>
               Mac<span class="svelte-color">ken</span>
             </h1>
-            <p>
+            <Content {long}>
+              <p slot="long">
               Svelte ist konform mit den Webstandards, es führt nichts Neues wie
               JSX ein. Aber es ändert einige der Standard-Semantiken, um auf
               eine andere Art und Weise zu arbeiten und das könnte für neue
@@ -423,6 +431,7 @@
               nicht einmal wissen, dass Labels in JS existieren, da wir sie
               selten verwenden.
             </p>
+            </Content>
           </div>
         </Col>
       </Row>
@@ -620,6 +629,12 @@
             </Content>
           </div>
         </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
         <Col>
           <div>
             <h1>Änderungen in <span class="svelte-color">SvelteKit</span></h1>
@@ -769,6 +784,10 @@
 </Fullpage>
 
 <style>
+  li{
+    list-style-type: none;
+  }
+
   .svelte-color {
     color: #ff3e00;
   }
@@ -798,6 +817,32 @@
   :global(.svelte-fp-indicator) {
     display: none !important;
   }
+  :global(.svelte-tabs__selected){
+    border-bottom: 2px solid #ff3e00 !important;
+    color: #ff3e00 !important;
+  }
+  :global(pre){
+    background: #f4f4f4 !important;
+    border: 1px solid #ddd;
+    border-left: 3px solid #ff3e00;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 12px !important;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    margin-right: 32px;
+  }
+
+  ul{
+    padding-left: 0px;
+  }
+
   #parallelogram {
     width: 250px;
     height: 100vh;
@@ -812,4 +857,85 @@
     -o-transform: skew(-20deg);
     transform: skew(-20deg);
   }
+
+  #enable_long{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 1000;
+  }
+
+.number-title{
+  font-size: 40px;
+  border: 2px solid #555;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 16px auto;
+  padding: 2px;
+  color: #555;
+}
+
+.switch {
+
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 28px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ff3e00;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff3e00;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(12px);
+  -ms-transform: translateX(12px);
+  transform: translateX(12px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 </style>

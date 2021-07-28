@@ -8,7 +8,7 @@
   {@html github}
 </svelte:head>
 
-<div>
+<div class="code">
   <HighlightSvelte {code} />
   <slot />
 </div>
