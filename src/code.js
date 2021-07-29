@@ -1,30 +1,26 @@
-export const counterCode = `<script>
-  let value = 0;
-
-  function increment() {
-    value++;
-  }
-  function reset() {
-    value = 0;
-  }
+export const structureCode = `
+<script>
+  console.log("Hello, world!")
 </script>
 
-<progress {value} max="5">{value}</progress>
 <div>
-  <button disabled={value >= 5} on:click={increment}>Work</button>
-  {#if value == 0}
-    Start clicking!
-  {:else if value < 5}
-    Keep clicking...
-  {:else}
-    Done!
-    <button on:click={reset}>reset</button>
-  {/if}
+  <h2>Hier kommt HTML-code hin</h2>
 </div>
 
+<style>
+  h2 {
+    color: green;
+  }
+</style>
+`
+export const counterCode = `<script>
+  let count = 0;
+</script>
 
 <div>
-  <button on:click={() => count++}>I was clicked {count} times</button>
+  <button on:click={() => count++}>
+    Ich wurde {count} mal geklickt!
+  </button>
 </div>`
 
 export const templatesCode = `
@@ -41,14 +37,14 @@ export const templatesCode = `
 
 <progress {value} max="5">{value}</progress>
 <div>
-  <button disabled={value >= 5} on:click={increment}>Work</button>
+  <button disabled={value >= 5} on:click={increment}>Klick</button>
   {#if value == 0}
-    Start clicking!
+    Fang an zu klicken!
   {:else if value < 5}
-    Keep clicking...
+    Weiter so...
   {:else}
-    Done!
-    <button on:click={reset}>reset</button>
+    Fertig!
+    <button on:click={reset}>Zurücksetzen</button>
   {/if}
 </div>
 `
@@ -61,9 +57,9 @@ export const twowaybinding = `
 <input bind:value={name} />
 <p>
   {#if name}
-    Hello, {name}
+    Hallo, {name}!
   {:else}
-    Please enter your name!
+    Bitte gib deinen Namen ein.
   {/if}
 </p>
 `
@@ -76,45 +72,25 @@ export const motion = `
   const value = tweened(0, { duration: 400, easing: cubicOut });
 </script>
 
-<progress value={$value} max="5">{value}</progress>
+<progress value={$value} max="5"></progress>
 <p>{$value}</p>
 <div>
-  <button disabled={$value >= 5} on:click={() => value.set($value + 1)}
-    >Work</button
-  >
+  <button disabled={$value >= 5} on:click={() => value.set($value + 1)}>Klick</button>
   {#if $value == 0}
-    Start clicking!
+    Fang an zu klicken!
   {:else if $value < 5}
-    Keep clicking...
+    Weiter so...
   {:else}
-    Done!
+    Fertig!
   {/if}
   {#if $value >= 5}
-    <button transition:fade on:click={() => value.set(0)}>reset</button>
+    <button transition:fade on:click={() => value.set(0)}>Zurücksetzen</button>
   {/if}
 </div>
 `
 
 export const components = `
-// outer component
-<script>
-  import ComponentsInner from "./ComponentsInner.svelte";
-
-  let notes = [
-    { text: "foo", starred: false },
-    { text: "bar", starred: true },
-    { text: "baz", starred: false },
-  ];
-</script>
-
-<div>
-  {#each notes as {text, starred }}
-    <ComponentsInner {text} bind:starred />
-  {/each}
-</div>
-
-
-// inner component 
+// Innere Komponente - Note.svelte
 <script>
   export let text;
   export let starred;
@@ -132,4 +108,24 @@ export const components = `
     width: 500px;
   }
 </style>
+
+
+
+
+// Äußere Komponente
+<script>
+  import Note from "./Note.svelte";
+
+  let notes = [
+    { text: "foo", starred: false },
+    { text: "bar", starred: true },
+    { text: "baz", starred: false },
+  ];
+</script>
+
+<div>
+  {#each notes as {text, starred }}
+    <Note {text} bind:starred />
+  {/each}
+</div>
 `

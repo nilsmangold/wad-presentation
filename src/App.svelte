@@ -6,6 +6,7 @@
 
   import * as code from "./code.js";
   import Counter from "./examples/Counter.svelte";
+  import Structure from "./examples/Structure.svelte";
   import TwoWayBinding from "./examples/TwoWayBinding.svelte";
   import ComponentsOuter from "./examples/ComponentsOuter.svelte";
   import Motion from "./examples/Motion.svelte";
@@ -705,16 +706,22 @@
     <Container class="text-left">
       <Row>
         <Col>
-          <h1>Code</h1>
+          <h1>Codebeispiele</h1>
           <p>
             <Tabs>
               <TabList>
-                <Tab>Counter</Tab>
+                <Tab>Grundlegende Struktur</Tab>
+                <Tab>Zähler</Tab>
                 <Tab>Templates</Tab>
                 <Tab>Two way binding</Tab>
-                <Tab>Motion</Tab>
-                <Tab>Componenten</Tab>
+                <Tab>Flüssige Zustandsübergänge</Tab>
+                <Tab>Komponenten</Tab>
               </TabList>
+              <TabPanel>
+                <Example code={code.structureCode}>
+                  <Structure />
+                </Example>
+              </TabPanel>
               <TabPanel>
                 <Example code={code.counterCode}>
                   <Counter />

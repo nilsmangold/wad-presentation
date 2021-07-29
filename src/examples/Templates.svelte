@@ -11,13 +11,13 @@
 
 <progress {value} max="5">{value}</progress>
 <div>
-  <button disabled={value >= 5} on:click={increment}>Work</button>
+  <button disabled={value >= 5} on:click={increment}>Klick</button>
   {#if value == 0}
-    Start clicking!
+    Fang an zu klicken!
   {:else if value < 5}
-    Keep clicking...
+    Weiter so...
   {:else}
-    Done!
-    <button on:click={reset}>reset</button>
+    Fertig!
+    <button on:click={reset}>Zurücksetzen</button>
   {/if}
 </div>
