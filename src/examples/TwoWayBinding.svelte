@@ -5,8 +5,8 @@
 <input bind:value={name} />
 <p>
   {#if name}
-    Hello, {name}
+    Hallo, {name}!
   {:else}
-    Please enter your name!
+    Bitte gib deinen Namen ein.
   {/if}
 </p>

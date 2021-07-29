@@ -3,5 +3,7 @@
 </script>
 
 <div>
-  <button on:click={() => count++}>I was clicked {count} times</button>
+  <button on:click={() => count++}>
+    Ich wurde {count} mal geklickt!
+  </button>
 </div>
