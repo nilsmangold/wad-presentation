@@ -122,11 +122,7 @@
             </h1>
             <Content {long}>
               <p slot="long">
-                Ein Compiler zu sein und das VirtualDOM loszuwerden ist der
-                wichtigste Vorteil von Svelte, der viele der anderen Vorteile
-                ermöglicht, die wir weiter unten sehen werden. Das Konzept erfreut
-                sich so großer Beliebtheit, dass Angular und Ember in ihren
-                jüngsten Versionen auf Compiler umgestellt haben.
+                Der größte Vorteile von Svelte ist es, ein Compiler zu sein und damit auf das VirtualDOM zu verzichten.
               </p>
             </Content>
           </div>
@@ -143,11 +139,7 @@
               Svelte erzeugt hochoptimiertes Vanilla JS mit einem sehr geringen
               Overhead zur Laufzeit. Das bedeutet kleine Bundle-Größen, einen
               geringen Speicherbedarf und eine schnell ladende und schnell
-              laufende Anwendung. Schauen Sie sich die Performance-Benchmarks
-              hier an, um den Unterschied zu sehen. All dies ist "out of the
-              box", ohne dass Sie irgendwelche Einstellungen vornehmen müssen,
-              und es gibt viele Möglichkeiten, die Leistung noch weiter zu
-              verbessern.
+              laufende Anwendung. 
             </p>
           </Content>
           </div>
@@ -167,11 +159,9 @@
             <Content {long}>
               <p slot="long">
               Mit Svelte gibt es keine Notwendigkeit für das Hinzufügen von Glue
-              Code wie Hooks oder komplexes State Management und so weiter. Die
-              Boilerplate, die für Komponenten benötigt wird, ist sehr minimal
-              und kommt fast an Vanilla HTML/JS heran. Svelte unterstützt auch
-              optionale Zwei-Wege-Bindungen, die es einfacher machen, Formulare
-              zu erstellen.
+              Code wie Hooks oder komplexes State Management. Der
+              Boilerplate Code, der für die Komponenten benötigt wird, ist sehr minimal
+              und kommt fast an Vanilla HTML/JS heran. 
               </p>
             </Content>
           </div>
@@ -186,11 +176,7 @@
               <p slot="long">
               Svelte ist standardmäßig reaktiv. Das DOM wird automatisch bei
               Zustandsänderungen in jeder Top-Level-Variablen einer Komponente
-              aktualisiert. Sie müssen dafür nicht einmal speziellen Code
-              hinzufügen. Nur direkte Top-Level-Zuweisungen funktionieren auf
-              diese Weise und Referenzmutationen wie array.push funktionieren
-              nicht. Das bedeutet, dass Mutationen meiner Meinung nach
-              expliziter und einfacher zu verstehen sind.
+              aktualisiert. 
             </p>
             </Content>
           </div>
@@ -215,11 +201,11 @@
               Rendering von Haus aus, indem es einen Compiler-Modus dafür
               bereitstellt (dom vs. ssr). Es gibt sogar eine
               NativeScript-Integration für Svelte, die von dieser Flexibilität
-              Gebrauch macht, um Ziele jenseits von dom und ssr zu erzeugen. Es
-              gibt auch das Sapper-Framework, bald SvelteKit, vom Svelte-Team,
-              das ähnlich wie Next.js ist, aber für die Philosophie von Svelte
+              Gebrauch macht, um andere Ziele wie dom und ssr zu erzeugen. Es
+              gibt auch das Sapper-Framework, bald SvelteKit, 
+              das ähnlich wie Next.js funktioniert, aber für Svelte
               optimiert ist. Sapper unterstützt SSR, Progressive Web Apps,
-              Code-Splitting, und so weiter.
+              Code-Splitting, und vieles mehr.
             </p>
             </Content>
           </div>
@@ -234,9 +220,9 @@
               <p slot="long">
               Svelte folgt einem Component-First-Pattern, was es ideal für die
               Erstellung neuer Webanwendungen oder für das Hinzufügen von
-              Webkomponenten zu bestehenden Anwendungen macht. Stile sind
-              standardmäßig auf Komponenten skaliert, was Svelte ideal für
-              Web-Komponenten macht.
+              Webkomponenten zu bestehenden Anwendungen macht. CSS Klassen sind
+              standardmäßig auf Komponenten beschränkt, was die Benutzung von 
+              Web-Komponenten erleichtert.
             </p>
             </Content>
           </div>
@@ -258,11 +244,11 @@
             <Content {long}>
               <p slot="long">
               Svelte bietet eingebaute Animationen und Effekte, die es einfacher
-              machen, glatte Benutzeroberflächen und interaktive
-              Visualisierungen zu erstellen. Nun, das Framework wurde
-              ursprünglich für die Erstellung interaktiver Grafiken für The
-              Guardian entwickelt. Dieser Ansatz bietet eine viel schönere
-              Entwicklererfahrung als etwas wie React und ist viel einfacher zu
+              machen, gute Benutzeroberflächen und interaktive
+              Visualisierungen zu erstellen. Das Framework wurde
+              ursprünglich für die Erstellung interaktiver Grafiken
+              entwickelt. Dieser Ansatz bietet eine bessere
+              Entwicklererfahrung als beispielsweise React und ist einfacher zu
               verwenden.
             </p>
             </Content>
@@ -278,9 +264,9 @@
               <p slot="long">
               Svelte bietet sowohl veränderliche als auch unveränderliche
               reaktive Speicher, die es einfacher machen, komplexere
-              Zustandsverwaltung in Ihrer Anwendung durchzuführen. Die Stores
-              unterstützen manuelle und automatische Subskriptionen und
-              bidirektionale Bindungen, was sie sehr flexibel macht. Die
+              Zustandsverwaltung in einer Anwendung durchzuführen. Die Stores
+              unterstützen manuelle und automatische Subscriptions und
+              bidirektionale Bindungen, was es sehr flexibel macht. Die
               Implementierung ermöglicht auch den Wechsel zu einer anderen
               Zustandsverwaltungslösung wie z. B. RxJS.
             </p>
@@ -302,21 +288,13 @@
             <Content {long}>
               <p slot="long">
               Im Gegensatz zu React oder Angular ist die Lernkurve für Svelte
-              recht niedrig. Es gibt keine spezielle Syntax wie JSX zu lernen
-              oder komplexe APIs wie bei Angular, die man sich merken muss.
-              Alles ist in standardkonformem JS/TS, CSS und HTML geschrieben,
-              mit etwas zusätzlichem Syntaxzucker für Direktiven und
+              recht niedrig. Es gibt keine spezielle Syntax wie JSX die gelernt werden muss
+              oder komplexe APIs wie bei Angular.
+              Hauptsächlich wird in JS/TS, CSS und HTML geschrieben 
+              und nur wenig mit spezieller Syntax für Direktiven und
               Template-Logik. Die Komponenten-API ist einfach und überschaubar.
               Die Dokumentation ist ebenfalls sehr gut und leicht
-              nachvollziehbar. Ich habe zum Beispiel nur ein paar Tage
-              gebraucht, um mich mit Svelte vertraut zu machen, selbst für
-              fortgeschrittene Konzepte wie Lebenszyklen, Komposition und so
-              weiter. Im Gegensatz dazu hat es Monate gedauert, bis ich mich in
-              React wirklich zurechtgefunden habe und ich kenne immer noch nicht
-              einmal die Hälfte der Angular-APIs, nachdem ich es fast ein Jahr
-              lang benutzt habe. Natürlich hilft die Kenntnis von React oder
-              Angular dabei, Svelte leichter zu erlernen, da es eine Menge
-              ähnlicher Konzepte gibt.
+              nachvollziehbar. 
             </p>
             </Content>
           </div>
@@ -345,16 +323,14 @@
             </h1>
             <Content {long}>
               <p slot="long">
-              Svelte ist sehr jung und das bedeutet, dass es noch nicht so
-              kampferprobt ist wie React oder Angular und Sie vielleicht
-              manchmal gegen einige Mauern laufen. Das bedeutet, dass es
+              Svelte ist sehr jung und das bedeutet, dass es noch nicht 
+              so viel getestet wurde, wie beispielweise React oder Angular. 
+              Das bedeutet, dass es
               wahrscheinlich nicht für sehr komplexe oder unternehmenskritische
               Anwendungen geeignet ist, von denen erwartet wird, dass sie
-              skalieren. Dies könnte kein langfristiges Problem sein, da das
-              Framework in seiner Popularität explodiert und die Einführung von
-              Sapper bei den Skalierungsproblemen geholfen hat. Allerdings hätte
-              die Verwirrung um Sapper vs. SvelteKit meiner Meinung nach
-              vermieden werden können.
+              skalieren können. Dies könnte kein langfristiges Problem sein, da das
+              Framework in seiner Popularität stark ansteigt und die Einführung von
+              Sapper bei den Skalierungsproblemen geholfen hat. 
             </p>
             </Content>
           </div>
@@ -370,10 +346,10 @@
             <Content {long}>
               <p slot="long">
               Ein junges Framework zu sein bedeutet, dass es eine kleinere
-              Community und Benutzerbasis sowie ein kleineres Ökosystem hat.
-              Daher finden Sie vielleicht nicht so viele Tools oder Bibliotheken
-              wie in React oder so viel Hilfe auf Stack Overflow, wenn Sie bei
-              einem komplexen Problem nicht weiterkommen.
+              Community und Benutzerbasis sowie ein kleineres Ekosystem hat.
+              Daher sind nicht so viele Tools oder Bibliotheken
+              wie in React verfügbar. Ebenfalls ist die Hilfe auf Stack Overflow, wenn Sie bei
+              einem komplexen Problem nicht weiterkommen geringer.
             </p>
             </Content>
           </div>
@@ -392,22 +368,9 @@
             </h1>
             <Content {long}>
               <p slot="long">
-              Wenn Sie wie ich schon eine Weile im Bereich der
-              Frontend-Entwicklung tätig sind, können Sie zurückblicken und
-              sehen, dass sich die UX meilenweit verbessert hat, aber die
-              Toolchain, um das zu produzieren, ist sehr komplex geworden. Bei
-              JHipster versuchen wir zum Beispiel, das klassenbeste
-              Production-Grade-Setup für eine Full-Stack-Web-App mit
-              React/Vue/Angular-Frontend und Java/Kotlin/.NET/NodeJS-Backend
-              anzubieten. Wenn Sie eine neue App erstellen und kompilieren,
-              werden Sie feststellen, dass das Frontend 10x mehr Zeit zum
-              Kompilieren benötigt als das Backend. Das ist heutzutage das neue
-              Normal in jeder Full-Stack-Web-Applikation und auch Svelte hat das
-              gleiche Problem. Es ist Compiler-lastig und je komplexer Ihre App
-              wird, desto komplexer und zeitaufwändiger wird der Build. Das
-              bedeutet auch, dass man nicht einfach eine JS-Datei in eine
-              Webseite einfügen kann und erwarten kann, dass es eine Svelte-App
-              wird, wie man es mit Vue machen kann.
+              Bei Full-Stack-Web-Applikations wird aktuell viel Zeit zum kompilieren benötigt.
+              Svelte ist Compiler-lastig und je komplexer Ihre App
+              wird, desto komplexer und zeitaufwändiger wird der Build. 
             </p>
             </Content>
           </div>
@@ -420,17 +383,11 @@
             </h1>
             <Content {long}>
               <p slot="long">
-              Svelte ist konform mit den Webstandards, es führt nichts Neues wie
-              JSX ein. Aber es ändert einige der Standard-Semantiken, um auf
+              Svelte ist konform mit den Webstandards, dabei wird nichts Neues wie
+              JSX eingeführt. Aber es ändert einige der Standard-Semantiken, um auf
               eine andere Art und Weise zu arbeiten und das könnte für neue
               Benutzer verwirrend sein. Zum Beispiel verwendet es das
-              Schlüsselwort export anders und es gibt Macken wie die Verwendung
-              von on:click statt onClick und so weiter. Aber diese sind in jedem
-              Framework fast unvermeidbar. Es verwendet auch ein JS-Label ($:),
-              damit abgeleitete Anweisungen/Deklarationen funktionieren. Das
-              könnte befremdlich wirken, da einige JS-Entwickler wahrscheinlich
-              nicht einmal wissen, dass Labels in JS existieren, da wir sie
-              selten verwenden.
+              Schlüsselwort export anders und die Syntax ist in manchen Fällen anders. 
             </p>
             </Content>
           </div>
@@ -456,28 +413,17 @@
           <Content {long}>
             <div slot="long">
               <p>
-                Sapper ist ein app framework oder auch metaframework aufbauend
-                auf Svelte. Die Aufgabe von Sapper ist es, das Bauen von Svelte
-                Apps so einfach wie möglich zu gestalten in der Entwicklung von
-                modernen best practice Applikationen. Diese best practice
-                Applikationen enthalten beispielsweise server side rendering
-                (SSR) und code-splitting. Sapper nutzt zudem eine
-                “filesystem-based routing” wie von Next.js bekannt gemacht. Es
-                gibt zwei grundlegenden Konzepte: jede Seite einer App ist eine
-                Svelte Komponentet man erstellt Seiten in dem mal Dateien zu
-                src/routes hinzufügt. Diese werden vom server gerendert sodass
-                der initiale Besuch des Users so schnell wie möglich ist. HTML
-                im Browser wird eine SPA Single Page Application html templates
-                können geprerendert werden auf node server → optimierung von SEO
-                Search Engine Optimization svelte ohne sapper: anfrage zu
-                mysite.com/about → server about server → empty html page with
-                svelte js bundle und about component rendered in browser mit
-                sapper: mysite.com/about → server der about component
-                pr-rendered on server und dann prerendered html und compiled js
-                bundle an browser schickt nur initiale Anfrage nutzt Server Side
-                rendering, sonst render im browser direkt. Alle weiteren Quelles
-                und Anfragen werden vom frontend java script bundle gehandelt
-                und dynamisch anzeigen von Komponenten.
+                Sapper ist ein Appframework welches auf Svelte aufbaut. 
+                Die Aufgabe von Sapper ist es, das Bauen von Svelte
+                Apps in der Entwicklung von
+                Applikationen, so einfach wie möglich zu gestalten. Diese 
+                Applikationen enthalten beispielsweise "server side rendering"
+                (SSR) und "code-splitting". Sapper nutzt zudem ein
+                “filesystem-based routing” welches vergleichbar mit dem System von Next.js ist.
+                Es gibt zwei grundlegenden Konzepte: jede Seite einer App ist eine
+                Svelte Komponente und man erstellt Seiten in dem man Dateien zu
+                src/routes hinzufügt. Diese werden vom Server gerendert, sodass
+                der initiale Aufruf des Nutzers so schnell wie möglich ist.
               </p>
             </div>
             <div slot="short">
@@ -490,9 +436,9 @@
                 <li>Code Splitting</li>
                 <li>Ähnlich wie bei Next.js Filesystem-based routing</li>
                 <li>Zwei grundlegende Konzepte</li>
-                <li>jede Seite einer App ist eine Svelte Komponentet</li>
+                <li>Jede Seite einer App ist eine Svelte Komponentet</li>
                 <li>
-                  man erstellt Seiten in dem mal Dateien zu src/routes
+                  Man erstellt Seiten in dem mal Dateien zu src/routes
                   hinzufügt. Diese werden vom server gerendert sodass der
                   initiale Besuch des Users so schnell wie möglich ist.
                 </li>
@@ -554,11 +500,13 @@
             <Content {long}>
               <div slot="long">
                 <p>
-                  wie Next.js für React ist Sapper für Svelte Unterschiede
-                  zwischen Sapper und Next.js: - Sapper wird betrieben von
-                  Svelte statt React und ist somit schneller und die Apps sind
-                  kleiner - Seiten und Routen im src/routes Verzeichnis machen
-                  es sehr einfach eine JSON API hizuzufügen - Quelles sind nur
+                  Wie Next.js für React ist Sapper für Svelte Unterschiede
+                  zwischen Sapper und Next.js: 
+                  - Sapper wird betrieben von Svelte statt React und ist somit schneller und die Apps sind
+                  kleiner 
+                  - Seiten und Routen im src/routes Verzeichnis machen
+                  es sehr einfach eine JSON API hizuzufügen 
+                  - Quelles sind nur
                   ein a-tag Element im Gegensatz zu einer frameworkspezifischen
                   Quelle-tag Komponente
                 </p>
@@ -604,16 +552,12 @@
             <Content {long}>
               <div slot="long">
                 <p>
-                  Vor allem für Einsteiger ist der Unterschied von zwei
-                  empfohlenen Wegen eine App zu starten sehr verwirrend. Auf der
-                  einen Seite gab es die Sapper App und auf der anderen Seite
-                  die Svelte App. Mit den Neuerungen, soll ein einheitlicher Weg
-                  empfohlen werden, sodass es zu einer deutlich besseren
-                  Übersichtlichkeit beim Einstieg, Onboarding als auch bei der
-                  Wartung und Instandhaltung von Code und dem ganzen Projekt
-                  kommt. Zudem hat sich die Art und Weise Webentwicklung zu
-                  betreiben drastisch geändert, womit es an der Zeit ist, einige
-                  fundamentale Annahmen zu überdenken.
+                  Vor allem für Einsteiger ist der Unterschied von Sapper und SvelteKit sehr verwirrend. 
+                  Auf der
+                  Mit den Neuerungen, soll ein einheitlicher Weg
+                  gegeben werden, sodass es zu einer deutlich besseren
+                  Übersichtlichkeit vorallem beim Einstieg gibt. Dies gilt auch bei der
+                  Wartung und Instandhaltung von Code und dem ganzen Projekt. 
                 </p>
               </div>
               <div slot="short">
@@ -714,8 +658,8 @@
                 <Tab>Zähler</Tab>
                 <Tab>Templates</Tab>
                 <Tab>Two way binding</Tab>
-                <Tab>Flüssige Zustandsübergänge</Tab>
                 <Tab>Komponenten</Tab>
+                <Tab>Flüssige Zustandsübergänge</Tab>
               </TabList>
               <TabPanel>
                 <Example code={code.structureCode}>
@@ -738,13 +682,13 @@
                 </Example>
               </TabPanel>
               <TabPanel>
-                <Example code={code.motion}>
-                  <Motion />
+                <Example code={code.components}>
+                  <ComponentsOuter />
                 </Example>
               </TabPanel>
               <TabPanel>
-                <Example code={code.components}>
-                  <ComponentsOuter />
+                <Example code={code.motion}>
+                  <Motion />
                 </Example>
               </TabPanel>
             </Tabs>
@@ -835,7 +779,7 @@
     color: #666;
     page-break-inside: avoid;
     font-family: monospace;
-    font-size: 12px !important;
+    font-size: 11px !important;
     line-height: 1.6;
     margin-bottom: 1.6em;
     max-width: 100%;
