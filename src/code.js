@@ -89,28 +89,22 @@ export const motion = `
 </div>
 `
 
-export const components = `
-// Innere Komponente - Note.svelte
+export const components = `// Innere Komponente - Note.svelte
 <script>
   export let text;
   export let starred;
-
 </script>
 
 <div class="note">
   <button on:click={() => starred = !starred}>{#if starred}🌟{:else}⭐{/if}</button>
   <p>{text}</p>
 </div>
-
 <style>
   .note {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     width: 500px;
   }
 </style>
-
-
-
 
 // Äußere Komponente
 <script>

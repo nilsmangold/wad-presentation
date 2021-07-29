@@ -75,6 +75,22 @@
     <Container class="text-center">
       <Row>
         <Col>
+          <h1 style="margin-bottom: 20px;" class="title-section svelte-color">Agenda</h1>
+          <p>Was ist Svelte?</p>
+          <p>Vorteile</p>
+          <p>Nachteile</p>
+          <p>Sapper</p>
+          <p>Zukunftsausblick</p>
+          <p>Codebeispiele</p>
+
+        </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
+        <Col>
           <div class="block-middle">
             <h1>
               Was ist <span class="svelte-color">Svelte</span> ?
@@ -429,27 +445,18 @@
             <div slot="short">
               <ul>
                 <li>
-                  Auf Svelte aufbauendes Metaframework für "best practice"
-                  Applikationen
+                  Auf Svelte aufbauendes Metaframework
                 </li>
+                <li>Einfache Gestaltung von Webapplications</li>
                 <li>Server Side Rendering (SSR)</li>
                 <li>Code Splitting</li>
+                <li>Integrierter Rounting Ansatz wie bei Next.js</li>
                 <li>Ähnlich wie bei Next.js Filesystem-based routing</li>
-                <li>Zwei grundlegende Konzepte</li>
-                <li>Jede Seite einer App ist eine Svelte Komponentet</li>
                 <li>
-                  Man erstellt Seiten in dem mal Dateien zu src/routes
-                  hinzufügt. Diese werden vom server gerendert sodass der
-                  initiale Besuch des Users so schnell wie möglich ist.
-                </li>
-                <li>HTML wird im Browser zu Single Page Applikation (SPA)</li>
-                <li>
-                  durch prerender von html templates, Optimierung von Search
-                  Engine Optimization (SEO)
+                  Prerender von HTML Templates
                 </li>
                 <li>
-                  Nur initiale Anfrage nutzt Server Side rendering, sonst im
-                  Browser direkt gerendert
+                  Optimierung von Search Engine Optimization (SEO)
                 </li>
               </ul>
             </div>
@@ -481,12 +488,8 @@
               </div>
               <div slot="short">
                 <ul>
-                  <li>Name stammt vom Militär engl. Sapper deutsch Sappeur</li>
-                  <li>
-                    Soldaten im Kriegsgebiet für Brücken und
-                    Straßenbau/Brückenbau
-                  </li>
-                  <li>Sapper kurz für Svelte App maker</li>
+                  <li>Sapper ist kurz für "<span class="svelte-color">S</span>velte <span class="svelte-color">app</span> mak<span class="svelte-color">er</span>"</li>
+                  <li>Anspielung auf Militärbegriff: bedeutet dort Brückenbauer oder Straßenbauer</li>
                 </ul>
               </div>
             </Content>
@@ -513,18 +516,8 @@
               </div>
               <div slot="short">
                 <ul>
-                  <li>
-                    Sapper wird betrieben von Svelte statt React und ist somit
-                    schneller und die Apps sind kleiner
-                  </li>
-                  <li>
-                    Seiten und Routen im src/routes Verzeichnis machen es sehr
-                    einfach eine JSON API hizuzufügen
-                  </li>
-                  <li>
-                    Quelles sind nur ein a-tag Element im Gegensatz zu einer
-                    frameworkspezifischen Quelle-tag Komponente
-                  </li>
+                  <li> Performanter </li>
+                  <li> Bessere API </li>
                 </ul>
               </div>
             </Content>
@@ -632,12 +625,13 @@
               </div>
               <div slot="short">
                 <ul>
-                  <li>Für Development kein Bundler mehr</li>
-                  <li>Snowpack für deutliche Zeitersparnis bei Entwicklung</li>
-                  <li>Hot-Module Reload und Fehlerüberlagerung</li>
-                  <li>In Produktion Rollup als Bundler</li>
-                  <li>vollständige Unterstützung serverloses Paradigma</li>
-                  <li>Für großen Anbieter Plattformen -> Adapter API</li>
+                  <li>Für Development Bundler nicht mehr notwendig</li>
+                  <li>Developmentserver kann on-demand Module bereitstellen</li>
+                  <li>Hot-Module Reload</li>
+                  <li>Rollup als Bundler</li>
+                  <li>Serverloses Paradigma</li>
+                  <li>Adapter API</li>
+                  <li>Partielles Pre-Rendering</li>
                 </ul>
               </div>
             </Content>
@@ -650,7 +644,7 @@
     <Container class="text-left">
       <Row>
         <Col>
-          <h1>Codebeispiele</h1>
+          <h1 style="margin-top: 20px;">Codebeispiele</h1>
           <p>
             <Tabs>
               <TabList>
@@ -693,6 +687,16 @@
               </TabPanel>
             </Tabs>
           </p>
+        </Col>
+      </Row>
+    </Container>
+  </FullpageSection>
+  <FullpageSection center>
+    <Container class="text-center">
+      <Row>
+        <Col>
+          <h4 >Präsentation verfügbar als <span class="svelte-color">Svelte</span> Seite unter:</h4>
+          <h4 >https://nilsmangold.github.io/wad-presentation/index.html</h4>
         </Col>
       </Row>
     </Container>
@@ -890,3 +894,4 @@ input:checked + .slider:before {
 }
 
 </style>
+
