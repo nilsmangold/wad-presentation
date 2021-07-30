@@ -138,7 +138,7 @@
             </h1>
             <Content {long}>
               <p slot="long">
-                Der größte Vorteile von Svelte ist es, ein Compiler zu sein und damit auf das VirtualDOM zu verzichten.
+                Der größte Vorteile von Svelte ist es, dass es ein Compiler ist und damit auf VirtualDOMs verzichten zu können.
               </p>
             </Content>
           </div>
@@ -191,7 +191,7 @@
             <Content {long}>
               <p slot="long">
               Svelte ist standardmäßig reaktiv. Das DOM wird automatisch bei
-              Zustandsänderungen in jeder Top-Level-Variablen einer Komponente
+              Zustandsänderungen in jeder Top-Level-Variable einer Komponente
               aktualisiert. 
             </p>
             </Content>
@@ -215,7 +215,7 @@
               Ausgabeziele zu ändern, ohne den Code Ihrer Komponente ändern zu
               müssen. Zum Beispiel unterstützt Svelte das serverseitige
               Rendering von Haus aus, indem es einen Compiler-Modus dafür
-              bereitstellt (dom vs. ssr). Es gibt sogar eine
+              bereitstellt. Es gibt sogar eine
               NativeScript-Integration für Svelte, die von dieser Flexibilität
               Gebrauch macht, um andere Ziele wie dom und ssr zu erzeugen. Es
               gibt auch das Sapper-Framework, bald SvelteKit, 
@@ -356,7 +356,7 @@
             <div class="number-title">2</div>
             <h1>
               Kleinere Community und <span class="svelte-color"
-                >kleineres Ökosystem</span
+                >kleineres Ekosystem</span
               >
             </h1>
             <Content {long}>
@@ -400,7 +400,7 @@
             <Content {long}>
               <p slot="long">
               Svelte ist konform mit den Webstandards, dabei wird nichts Neues wie
-              JSX eingeführt. Aber es ändert einige der Standard-Semantiken, um auf
+              beispielsweise JSX eingeführt. Aber es ändert einige der Standard-Semantiken, um auf
               eine andere Art und Weise zu arbeiten und das könnte für neue
               Benutzer verwirrend sein. Zum Beispiel verwendet es das
               Schlüsselwort export anders und die Syntax ist in manchen Fällen anders. 
