@@ -61,7 +61,7 @@
             <h1 class="title">SVELTE</h1>
             <p class="subheader">Cybernetically enhanced web apps</p>
             <p>
-              Leon Kowarschick (Mtrk. Nachname), Nils Mangold (202477), Philipp
+              Leon Kowarschick (202458), Nils Mangold (202477), Philipp
               Walter (203149)
             </p>
 
