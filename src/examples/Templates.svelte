@@ -9,9 +9,9 @@
   }
 </script>
 
-<progress {value} max="5">{value}</progress>
-<div>
-  <button disabled={value >= 5} on:click={increment}>Klick</button>
+<progress style="display: block;" {value} max="5">{value}</progress>
+<div style="display: block;">
+  <button style="display: block;" disabled={value >= 5} on:click={increment}>Klick</button>
   {#if value == 0}
     Fang an zu klicken!
   {:else if value < 5}
@@ -21,3 +21,7 @@
     <button on:click={reset}>Zurücksetzen</button>
   {/if}
 </div>
+
+<style>
+  
+</style>

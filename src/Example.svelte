@@ -10,11 +10,13 @@
 
 <div class="code">
   <HighlightSvelte {code} />
-  <slot />
+  <div>
+    <slot />
+  </div>
 </div>
 
 <style>
-  div {
+  div.code{
     display: flex;
   }
 </style>
