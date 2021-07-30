@@ -11254,7 +11254,7 @@ var app = (function () {
     			p0.textContent = "Cybernetically enhanced web apps";
     			t3 = space();
     			p1 = element("p");
-    			p1.textContent = "Leon Kowarschick (Mtrk. Nachname), Nils Mangold (202477), Philipp\n              Walter (203149)";
+    			p1.textContent = "Leon Kowarschick (202458), Nils Mangold (202477), Philipp\n              Walter (203149)";
     			t5 = space();
     			div0 = element("div");
     			attr_dev(h1, "class", "title svelte-vke831");
@@ -11264,7 +11264,7 @@ var app = (function () {
     			add_location(p1, file, 62, 12, 1960);
     			attr_dev(div0, "id", "parallelogram");
     			attr_dev(div0, "class", "svelte-vke831");
-    			add_location(div0, file, 67, 12, 2104);
+    			add_location(div0, file, 67, 12, 2096);
     			attr_dev(div1, "class", "header-container svelte-vke831");
     			add_location(div1, file, 59, 10, 1805);
     		},
@@ -11500,13 +11500,13 @@ var app = (function () {
     			p5.textContent = "Codebeispiele";
     			set_style(h1, "margin-bottom", "20px");
     			attr_dev(h1, "class", "title-section svelte-color svelte-vke831");
-    			add_location(h1, file, 77, 10, 2313);
-    			add_location(p0, file, 78, 10, 2403);
-    			add_location(p1, file, 79, 10, 2436);
-    			add_location(p2, file, 80, 10, 2462);
-    			add_location(p3, file, 81, 10, 2489);
-    			add_location(p4, file, 82, 10, 2513);
-    			add_location(p5, file, 83, 10, 2547);
+    			add_location(h1, file, 77, 10, 2305);
+    			add_location(p0, file, 78, 10, 2395);
+    			add_location(p1, file, 79, 10, 2428);
+    			add_location(p2, file, 80, 10, 2454);
+    			add_location(p3, file, 81, 10, 2481);
+    			add_location(p4, file, 82, 10, 2505);
+    			add_location(p5, file, 83, 10, 2539);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -11732,10 +11732,10 @@ var app = (function () {
     			t1 = space();
     			p1 = element("p");
     			p1.textContent = "Stattdessen läuft Svelte zur Build-Zeit und konvertiert Ihre Komponenten in hocheffizienten imperativen Code, der das DOM chirurgisch aktualisiert. Das Ergebnis ist, dass Sie in der Lage sind, anspruchsvolle Anwendungen mit hervorragenden Leistungsmerkmalen zu schreiben.";
-    			add_location(p0, file, 99, 16, 2938);
-    			add_location(p1, file, 102, 16, 3435);
+    			add_location(p0, file, 99, 16, 2930);
+    			add_location(p1, file, 102, 16, 3427);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 98, 14, 2904);
+    			add_location(div, file, 98, 14, 2896);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -11778,11 +11778,11 @@ var app = (function () {
     			t1 = text(" Es ist ein Compiler, der Ihre deklarativen Komponenten in effizientes JavaScript umwandelt, das das DOM aktualisiert.\n                  ");
     			br1 = element("br");
     			t2 = text(" Reaktives UI-Konzept");
-    			add_location(br0, file, 109, 18, 3883);
-    			add_location(br1, file, 110, 18, 4025);
-    			add_location(p, file, 107, 16, 3820);
+    			add_location(br0, file, 109, 18, 3875);
+    			add_location(br1, file, 110, 18, 4017);
+    			add_location(p, file, 107, 16, 3812);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 106, 14, 3785);
+    			add_location(div, file, 106, 14, 3777);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -11843,11 +11843,11 @@ var app = (function () {
     			t3 = space();
     			create_component(content.$$.fragment);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 95, 22, 2800);
+    			add_location(span, file, 95, 22, 2792);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 94, 12, 2773);
+    			add_location(h1, file, 94, 12, 2765);
     			attr_dev(div, "class", "block-middle svelte-vke831");
-    			add_location(div, file, 93, 10, 2734);
+    			add_location(div, file, 93, 10, 2726);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -12074,10 +12074,10 @@ var app = (function () {
     			t1 = space();
     			div = element("div");
     			attr_dev(h1, "class", "title-section svelte-vke831");
-    			add_location(h1, file, 123, 10, 4299);
+    			add_location(h1, file, 123, 10, 4291);
     			attr_dev(div, "id", "parallelogram");
     			attr_dev(div, "class", "svelte-vke831");
-    			add_location(div, file, 124, 10, 4349);
+    			add_location(div, file, 124, 10, 4341);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -12277,7 +12277,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Der größte Vorteile von Svelte ist es, dass es ein Compiler ist und damit auf VirtualDOMs verzichten zu können.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 139, 14, 4747);
+    			add_location(p, file, 139, 14, 4739);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -12332,12 +12332,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 134, 12, 4559);
+    			add_location(div0, file, 134, 12, 4551);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 136, 27, 4637);
+    			add_location(span, file, 136, 27, 4629);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 135, 12, 4605);
-    			add_location(div1, file, 133, 10, 4541);
+    			add_location(h1, file, 135, 12, 4597);
+    			add_location(div1, file, 133, 10, 4533);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -12395,7 +12395,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte erzeugt hochoptimiertes Vanilla JS mit einem sehr geringen\n              Overhead zur Laufzeit. Das bedeutet kleine Bundle-Größen, einen\n              geringen Speicherbedarf und eine schnell ladende und schnell\n              laufende Anwendung.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 153, 14, 5197);
+    			add_location(p, file, 153, 14, 5189);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -12450,12 +12450,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 147, 12, 5007);
+    			add_location(div0, file, 147, 12, 4999);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 149, 32, 5090);
+    			add_location(span, file, 149, 32, 5082);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 148, 12, 5053);
-    			add_location(div1, file, 146, 10, 4989);
+    			add_location(h1, file, 148, 12, 5045);
+    			add_location(div1, file, 146, 10, 4981);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -12704,7 +12704,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Mit Svelte gibt es keine Notwendigkeit für das Hinzufügen von Glue\n              Code wie Hooks oder komplexes State Management. Der\n              Boilerplate Code, der für die Komponenten benötigt wird, ist sehr minimal\n              und kommt fast an Vanilla HTML/JS heran.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 175, 14, 5899);
+    			add_location(p, file, 175, 14, 5891);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -12759,12 +12759,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 170, 12, 5719);
+    			add_location(div0, file, 170, 12, 5711);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 172, 22, 5792);
+    			add_location(span, file, 172, 22, 5784);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 171, 12, 5765);
-    			add_location(div1, file, 169, 10, 5701);
+    			add_location(h1, file, 171, 12, 5757);
+    			add_location(div1, file, 169, 10, 5693);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -12822,7 +12822,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte ist standardmäßig reaktiv. Das DOM wird automatisch bei\n              Zustandsänderungen in jeder Top-Level-Variable einer Komponente\n              aktualisiert.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 191, 14, 6499);
+    			add_location(p, file, 191, 14, 6491);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -12877,12 +12877,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 186, 12, 6322);
+    			add_location(div0, file, 186, 12, 6314);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 188, 23, 6396);
+    			add_location(span, file, 188, 23, 6388);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 187, 12, 6368);
-    			add_location(div1, file, 185, 10, 6304);
+    			add_location(h1, file, 187, 12, 6360);
+    			add_location(div1, file, 185, 10, 6296);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -13131,7 +13131,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Da es sich um einen Compiler handelt, ist es einfach, die\n              Ausgabeziele zu ändern, ohne den Code Ihrer Komponente ändern zu\n              müssen. Zum Beispiel unterstützt Svelte das serverseitige\n              Rendering von Haus aus, indem es einen Compiler-Modus dafür\n              bereitstellt. Es gibt sogar eine\n              NativeScript-Integration für Svelte, die von dieser Flexibilität\n              Gebrauch macht, um andere Ziele wie dom und ssr zu erzeugen. Es\n              gibt auch das Sapper-Framework, bald SvelteKit, \n              das ähnlich wie Next.js funktioniert, aber für Svelte\n              optimiert ist. Sapper unterstützt SSR, Progressive Web Apps,\n              Code-Splitting, und vieles mehr.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 212, 14, 7120);
+    			add_location(p, file, 212, 14, 7112);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -13186,12 +13186,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 207, 12, 6939);
+    			add_location(div0, file, 207, 12, 6931);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 209, 22, 7012);
+    			add_location(span, file, 209, 22, 7004);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 208, 12, 6985);
-    			add_location(div1, file, 206, 10, 6921);
+    			add_location(h1, file, 208, 12, 6977);
+    			add_location(div1, file, 206, 10, 6913);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -13249,7 +13249,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte folgt einem Component-First-Pattern, was es ideal für die\n              Erstellung neuer Webanwendungen oder für das Hinzufügen von\n              Webkomponenten zu bestehenden Anwendungen macht. CSS Klassen sind\n              standardmäßig auf Komponenten beschränkt, was die Benutzung von \n              Web-Komponenten erleichtert.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 235, 14, 8183);
+    			add_location(p, file, 235, 14, 8175);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -13304,12 +13304,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 230, 12, 8004);
+    			add_location(div0, file, 230, 12, 7996);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 232, 26, 8081);
+    			add_location(span, file, 232, 26, 8073);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 231, 12, 8050);
-    			add_location(div1, file, 229, 10, 7986);
+    			add_location(h1, file, 231, 12, 8042);
+    			add_location(div1, file, 229, 10, 7978);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -13558,7 +13558,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte bietet eingebaute Animationen und Effekte, die es einfacher\n              machen, gute Benutzeroberflächen und interaktive\n              Visualisierungen zu erstellen. Das Framework wurde\n              ursprünglich für die Erstellung interaktiver Grafiken\n              entwickelt. Dieser Ansatz bietet eine bessere\n              Entwicklererfahrung als beispielsweise React und ist einfacher zu\n              verwenden.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 260, 14, 9021);
+    			add_location(p, file, 260, 14, 9013);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -13613,12 +13613,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 253, 12, 8794);
+    			add_location(div0, file, 253, 12, 8786);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 255, 41, 8886);
+    			add_location(span, file, 255, 41, 8878);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 254, 12, 8840);
-    			add_location(div1, file, 252, 10, 8776);
+    			add_location(h1, file, 254, 12, 8832);
+    			add_location(div1, file, 252, 10, 8768);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -13676,7 +13676,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte bietet sowohl veränderliche als auch unveränderliche\n              reaktive Speicher, die es einfacher machen, komplexere\n              Zustandsverwaltung in einer Anwendung durchzuführen. Die Stores\n              unterstützen manuelle und automatische Subscriptions und\n              bidirektionale Bindungen, was es sehr flexibel macht. Die\n              Implementierung ermöglicht auch den Wechsel zu einer anderen\n              Zustandsverwaltungslösung wie z. B. RxJS.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 279, 14, 9784);
+    			add_location(p, file, 279, 14, 9776);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -13731,12 +13731,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 274, 12, 9593);
+    			add_location(div0, file, 274, 12, 9585);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 276, 36, 9680);
+    			add_location(span, file, 276, 36, 9672);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 275, 12, 9639);
-    			add_location(div1, file, 273, 10, 9575);
+    			add_location(h1, file, 275, 12, 9631);
+    			add_location(div1, file, 273, 10, 9567);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -13985,7 +13985,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Im Gegensatz zu React oder Angular ist die Lernkurve für Svelte\n              recht niedrig. Es gibt keine spezielle Syntax wie JSX die gelernt werden muss\n              oder komplexe APIs wie bei Angular.\n              Hauptsächlich wird in JS/TS, CSS und HTML geschrieben \n              und nur wenig mit spezieller Syntax für Direktiven und\n              Template-Logik. Die Komponenten-API ist einfach und überschaubar.\n              Die Dokumentation ist ebenfalls sehr gut und leicht\n              nachvollziehbar.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 304, 14, 10714);
+    			add_location(p, file, 304, 14, 10706);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -14040,12 +14040,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 299, 12, 10535);
+    			add_location(div0, file, 299, 12, 10527);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 301, 23, 10609);
+    			add_location(span, file, 301, 23, 10601);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 300, 12, 10581);
-    			add_location(div1, file, 298, 10, 10517);
+    			add_location(h1, file, 300, 12, 10573);
+    			add_location(div1, file, 298, 10, 10509);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -14273,10 +14273,10 @@ var app = (function () {
     			t1 = space();
     			div = element("div");
     			attr_dev(h1, "class", "title-section svelte-vke831");
-    			add_location(h1, file, 324, 10, 11488);
+    			add_location(h1, file, 324, 10, 11480);
     			attr_dev(div, "id", "parallelogram");
     			attr_dev(div, "class", "svelte-vke831");
-    			add_location(div, file, 325, 10, 11539);
+    			add_location(div, file, 325, 10, 11531);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -14476,7 +14476,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte ist sehr jung und das bedeutet, dass es noch nicht \n              so viel getestet wurde, wie beispielweise React oder Angular. \n              Das bedeutet, dass es\n              wahrscheinlich nicht für sehr komplexe oder unternehmenskritische\n              Anwendungen geeignet ist, von denen erwartet wird, dass sie\n              skalieren können. Dies könnte kein langfristiges Problem sein, da das\n              Framework in seiner Popularität stark ansteigt und die Einführung von\n              Sapper bei den Skalierungsproblemen geholfen hat.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 340, 14, 11926);
+    			add_location(p, file, 340, 14, 11918);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -14531,12 +14531,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 335, 12, 11749);
+    			add_location(div0, file, 335, 12, 11741);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 337, 21, 11821);
+    			add_location(span, file, 337, 21, 11813);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 336, 12, 11795);
-    			add_location(div1, file, 334, 10, 11731);
+    			add_location(h1, file, 336, 12, 11787);
+    			add_location(div1, file, 334, 10, 11723);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -14594,7 +14594,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Ein junges Framework zu sein bedeutet, dass es eine kleinere\n              Community und Benutzerbasis sowie ein kleineres Ekosystem hat.\n              Daher sind nicht so viele Tools oder Bibliotheken\n              wie in React verfügbar. Ebenfalls ist die Hilfe auf Stack Overflow, wenn Sie bei\n              einem komplexen Problem nicht weiterkommen geringer.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 362, 14, 12864);
+    			add_location(p, file, 362, 14, 12856);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -14649,12 +14649,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 355, 12, 12629);
+    			add_location(div0, file, 355, 12, 12621);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 357, 37, 12717);
+    			add_location(span, file, 357, 37, 12709);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 356, 12, 12675);
-    			add_location(div1, file, 354, 10, 12611);
+    			add_location(h1, file, 356, 12, 12667);
+    			add_location(div1, file, 354, 10, 12603);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -14903,7 +14903,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Bei Full-Stack-Web-Applikations wird aktuell viel Zeit zum kompilieren benötigt.\n              Svelte ist Compiler-lastig und je komplexer Ihre App\n              wird, desto komplexer und zeitaufwändiger wird der Build.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 385, 14, 13676);
+    			add_location(p, file, 385, 14, 13668);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -14958,12 +14958,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 380, 12, 13498);
+    			add_location(div0, file, 380, 12, 13490);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 382, 26, 13575);
+    			add_location(span, file, 382, 26, 13567);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 381, 12, 13544);
-    			add_location(div1, file, 379, 10, 13480);
+    			add_location(h1, file, 381, 12, 13536);
+    			add_location(div1, file, 379, 10, 13472);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -15021,7 +15021,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "Svelte ist konform mit den Webstandards, dabei wird nichts Neues wie\n              beispielsweise JSX eingeführt. Aber es ändert einige der Standard-Semantiken, um auf\n              eine andere Art und Weise zu arbeiten und das könnte für neue\n              Benutzer verwirrend sein. Zum Beispiel verwendet es das\n              Schlüsselwort export anders und die Syntax ist in manchen Fällen anders.";
     			attr_dev(p, "slot", "long");
-    			add_location(p, file, 400, 14, 14208);
+    			add_location(p, file, 400, 14, 14200);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -15076,12 +15076,12 @@ var app = (function () {
     			t4 = space();
     			create_component(content.$$.fragment);
     			attr_dev(div0, "class", "number-title svelte-vke831");
-    			add_location(div0, file, 395, 12, 14041);
+    			add_location(div0, file, 395, 12, 14033);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 397, 17, 14109);
+    			add_location(span, file, 397, 17, 14101);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 396, 12, 14087);
-    			add_location(div1, file, 394, 10, 14023);
+    			add_location(h1, file, 396, 12, 14079);
+    			add_location(div1, file, 394, 10, 14015);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -15334,10 +15334,10 @@ var app = (function () {
     			t1 = space();
     			div = element("div");
     			attr_dev(h1, "class", "title-section svelte-vke831");
-    			add_location(h1, file, 417, 10, 14862);
+    			add_location(h1, file, 417, 10, 14854);
     			attr_dev(div, "id", "parallelogram");
     			attr_dev(div, "class", "svelte-vke831");
-    			add_location(div, file, 418, 10, 14910);
+    			add_location(div, file, 418, 10, 14902);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -15543,10 +15543,10 @@ var app = (function () {
     			t1 = space();
     			p1 = element("p");
     			p1.textContent = "Durch Prerendern der HTML-Struktur kann Sapper die initiale Loadzeit deutlich veringern,\n                da der Client hier anfangs kein Javascript ausführen oder laden muss.";
-    			add_location(p0, file, 430, 14, 15232);
-    			add_location(p1, file, 435, 14, 15613);
+    			add_location(p0, file, 430, 14, 15224);
+    			add_location(p1, file, 435, 14, 15605);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 429, 12, 15200);
+    			add_location(div, file, 429, 12, 15192);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -15618,25 +15618,25 @@ var app = (function () {
     			li7 = element("li");
     			li7.textContent = "Optimierung von Search Engine Optimization (SEO)";
     			attr_dev(li0, "class", "svelte-vke831");
-    			add_location(li0, file, 442, 16, 15912);
+    			add_location(li0, file, 442, 16, 15904);
     			attr_dev(li1, "class", "svelte-vke831");
-    			add_location(li1, file, 445, 16, 16010);
+    			add_location(li1, file, 445, 16, 16002);
     			attr_dev(li2, "class", "svelte-vke831");
-    			add_location(li2, file, 446, 16, 16075);
+    			add_location(li2, file, 446, 16, 16067);
     			attr_dev(li3, "class", "svelte-vke831");
-    			add_location(li3, file, 447, 16, 16128);
+    			add_location(li3, file, 447, 16, 16120);
     			attr_dev(li4, "class", "svelte-vke831");
-    			add_location(li4, file, 448, 16, 16168);
+    			add_location(li4, file, 448, 16, 16160);
     			attr_dev(li5, "class", "svelte-vke831");
-    			add_location(li5, file, 449, 16, 16238);
+    			add_location(li5, file, 449, 16, 16230);
     			attr_dev(li6, "class", "svelte-vke831");
-    			add_location(li6, file, 450, 16, 16312);
+    			add_location(li6, file, 450, 16, 16304);
     			attr_dev(li7, "class", "svelte-vke831");
-    			add_location(li7, file, 453, 16, 16402);
+    			add_location(li7, file, 453, 16, 16394);
     			attr_dev(ul, "class", "svelte-vke831");
-    			add_location(ul, file, 441, 14, 15891);
+    			add_location(ul, file, 441, 14, 15883);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 440, 12, 15858);
+    			add_location(div, file, 440, 12, 15850);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -15703,9 +15703,9 @@ var app = (function () {
     			t2 = space();
     			create_component(content.$$.fragment);
     			attr_dev(span, "class", "sapper-color svelte-vke831");
-    			add_location(span, file, 427, 22, 15114);
+    			add_location(span, file, 427, 22, 15106);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 427, 10, 15102);
+    			add_location(h1, file, 427, 10, 15094);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -15928,9 +15928,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Sapper ist kurz für \"Svelte App maker\", ist aber auch eine Anspielung an den Militärbegriff Sappeur, welcher einen Straßen oder Brückenbauer beschreibt.";
-    			add_location(p, file, 471, 16, 16873);
+    			add_location(p, file, 471, 16, 16865);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 470, 14, 16839);
+    			add_location(div, file, 470, 14, 16831);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -15986,19 +15986,19 @@ var app = (function () {
     			li1 = element("li");
     			li1.textContent = "Anspielung auf Militärbegriff: bedeutet dort Brückenbauer oder Straßenbauer";
     			attr_dev(span0, "class", "svelte-color svelte-vke831");
-    			add_location(span0, file, 477, 43, 17186);
+    			add_location(span0, file, 477, 43, 17178);
     			attr_dev(span1, "class", "svelte-color svelte-vke831");
-    			add_location(span1, file, 477, 84, 17227);
+    			add_location(span1, file, 477, 84, 17219);
     			attr_dev(span2, "class", "svelte-color svelte-vke831");
-    			add_location(span2, file, 477, 125, 17268);
+    			add_location(span2, file, 477, 125, 17260);
     			attr_dev(li0, "class", "svelte-vke831");
-    			add_location(li0, file, 477, 18, 17161);
+    			add_location(li0, file, 477, 18, 17153);
     			attr_dev(li1, "class", "svelte-vke831");
-    			add_location(li1, file, 478, 18, 17329);
+    			add_location(li1, file, 478, 18, 17321);
     			attr_dev(ul, "class", "svelte-vke831");
-    			add_location(ul, file, 476, 16, 17138);
+    			add_location(ul, file, 476, 16, 17130);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 475, 14, 17103);
+    			add_location(div, file, 475, 14, 17095);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16062,10 +16062,10 @@ var app = (function () {
     			t2 = space();
     			create_component(content.$$.fragment);
     			attr_dev(span, "class", "sapper-color svelte-vke831");
-    			add_location(span, file, 468, 22, 16749);
+    			add_location(span, file, 468, 22, 16741);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 468, 12, 16739);
-    			add_location(div, file, 467, 10, 16721);
+    			add_location(h1, file, 468, 12, 16731);
+    			add_location(div, file, 467, 10, 16713);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16122,9 +16122,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Aufgrund der Verwendung von Svelte als Basisframework ist Sapper deutlich performanter\n                  als das auf React basierende Next.JS.\n                  Da Vvelte ein Compiler ist kann Sapper hier in seiner Entwickler-API deutlich ergonomischer sein.\n                  So können beispielsweise Links über gewohnte a> elemente umgesetzt werden, statt\n                  framework-spezifische Komponenten zu benötigen.";
-    			add_location(p, file, 491, 16, 17720);
+    			add_location(p, file, 491, 16, 17712);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 490, 14, 17686);
+    			add_location(div, file, 490, 14, 17678);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16164,13 +16164,13 @@ var app = (function () {
     			li1 = element("li");
     			li1.textContent = "Bessere API";
     			attr_dev(li0, "class", "svelte-vke831");
-    			add_location(li0, file, 501, 18, 18280);
+    			add_location(li0, file, 501, 18, 18272);
     			attr_dev(li1, "class", "svelte-vke831");
-    			add_location(li1, file, 502, 18, 18322);
+    			add_location(li1, file, 502, 18, 18314);
     			attr_dev(ul, "class", "svelte-vke831");
-    			add_location(ul, file, 500, 16, 18257);
+    			add_location(ul, file, 500, 16, 18249);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 499, 14, 18222);
+    			add_location(div, file, 499, 14, 18214);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16227,10 +16227,10 @@ var app = (function () {
     			t2 = space();
     			create_component(content.$$.fragment);
     			attr_dev(span, "class", "sapper-color svelte-vke831");
-    			add_location(span, file, 487, 24, 17583);
+    			add_location(span, file, 487, 24, 17575);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 486, 12, 17554);
-    			add_location(div, file, 485, 10, 17536);
+    			add_location(h1, file, 486, 12, 17546);
+    			add_location(div, file, 485, 10, 17528);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16481,10 +16481,10 @@ var app = (function () {
     			t1 = space();
     			div = element("div");
     			attr_dev(h1, "class", "title-section svelte-vke831");
-    			add_location(h1, file, 515, 10, 18593);
+    			add_location(h1, file, 515, 10, 18585);
     			attr_dev(div, "id", "parallelogram");
     			attr_dev(div, "class", "svelte-vke831");
-    			add_location(div, file, 516, 10, 18651);
+    			add_location(div, file, 516, 10, 18643);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -16685,9 +16685,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Vor Allem für Einsteiger ist die Entscheidung zwischen zwei verschiedenen empfohlenen Wegen eine Svelte-app\n                  zu starten sehr verwirrend.\n                  Auf der einen Seite gibt es die Sapper-App, und auf der anderen den direkten Svelte Ansatz.\n                  Mit SvelteKit soll ein einheitlicher Weg empfohlen werden, sodass es zu einem\n                  einfacheren Einstieg und besserer Wartbarkeit in Svelteprojekte kommt.";
-    			add_location(p, file, 529, 16, 18998);
+    			add_location(p, file, 529, 16, 18990);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 528, 14, 18964);
+    			add_location(div, file, 528, 14, 18956);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16737,17 +16737,17 @@ var app = (function () {
     			li3 = element("li");
     			li3.textContent = "Aufgrund der Art und Weise wie Webentwicklung sich geändert\n                    hat, fundamentale Annahmen überdenken";
     			attr_dev(li0, "class", "svelte-vke831");
-    			add_location(li0, file, 539, 18, 19583);
+    			add_location(li0, file, 539, 18, 19575);
     			attr_dev(li1, "class", "svelte-vke831");
-    			add_location(li1, file, 540, 18, 19640);
+    			add_location(li1, file, 540, 18, 19632);
     			attr_dev(li2, "class", "svelte-vke831");
-    			add_location(li2, file, 541, 18, 19719);
+    			add_location(li2, file, 541, 18, 19711);
     			attr_dev(li3, "class", "svelte-vke831");
-    			add_location(li3, file, 542, 18, 19799);
+    			add_location(li3, file, 542, 18, 19791);
     			attr_dev(ul, "class", "svelte-vke831");
-    			add_location(ul, file, 538, 16, 19560);
+    			add_location(ul, file, 538, 16, 19552);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 537, 14, 19525);
+    			add_location(div, file, 537, 14, 19517);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16808,10 +16808,10 @@ var app = (function () {
     			t2 = space();
     			create_component(content.$$.fragment);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 526, 22, 18871);
+    			add_location(span, file, 526, 22, 18863);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 526, 12, 18861);
-    			add_location(div, file, 525, 10, 18843);
+    			add_location(h1, file, 526, 12, 18853);
+    			add_location(div, file, 525, 10, 18835);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -17034,9 +17034,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Eine der größten Änderungen im üblichen Webworkflow ist, dass man bis vor kurzem \n                  typischerweise auf einen Bundler zur Entwicklung gesetzt hatte.\n                  Diese transformieren und verpacken den Code sowohl für die Entwicklung als auch als Releaseartefakte.\n\n                  Inzwischen ist die Entwicklung im unbundled development workflow immer häufiger.\n                  Ein Development-Server kann on-demand Module bereitstellen. Dies bedeutet dass\n                  module sofort geladen werden können, ohne dass die größe des Projekts die Geschwindigkeit beeinflusst.\n\n                  Vorreiter in diesem Gebiet ist \"Snowpack\", welcher SSR sowie ergonomisches Hot-module-reloading bietet.\n\n                  Für Release-builds verwendet SvelteKit jedoch weiterhin einen Bundler. Hier wird auf Rollup gesetzt, um kleinst mögliche Buildartefakte bieten zu können.\n\n\n                  Auch bietet SvelteKit die Möglichkeit, Server-side Rendering ohne tatsächlichen Server umzusetzen.\n                  Hierbei kann der Inhalt der serverseitig gerendert werden soll bereits im Build-schritt\n                  mit gebaut werden, sodass dies dann für frontend-only Hosting-Lösungen wie Github Pages verfügbar ist.";
-    			add_location(p, file, 562, 16, 20376);
+    			add_location(p, file, 562, 16, 20368);
     			attr_dev(div, "slot", "long");
-    			add_location(div, file, 561, 14, 20342);
+    			add_location(div, file, 561, 14, 20334);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -17101,23 +17101,23 @@ var app = (function () {
     			li6 = element("li");
     			li6.textContent = "Partielles Pre-Rendering";
     			attr_dev(li0, "class", "svelte-vke831");
-    			add_location(li0, file, 583, 18, 21756);
+    			add_location(li0, file, 583, 18, 21748);
     			attr_dev(li1, "class", "svelte-vke831");
-    			add_location(li1, file, 584, 18, 21828);
+    			add_location(li1, file, 584, 18, 21820);
     			attr_dev(li2, "class", "svelte-vke831");
-    			add_location(li2, file, 585, 18, 21909);
+    			add_location(li2, file, 585, 18, 21901);
     			attr_dev(li3, "class", "svelte-vke831");
-    			add_location(li3, file, 586, 18, 21954);
+    			add_location(li3, file, 586, 18, 21946);
     			attr_dev(li4, "class", "svelte-vke831");
-    			add_location(li4, file, 587, 18, 22000);
+    			add_location(li4, file, 587, 18, 21992);
     			attr_dev(li5, "class", "svelte-vke831");
-    			add_location(li5, file, 588, 18, 22049);
+    			add_location(li5, file, 588, 18, 22041);
     			attr_dev(li6, "class", "svelte-vke831");
-    			add_location(li6, file, 589, 18, 22088);
+    			add_location(li6, file, 589, 18, 22080);
     			attr_dev(ul, "class", "svelte-vke831");
-    			add_location(ul, file, 582, 16, 21733);
+    			add_location(ul, file, 582, 16, 21725);
     			attr_dev(div, "slot", "short");
-    			add_location(div, file, 581, 14, 21698);
+    			add_location(div, file, 581, 14, 21690);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -17184,10 +17184,10 @@ var app = (function () {
     			t2 = space();
     			create_component(content.$$.fragment);
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 559, 30, 20250);
+    			add_location(span, file, 559, 30, 20242);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 559, 12, 20232);
-    			add_location(div, file, 558, 10, 20214);
+    			add_location(h1, file, 559, 12, 20224);
+    			add_location(div, file, 558, 10, 20206);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -18542,8 +18542,8 @@ var app = (function () {
     			create_component(tabs.$$.fragment);
     			set_style(h1, "margin-top", "20px");
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 602, 10, 22366);
-    			add_location(p, file, 603, 10, 22425);
+    			add_location(h1, file, 602, 10, 22358);
+    			add_location(p, file, 603, 10, 22417);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -18775,9 +18775,9 @@ var app = (function () {
     			h41 = element("h4");
     			h41.textContent = "https://nilsmangold.github.io/wad-presentation/index.html";
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 653, 42, 23950);
-    			add_location(h40, file, 653, 10, 23918);
-    			add_location(h41, file, 654, 10, 24019);
+    			add_location(span, file, 653, 42, 23942);
+    			add_location(h40, file, 653, 10, 23910);
+    			add_location(h41, file, 654, 10, 24011);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h40, anchor);
@@ -19026,35 +19026,35 @@ var app = (function () {
     			a5 = element("a");
     			a5.textContent = "SvelteKit";
     			attr_dev(span, "class", "svelte-color svelte-vke831");
-    			add_location(span, file, 663, 14, 24256);
+    			add_location(span, file, 663, 14, 24248);
     			attr_dev(h1, "class", "svelte-vke831");
-    			add_location(h1, file, 663, 10, 24252);
+    			add_location(h1, file, 663, 10, 24244);
     			attr_dev(a0, "href", "https://kit.svelte.dev/docs");
-    			add_location(a0, file, 666, 14, 24349);
+    			add_location(a0, file, 666, 14, 24341);
     			attr_dev(li0, "class", "svelte-vke831");
-    			add_location(li0, file, 665, 12, 24330);
+    			add_location(li0, file, 665, 12, 24322);
     			attr_dev(a1, "href", "https://de.wikipedia.org/wiki/Svelte_(Framework)");
-    			add_location(a1, file, 669, 14, 24451);
+    			add_location(a1, file, 669, 14, 24443);
     			attr_dev(li1, "class", "svelte-vke831");
-    			add_location(li1, file, 668, 12, 24432);
+    			add_location(li1, file, 668, 12, 24424);
     			attr_dev(a2, "href", "https://sapper.svelte.dev/docs/");
-    			add_location(a2, file, 674, 14, 24612);
+    			add_location(a2, file, 674, 14, 24604);
     			attr_dev(li2, "class", "svelte-vke831");
-    			add_location(li2, file, 673, 12, 24593);
+    			add_location(li2, file, 673, 12, 24585);
     			attr_dev(a3, "href", "https://sapper.svelte.dev/docs.json");
-    			add_location(a3, file, 677, 14, 24714);
+    			add_location(a3, file, 677, 14, 24706);
     			attr_dev(li3, "class", "svelte-vke831");
-    			add_location(li3, file, 676, 12, 24695);
+    			add_location(li3, file, 676, 12, 24687);
     			attr_dev(a4, "href", "https://de.wikipedia.org/wiki/Sappeur");
-    			add_location(a4, file, 680, 14, 24820);
+    			add_location(a4, file, 680, 14, 24812);
     			attr_dev(li4, "class", "svelte-vke831");
-    			add_location(li4, file, 679, 12, 24801);
+    			add_location(li4, file, 679, 12, 24793);
     			attr_dev(a5, "href", "https://svelte.dev/blog/whats-the-deal-with-sveltekit");
-    			add_location(a5, file, 685, 14, 24971);
+    			add_location(a5, file, 685, 14, 24963);
     			attr_dev(li5, "class", "svelte-vke831");
-    			add_location(li5, file, 684, 12, 24952);
+    			add_location(li5, file, 684, 12, 24944);
     			attr_dev(ul, "class", "svelte-vke831");
-    			add_location(ul, file, 664, 10, 24313);
+    			add_location(ul, file, 664, 10, 24305);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
